@@ -31,15 +31,23 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
-            this.ribbonTabItemHome = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
-            this.ribbonTabItemSetting = new DevComponents.DotNetBar.RibbonTabItem();
-            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
-            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
-            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
-            this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
-            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
+            this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
+            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBarSetting = new DevComponents.DotNetBar.RibbonBar();
+            this.itemContainer5 = new DevComponents.DotNetBar.ItemContainer();
+            this.labelItemLanguage = new DevComponents.DotNetBar.LabelItem();
+            this.comboBoxItemLanguage = new DevComponents.DotNetBar.ComboBoxItem();
+            this.comboItem3 = new DevComponents.Editors.ComboItem();
+            this.comboItem4 = new DevComponents.Editors.ComboItem();
+            this.ribbonTabItemHome = new DevComponents.DotNetBar.RibbonTabItem();
+            this.ribbonTabItemSetting = new DevComponents.DotNetBar.RibbonTabItem();
+            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
+            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
+            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
+            this.comboItem1 = new DevComponents.Editors.ComboItem();
+            this.comboItem2 = new DevComponents.Editors.ComboItem();
             this.buttonItemReportManagerment = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem14 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItemInformationInput = new DevComponents.DotNetBar.ButtonItem();
@@ -65,14 +73,7 @@
             this.itemContainer4 = new DevComponents.DotNetBar.ItemContainer();
             this.buttonItem12 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem13 = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonBarSetting = new DevComponents.DotNetBar.RibbonBar();
-            this.comboItem1 = new DevComponents.Editors.ComboItem();
-            this.comboItem2 = new DevComponents.Editors.ComboItem();
-            this.itemContainer5 = new DevComponents.DotNetBar.ItemContainer();
-            this.labelItemLanguage = new DevComponents.DotNetBar.LabelItem();
-            this.comboBoxItemLanguage = new DevComponents.DotNetBar.ComboBoxItem();
-            this.comboItem3 = new DevComponents.Editors.ComboItem();
-            this.comboItem4 = new DevComponents.Editors.ComboItem();
+            this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
@@ -115,13 +116,6 @@
             this.ribbonControl1.SystemText.QatRemoveItemText = resources.GetString("ribbonControl1.SystemText.QatRemoveItemText");
             this.ribbonControl1.TabGroupHeight = 14;
             // 
-            // ribbonTabItemHome
-            // 
-            this.ribbonTabItemHome.Checked = true;
-            this.ribbonTabItemHome.Name = "ribbonTabItemHome";
-            this.ribbonTabItemHome.Panel = this.ribbonPanel1;
-            resources.ApplyResources(this.ribbonTabItemHome, "ribbonTabItemHome");
-            // 
             // ribbonPanel1
             // 
             this.ribbonPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -142,39 +136,33 @@
             // 
             this.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
-            // ribbonTabItemSetting
+            // ribbonBar2
             // 
-            this.ribbonTabItemSetting.Name = "ribbonTabItemSetting";
-            this.ribbonTabItemSetting.Panel = this.ribbonPanel2;
-            resources.ApplyResources(this.ribbonTabItemSetting, "ribbonTabItemSetting");
-            // 
-            // ribbonPanel2
-            // 
-            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel2.Controls.Add(this.ribbonBarSetting);
-            resources.ApplyResources(this.ribbonPanel2, "ribbonPanel2");
-            this.ribbonPanel2.Name = "ribbonPanel2";
+            this.ribbonBar2.AutoOverflowEnabled = true;
             // 
             // 
             // 
-            this.ribbonPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar2.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // 
             // 
-            this.ribbonPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar2.ContainerControlProcessDialogKey = true;
+            resources.ApplyResources(this.ribbonBar2, "ribbonBar2");
+            this.ribbonBar2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItemReportManagerment,
+            this.buttonItem14});
+            this.ribbonBar2.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.ribbonBar2.Name = "ribbonBar2";
+            this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             // 
             // 
             // 
-            this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
-            // styleManager1
             // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Blue;
-            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
             // 
-            // qatCustomizeItem1
-            // 
-            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
+            this.ribbonBar2.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // ribbonBar1
             // 
@@ -206,38 +194,126 @@
             // 
             this.ribbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
+            // ribbonPanel2
+            // 
+            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel2.Controls.Add(this.ribbonBarSetting);
+            resources.ApplyResources(this.ribbonPanel2, "ribbonPanel2");
+            this.ribbonPanel2.Name = "ribbonPanel2";
+            // 
+            // 
+            // 
+            this.ribbonPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // ribbonBarSetting
+            // 
+            this.ribbonBarSetting.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBarSetting.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBarSetting.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBarSetting.ContainerControlProcessDialogKey = true;
+            resources.ApplyResources(this.ribbonBarSetting, "ribbonBarSetting");
+            this.ribbonBarSetting.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.itemContainer5});
+            this.ribbonBarSetting.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.ribbonBarSetting.Name = "ribbonBarSetting";
+            this.ribbonBarSetting.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            // 
+            // 
+            // 
+            this.ribbonBarSetting.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBarSetting.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // itemContainer5
+            // 
+            // 
+            // 
+            // 
+            this.itemContainer5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer5.LayoutOrientation = DevComponents.DotNetBar.eOrientation.Vertical;
+            this.itemContainer5.Name = "itemContainer5";
+            this.itemContainer5.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.labelItemLanguage,
+            this.comboBoxItemLanguage});
+            // 
+            // 
+            // 
+            this.itemContainer5.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer5.VerticalItemAlignment = DevComponents.DotNetBar.eVerticalItemsAlignment.Middle;
+            // 
+            // labelItemLanguage
+            // 
+            this.labelItemLanguage.Name = "labelItemLanguage";
+            resources.ApplyResources(this.labelItemLanguage, "labelItemLanguage");
+            // 
+            // comboBoxItemLanguage
+            // 
+            this.comboBoxItemLanguage.DropDownHeight = 106;
+            this.comboBoxItemLanguage.ItemHeight = 16;
+            this.comboBoxItemLanguage.Items.AddRange(new object[] {
+            this.comboItem3,
+            this.comboItem4});
+            this.comboBoxItemLanguage.Name = "comboBoxItemLanguage";
+            resources.ApplyResources(this.comboBoxItemLanguage, "comboBoxItemLanguage");
+            // 
+            // comboItem3
+            // 
+            resources.ApplyResources(this.comboItem3, "comboItem3");
+            // 
+            // comboItem4
+            // 
+            resources.ApplyResources(this.comboItem4, "comboItem4");
+            // 
+            // ribbonTabItemHome
+            // 
+            this.ribbonTabItemHome.Checked = true;
+            this.ribbonTabItemHome.Name = "ribbonTabItemHome";
+            this.ribbonTabItemHome.Panel = this.ribbonPanel1;
+            resources.ApplyResources(this.ribbonTabItemHome, "ribbonTabItemHome");
+            // 
+            // ribbonTabItemSetting
+            // 
+            this.ribbonTabItemSetting.Name = "ribbonTabItemSetting";
+            this.ribbonTabItemSetting.Panel = this.ribbonPanel2;
+            resources.ApplyResources(this.ribbonTabItemSetting, "ribbonTabItemSetting");
+            // 
             // buttonItem1
             // 
             this.buttonItem1.Name = "buttonItem1";
             resources.ApplyResources(this.buttonItem1, "buttonItem1");
             // 
-            // ribbonBar2
+            // qatCustomizeItem1
             // 
-            this.ribbonBar2.AutoOverflowEnabled = true;
+            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
             // 
+            // styleManager1
             // 
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Blue;
+            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
             // 
-            this.ribbonBar2.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // comboItem1
             // 
+            resources.ApplyResources(this.comboItem1, "comboItem1");
             // 
+            // comboItem2
             // 
-            this.ribbonBar2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar2.ContainerControlProcessDialogKey = true;
-            resources.ApplyResources(this.ribbonBar2, "ribbonBar2");
-            this.ribbonBar2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.buttonItemReportManagerment,
-            this.buttonItem14});
-            this.ribbonBar2.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
-            this.ribbonBar2.Name = "ribbonBar2";
-            this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            // 
-            // 
-            // 
-            this.ribbonBar2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar2.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            resources.ApplyResources(this.comboItem2, "comboItem2");
             // 
             // buttonItemReportManagerment
             // 
@@ -246,6 +322,7 @@
             this.buttonItemReportManagerment.Name = "buttonItemReportManagerment";
             this.buttonItemReportManagerment.SubItemsExpandWidth = 14;
             resources.ApplyResources(this.buttonItemReportManagerment, "buttonItemReportManagerment");
+            this.buttonItemReportManagerment.Click += new System.EventHandler(this.buttonItemReportManagerment_Click);
             // 
             // buttonItem14
             // 
@@ -254,6 +331,7 @@
             this.buttonItem14.Name = "buttonItem14";
             this.buttonItem14.SubItemsExpandWidth = 14;
             resources.ApplyResources(this.buttonItem14, "buttonItem14");
+            this.buttonItem14.Click += new System.EventHandler(this.buttonItem14_Click);
             // 
             // buttonItemInformationInput
             // 
@@ -262,6 +340,7 @@
             this.buttonItemInformationInput.Name = "buttonItemInformationInput";
             this.buttonItemInformationInput.SubItemsExpandWidth = 14;
             resources.ApplyResources(this.buttonItemInformationInput, "buttonItemInformationInput");
+            this.buttonItemInformationInput.Click += new System.EventHandler(this.buttonItemInformationInput_Click);
             // 
             // buttonItemQualityControlProcess
             // 
@@ -270,6 +349,7 @@
             this.buttonItemQualityControlProcess.Name = "buttonItemQualityControlProcess";
             this.buttonItemQualityControlProcess.SubItemsExpandWidth = 14;
             resources.ApplyResources(this.buttonItemQualityControlProcess, "buttonItemQualityControlProcess");
+            this.buttonItemQualityControlProcess.Click += new System.EventHandler(this.buttonItemQualityControlProcess_Click);
             // 
             // buttonItemDailyManagerment
             // 
@@ -278,6 +358,7 @@
             this.buttonItemDailyManagerment.Name = "buttonItemDailyManagerment";
             this.buttonItemDailyManagerment.SubItemsExpandWidth = 14;
             resources.ApplyResources(this.buttonItemDailyManagerment, "buttonItemDailyManagerment");
+            this.buttonItemDailyManagerment.Click += new System.EventHandler(this.buttonItemDailyManagerment_Click);
             // 
             // buttonItemCentralMonitor
             // 
@@ -286,6 +367,7 @@
             this.buttonItemCentralMonitor.Name = "buttonItemCentralMonitor";
             this.buttonItemCentralMonitor.SubItemsExpandWidth = 14;
             resources.ApplyResources(this.buttonItemCentralMonitor, "buttonItemCentralMonitor");
+            this.buttonItemCentralMonitor.Click += new System.EventHandler(this.buttonItemCentralMonitor_Click);
             // 
             // applicationButton1
             // 
@@ -499,85 +581,25 @@
             this.buttonItem13.SubItemsExpandWidth = 24;
             resources.ApplyResources(this.buttonItem13, "buttonItem13");
             // 
-            // ribbonBarSetting
+            // panelEx1
             // 
-            this.ribbonBarSetting.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBarSetting.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBarSetting.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBarSetting.ContainerControlProcessDialogKey = true;
-            resources.ApplyResources(this.ribbonBarSetting, "ribbonBarSetting");
-            this.ribbonBarSetting.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.itemContainer5});
-            this.ribbonBarSetting.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
-            this.ribbonBarSetting.Name = "ribbonBarSetting";
-            this.ribbonBarSetting.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            // 
-            // 
-            // 
-            this.ribbonBarSetting.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBarSetting.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // comboItem1
-            // 
-            resources.ApplyResources(this.comboItem1, "comboItem1");
-            // 
-            // comboItem2
-            // 
-            resources.ApplyResources(this.comboItem2, "comboItem2");
-            // 
-            // itemContainer5
-            // 
-            // 
-            // 
-            // 
-            this.itemContainer5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer5.LayoutOrientation = DevComponents.DotNetBar.eOrientation.Vertical;
-            this.itemContainer5.Name = "itemContainer5";
-            this.itemContainer5.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.labelItemLanguage,
-            this.comboBoxItemLanguage});
-            // 
-            // 
-            // 
-            this.itemContainer5.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer5.VerticalItemAlignment = DevComponents.DotNetBar.eVerticalItemsAlignment.Middle;
-            // 
-            // labelItemLanguage
-            // 
-            this.labelItemLanguage.Name = "labelItemLanguage";
-            resources.ApplyResources(this.labelItemLanguage, "labelItemLanguage");
-            // 
-            // comboBoxItemLanguage
-            // 
-            this.comboBoxItemLanguage.DropDownHeight = 106;
-            this.comboBoxItemLanguage.ItemHeight = 16;
-            this.comboBoxItemLanguage.Items.AddRange(new object[] {
-            this.comboItem3,
-            this.comboItem4});
-            this.comboBoxItemLanguage.Name = "comboBoxItemLanguage";
-            resources.ApplyResources(this.comboBoxItemLanguage, "comboBoxItemLanguage");
-            // 
-            // comboItem3
-            // 
-            resources.ApplyResources(this.comboItem3, "comboItem3");
-            // 
-            // comboItem4
-            // 
-            resources.ApplyResources(this.comboItem4, "comboItem4");
+            this.panelEx1.CanvasColor = System.Drawing.SystemColors.Control;
+            this.panelEx1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            resources.ApplyResources(this.panelEx1, "panelEx1");
+            this.panelEx1.Name = "panelEx1";
+            this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
+            this.panelEx1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.panelEx1.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.panelEx1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.panelEx1.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.panelEx1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.panelEx1.Style.GradientAngle = 90;
             // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panelEx1);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "MainForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -634,6 +656,7 @@
         private DevComponents.Editors.ComboItem comboItem4;
         private DevComponents.Editors.ComboItem comboItem1;
         private DevComponents.Editors.ComboItem comboItem2;
+        private DevComponents.DotNetBar.PanelEx panelEx1;
     }
 }
 

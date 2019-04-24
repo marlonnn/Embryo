@@ -225,6 +225,18 @@
   <data name="labelItemLanguage.Text" xml:space="preserve">
     <value>Display Language</value>
   </data>
+  <data name="comboItem3.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="comboItem3.Value" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="comboItem4.Text" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="comboItem4.Value" xml:space="preserve">
+    <value>zh-CN</value>
+  </data>
   <data name="comboBoxItemLanguage.Text" xml:space="preserve">
     <value>comboBoxItem1</value>
   </data>
@@ -280,7 +292,7 @@
     <value>ribbonControl1</value>
   </data>
   <data name="&gt;&gt;ribbonPanel2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="ribbonControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -309,93 +321,6 @@
         rkJggg==
 </value>
   </data>
-  <data name="applicationButton1.Text" xml:space="preserve">
-    <value>&amp;File</value>
-  </data>
-  <data name="ribbonTabItemHome.Text" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="ribbonTabItemSetting.Text" xml:space="preserve">
-    <value>Setting</value>
-  </data>
-  <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 1</value>
-  </data>
-  <data name="ribbonControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 3</value>
-  </data>
-  <data name="buttonItem1.Text" xml:space="preserve">
-    <value>buttonItem1</value>
-  </data>
-  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>824, 154</value>
-  </data>
-  <data name="ribbonControl1.SystemText.MaximizeRibbonText" xml:space="preserve">
-    <value>&amp;Maximize the Ribbon</value>
-  </data>
-  <data name="ribbonControl1.SystemText.MinimizeRibbonText" xml:space="preserve">
-    <value>Mi&amp;nimize the Ribbon</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatAddItemText" xml:space="preserve">
-    <value>&amp;Add to Quick Access Toolbar</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
-    <value>&lt;b&gt;Customize Quick Access Toolbar&lt;/b&gt;</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatCustomizeText" xml:space="preserve">
-    <value>&amp;Customize Quick Access Toolbar...</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogAddButton" xml:space="preserve">
-    <value>&amp;Add &gt;&gt;</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogCaption" xml:space="preserve">
-    <value>Customize Quick Access Toolbar</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogCategoriesLabel" xml:space="preserve">
-    <value>&amp;Choose commands from:</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogOkButton" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogPlacementCheckbox" xml:space="preserve">
-    <value>&amp;Place Quick Access Toolbar below the Ribbon</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatDialogRemoveButton" xml:space="preserve">
-    <value>&amp;Remove</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatPlaceAboveRibbonText" xml:space="preserve">
-    <value>&amp;Place Quick Access Toolbar above the Ribbon</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatPlaceBelowRibbonText" xml:space="preserve">
-    <value>&amp;Place Quick Access Toolbar below the Ribbon</value>
-  </data>
-  <data name="ribbonControl1.SystemText.QatRemoveItemText" xml:space="preserve">
-    <value>&amp;Remove from Quick Access Toolbar</value>
-  </data>
-  <data name="ribbonControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="ribbonControl1.Text" xml:space="preserve">
-    <value>ribbonControl1</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
-    <value>ribbonControl1</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonControl, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="buttonItem2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29m
@@ -663,6 +588,93 @@
   <data name="buttonItem13.Text" xml:space="preserve">
     <value>E&amp;xit</value>
   </data>
+  <data name="applicationButton1.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="ribbonTabItemHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="ribbonTabItemSetting.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 1</value>
+  </data>
+  <data name="ribbonControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="buttonItem1.Text" xml:space="preserve">
+    <value>buttonItem1</value>
+  </data>
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>824, 154</value>
+  </data>
+  <data name="ribbonControl1.SystemText.MaximizeRibbonText" xml:space="preserve">
+    <value>&amp;Maximize the Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.MinimizeRibbonText" xml:space="preserve">
+    <value>Mi&amp;nimize the Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatAddItemText" xml:space="preserve">
+    <value>&amp;Add to Quick Access Toolbar</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatCustomizeMenuLabel" xml:space="preserve">
+    <value>&lt;b&gt;Customize Quick Access Toolbar&lt;/b&gt;</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatCustomizeText" xml:space="preserve">
+    <value>&amp;Customize Quick Access Toolbar...</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogAddButton" xml:space="preserve">
+    <value>&amp;Add &gt;&gt;</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogCancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogCaption" xml:space="preserve">
+    <value>Customize Quick Access Toolbar</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogCategoriesLabel" xml:space="preserve">
+    <value>&amp;Choose commands from:</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogOkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogPlacementCheckbox" xml:space="preserve">
+    <value>&amp;Place Quick Access Toolbar below the Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatDialogRemoveButton" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatPlaceAboveRibbonText" xml:space="preserve">
+    <value>&amp;Place Quick Access Toolbar above the Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatPlaceBelowRibbonText" xml:space="preserve">
+    <value>&amp;Place Quick Access Toolbar below the Ribbon</value>
+  </data>
+  <data name="ribbonControl1.SystemText.QatRemoveItemText" xml:space="preserve">
+    <value>&amp;Remove from Quick Access Toolbar</value>
+  </data>
+  <data name="ribbonControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonControl1.Text" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonControl, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="styleManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="comboItem1.Text" xml:space="preserve">
     <value>English</value>
   </data>
@@ -675,17 +687,29 @@
   <data name="comboItem2.Value" xml:space="preserve">
     <value>zh-CN</value>
   </data>
-  <data name="comboItem3.Text" xml:space="preserve">
-    <value>English</value>
+  <data name="panelEx1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="comboItem3.Value" xml:space="preserve">
-    <value>en-US</value>
+  <data name="panelEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 155</value>
   </data>
-  <data name="comboItem4.Text" xml:space="preserve">
-    <value>中文</value>
+  <data name="panelEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>824, 312</value>
   </data>
-  <data name="comboItem4.Value" xml:space="preserve">
-    <value>zh-CN</value>
+  <data name="panelEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.Name" xml:space="preserve">
+    <value>panelEx1</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.PanelEx, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelEx1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -696,8 +720,41 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>834, 469</value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>EmbryoExpress</value>
+  </data>
+  <data name="&gt;&gt;itemContainer5.Name" xml:space="preserve">
+    <value>itemContainer5</value>
+  </data>
+  <data name="&gt;&gt;itemContainer5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ItemContainer, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelItemLanguage.Name" xml:space="preserve">
+    <value>labelItemLanguage</value>
+  </data>
+  <data name="&gt;&gt;labelItemLanguage.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;comboBoxItemLanguage.Name" xml:space="preserve">
+    <value>comboBoxItemLanguage</value>
+  </data>
+  <data name="&gt;&gt;comboBoxItemLanguage.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ComboBoxItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;comboItem3.Name" xml:space="preserve">
+    <value>comboItem3</value>
+  </data>
+  <data name="&gt;&gt;comboItem3.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;comboItem4.Name" xml:space="preserve">
+    <value>comboItem4</value>
+  </data>
+  <data name="&gt;&gt;comboItem4.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;ribbonTabItemHome.Name" xml:space="preserve">
     <value>ribbonTabItemHome</value>
@@ -711,11 +768,11 @@
   <data name="&gt;&gt;ribbonTabItemSetting.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.RibbonTabItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
-    <value>styleManager1</value>
+  <data name="&gt;&gt;buttonItem1.Name" xml:space="preserve">
+    <value>buttonItem1</value>
   </data>
-  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  <data name="&gt;&gt;buttonItem1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;qatCustomizeItem1.Name" xml:space="preserve">
     <value>qatCustomizeItem1</value>
@@ -723,11 +780,23 @@
   <data name="&gt;&gt;qatCustomizeItem1.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.QatCustomizeItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem1.Name" xml:space="preserve">
-    <value>buttonItem1</value>
+  <data name="&gt;&gt;styleManager1.Name" xml:space="preserve">
+    <value>styleManager1</value>
   </data>
-  <data name="&gt;&gt;buttonItem1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  <data name="&gt;&gt;styleManager1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.StyleManager, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;comboItem1.Name" xml:space="preserve">
+    <value>comboItem1</value>
+  </data>
+  <data name="&gt;&gt;comboItem1.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;comboItem2.Name" xml:space="preserve">
+    <value>comboItem2</value>
+  </data>
+  <data name="&gt;&gt;comboItem2.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;buttonItemReportManagerment.Name" xml:space="preserve">
     <value>buttonItemReportManagerment</value>
@@ -878,48 +947,6 @@
   </data>
   <data name="&gt;&gt;buttonItem13.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;comboItem1.Name" xml:space="preserve">
-    <value>comboItem1</value>
-  </data>
-  <data name="&gt;&gt;comboItem1.Type" xml:space="preserve">
-    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;comboItem2.Name" xml:space="preserve">
-    <value>comboItem2</value>
-  </data>
-  <data name="&gt;&gt;comboItem2.Type" xml:space="preserve">
-    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;itemContainer5.Name" xml:space="preserve">
-    <value>itemContainer5</value>
-  </data>
-  <data name="&gt;&gt;itemContainer5.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ItemContainer, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;labelItemLanguage.Name" xml:space="preserve">
-    <value>labelItemLanguage</value>
-  </data>
-  <data name="&gt;&gt;labelItemLanguage.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.LabelItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;comboBoxItemLanguage.Name" xml:space="preserve">
-    <value>comboBoxItemLanguage</value>
-  </data>
-  <data name="&gt;&gt;comboBoxItemLanguage.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ComboBoxItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;comboItem3.Name" xml:space="preserve">
-    <value>comboItem3</value>
-  </data>
-  <data name="&gt;&gt;comboItem3.Type" xml:space="preserve">
-    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;comboItem4.Name" xml:space="preserve">
-    <value>comboItem4</value>
-  </data>
-  <data name="&gt;&gt;comboItem4.Type" xml:space="preserve">
-    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
