@@ -78,6 +78,12 @@ namespace EmbryoExpress
                 UpdateComboLanguage();
 
                 BaseFunction.RefreshUICulture(resources, this);
+
+                // fix ribbon refresh problem
+                var item = ribbonControl1.SelectedRibbonTabItem;
+                ribbonControl1.SelectedRibbonTabItem = item == ribbonTabItemSetting ? this.ribbonTabItemSetting : this.ribbonTabItemHome;
+                ribbonControl1.SelectedRibbonTabItem = item;
+
             }
         }
 
