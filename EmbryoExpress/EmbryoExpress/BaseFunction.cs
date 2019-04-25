@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevComponents.DotNetBar;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -19,6 +20,68 @@ namespace EmbryoExpress
         }
 
         private static bool? _chineseEdition;
+
+        public static void RefreshUICulture(System.ComponentModel.ComponentResourceManager resources, Control ctr)
+        {
+            foreach (Control c in ctr.Controls)
+            {
+                ////PlatePanel里面会调用RefreshUICulture，如果重复处理显示有问题
+                //if (c is NovoCyte.UI.PlatePanel || c is NovoCyte.UI.PlatePanel_2)
+                //{
+                //    continue;
+                //}
+
+                //if (c is Novoplexs.UI.NovoplexBeadsInfoCtrl || c is Novoplexs.UI.NovoplexStandardsCtrl || c is Novoplexs.UI.NovoplexCurvesCtrl ||
+                //    c is Novoplexs.UI.NovoplexResultsPerAnalyteCtrl || c is Novoplexs.UI.NovoplexResultsPerSampleCtrl || c is Novoplexs.UI.NovoplexResultsSummaryCtrl)
+                //{
+                //    continue;
+                //}
+
+                resources.ApplyResources(c, c.Name);
+                RefreshUICulture(resources, c);
+
+                if (c is RibbonBar)
+                {
+                    RefreshBaseItemsUICulture(resources, (c as RibbonBar).Items);
+                }
+                else if (c is RibbonControl)
+                {
+                    RefreshBaseItemsUICulture(resources, (c as RibbonControl).Items);
+                }
+                else if (c is Bar)
+                {
+                    RefreshBaseItemsUICulture(resources, (c as Bar).Items);
+                }
+                else if (c is ButtonX)
+                {
+                    RefreshBaseItemsUICulture(resources, (c as ButtonX).SubItems);
+                }
+                else if (c is ToolStrip)
+                {
+                    RefreshToolStripUICulture(resources, (c as ToolStrip).Items);
+                }
+            }
+        }
+
+        public static void RefreshToolStripUICulture(System.ComponentModel.ComponentResourceManager resources, ToolStripItemCollection items)
+        {
+            foreach (ToolStripItem item in items)
+            {
+                resources.ApplyResources(item, item.Name);
+                if (item is ToolStripDropDownItem)
+                    RefreshToolStripUICulture(resources, (item as ToolStripDropDownItem).DropDownItems);
+            }
+        }
+
+        public static void RefreshBaseItemsUICulture(System.ComponentModel.ComponentResourceManager resources, SubItemsCollection items)
+        {
+            foreach (BaseItem item in items)
+            {
+                if (item is ColorPickerDropDown) continue;
+                resources.ApplyResources(item, item.Name);
+                RefreshBaseItemsUICulture(resources, item.SubItems);
+            }
+        }
 
         public static string ReplacePathInvalidChar(string path, string replaceWith = "_")
         {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Reflection;
 using System.Runtime.Serialization;
 using System.Text;
@@ -64,6 +65,11 @@ namespace EmbryoExpress.SysClass
         private void OnDeserialized(StreamingContext sc)
         {
 
+        }
+
+        public static string GetPropertyName<TValue>(Expression<Func<TValue>> propertyId)
+        {
+            return ((MemberExpression)propertyId.Body).Member.Name;
         }
 
         public static SysConfig Load()

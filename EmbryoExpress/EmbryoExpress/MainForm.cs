@@ -1,4 +1,6 @@
 ﻿using DevComponents.DotNetBar;
+using DevComponents.Editors;
+using EmbryoExpress.SysClass;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +15,8 @@ namespace EmbryoExpress
 {
     public partial class MainForm : Office2007RibbonForm
     {
+        private System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+
         public bool ToRestart { get; set; }
 
         private InputControl inputControl;
@@ -28,6 +32,11 @@ namespace EmbryoExpress
             this.panelEx1.Controls.Clear();
             inputControl.Dock = DockStyle.Fill;
             this.panelEx1.Controls.Add(inputControl);
+        }
+
+        private void comboBoxItemLanguage_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CultureSettings.SetAppUICulture(Program.SysConfig, ((ComboItem)comboBoxItemLanguage.SelectedItem).Value.ToString());
         }
 
         private void buttonItemQualityControlProcess_Click(object sender, EventArgs e)
@@ -53,6 +62,36 @@ namespace EmbryoExpress
         private void buttonItem14_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            if (Program.SysConfig.LoginUser != null)
+                Program.SysConfig.LoginUser.PropertyChanged += new System.ComponentModel.PropertyChangedEventHandler(SysConfig_PropertyChanged);
+        }
+
+        private void SysConfig_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        {
+            if (e.PropertyName == SysConfig.GetPropertyName(() => Program.SysConfig.LoginUser.UICulture))
+            {
+
+                UpdateComboLanguage();
+
+                BaseFunction.RefreshUICulture(resources, this);
+            }
+        }
+
+        private void UpdateComboLanguage()
+        {
+            foreach (ComboItem item in comboBoxItemLanguage.Items)
+            {
+                if (item.Value.ToString() == Program.SysConfig.LoginUser.UICulture)
+                {
+                    comboBoxItemLanguage.SelectedItem = item;
+                    break;
+                }
+            }
+            comboBoxItemLanguage.SelectedIndexChanged += new System.EventHandler(this.comboBoxItemLanguage_SelectedIndexChanged);
         }
     }
 }
