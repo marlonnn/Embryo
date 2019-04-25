@@ -117,82 +117,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Daily Managerment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Daily Managerment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StrAddUser_Characters" xml:space="preserve">
+    <value>用户名只能包含字母("A to Z or a to z") ，数字("0 to 9"), 空格和 "_"。</value>
   </data>
-  <data name="User Management" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\User Management.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StrAddUser_Exist" xml:space="preserve">
+    <value>该用户已经存在。</value>
   </data>
-  <data name="problem_report" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\problem_report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StrAddUser_NameTooLong" xml:space="preserve">
+    <value>用户名必须在 1～32 个字符之间。</value>
   </data>
-  <data name="StrReport" xml:space="preserve">
-    <value>Report</value>
+  <data name="StrAddUser_PasswordError" xml:space="preserve">
+    <value>输入密码不一致。</value>
   </data>
-  <data name="Report Managerment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Report Managerment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StrAddUser_TooMany" xml:space="preserve">
+    <value>用户数达到最大20的限制，不能增加新用户。</value>
   </data>
-  <data name="WizardNextButtonText" xml:space="preserve">
-    <value>Next &gt;</value>
+  <data name="StrDeleteUserGroup_SystemAsk" xml:space="preserve">
+    <value>确定删除用户组{0}？</value>
   </data>
-  <data name="StrCreating" xml:space="preserve">
-    <value>{0} creation is in progress, please wait.</value>
+  <data name="StrDeleteUser_NotExist" xml:space="preserve">
+    <value>要删除的用户不存在。</value>
   </data>
-  <data name="StrCollecting" xml:space="preserve">
-    <value>Reading EmbryoExpress event logs, please wait.</value>
+  <data name="StrDeleteUser_SystemAsk" xml:space="preserve">
+    <value>确定删除用户{0}？</value>
   </data>
-  <data name="ProblemReportLabelCyte2ChineseEdition" xml:space="preserve">
-    <value>This wizard will guide you through the Technical Support Request creation process.
-
-Technical Support Request creation wizard automatically collects the instrument configurations, NovoExpress system logs, current screenshot, current experiment file and other information that helps diagnosis and troubleshooting of the instrument. You can also attach any other files using this function.</value>
+  <data name="StrDeleteUser_SystemUser" xml:space="preserve">
+    <value>不能删除系统用户。</value>
   </data>
-  <data name="WizardCreateButtonText" xml:space="preserve">
-    <value>Create</value>
+  <data name="StrLogin_Error" xml:space="preserve">
+    <value>用户名和密码不匹配，登录失败。</value>
   </data>
-  <data name="ErrorDiagnosisReport" xml:space="preserve">
-    <value>Error Diagnosis Report</value>
+  <data name="StrLogin_UserError" xml:space="preserve">
+    <value>用户名错误，登录失败。</value>
   </data>
-  <data name="Information Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Information Input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StrModify_AdminPasswordLength" xml:space="preserve">
+    <value>系统用户的密码长度必须在 4～20 个字符之间。</value>
   </data>
-  <data name="StrOK" xml:space="preserve">
-    <value>OK</value>
+  <data name="StrModify_InputNewPassword" xml:space="preserve">
+    <value>请输入新密码。</value>
   </data>
-  <data name="TechnicalSupportRequest" xml:space="preserve">
-    <value>Technical Support Request</value>
+  <data name="StrModify_NewPasswordNotMatch" xml:space="preserve">
+    <value>新密码不一致。</value>
   </data>
-  <data name="StrProblemReportCreateFinish" xml:space="preserve">
-    <value>{0} creation is complete, please click Next button to continue.</value>
+  <data name="StrModify_PasswordError" xml:space="preserve">
+    <value>旧密码错误。</value>
   </data>
-  <data name="StrBuiltDate" xml:space="preserve">
-    <value>Built Date: </value>
+  <data name="StrModify_PasswordTooLong" xml:space="preserve">
+    <value>密码太长。
+密码长度必须在 0～20 个字符之间</value>
   </data>
-  <data name="strCreateFailedTitle" xml:space="preserve">
-    <value>{0} creation failed</value>
-  </data>
-  <data name="Central Monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Central Monitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StrCreateReport" xml:space="preserve">
-    <value>Click Report to create a Technical Support Request.</value>
-  </data>
-  <data name="Quality Control Process" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Quality Control Process.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="strCreateReportFailed" xml:space="preserve">
-    <value>Create {0} failed. There is not enough disk space in the target location.</value>
-  </data>
-  <data name="StrUnknownErrorMsg" xml:space="preserve">
-    <value>Encountered an unknown error. Please restart the program.</value>
-  </data>
-  <data name="SplashScreen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\SplashScreen2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Login" xml:space="preserve">
-    <value>Login {0}</value>
-  </data>
-  <data name="StrInputUserName" xml:space="preserve">
-    <value>Please input the username.</value>
+  <data name="StrModify_SystemUser" xml:space="preserve">
+    <value>不能修改系统用户名字。</value>
   </data>
 </root>

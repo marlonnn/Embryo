@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,82 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Daily Managerment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Daily Managerment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="labelX1.Text" xml:space="preserve">
+    <value>用户名</value>
   </data>
-  <data name="User Management" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\User Management.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="labelX2.Text" xml:space="preserve">
+    <value>密码</value>
   </data>
-  <data name="problem_report" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\problem_report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="buttonX1.Text" xml:space="preserve">
+    <value>登录</value>
   </data>
-  <data name="StrReport" xml:space="preserve">
-    <value>Report</value>
+  <data name="buttonX2.Text" xml:space="preserve">
+    <value>退出</value>
   </data>
-  <data name="Report Managerment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Report Managerment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBoxX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 16</value>
   </data>
-  <data name="WizardNextButtonText" xml:space="preserve">
-    <value>Next &gt;</value>
+  <data name="checkBoxX1.Text" xml:space="preserve">
+    <value>自动登录</value>
   </data>
-  <data name="StrCreating" xml:space="preserve">
-    <value>{0} creation is in progress, please wait.</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>登录 NovoExpress</value>
   </data>
-  <data name="StrCollecting" xml:space="preserve">
-    <value>Reading EmbryoExpress event logs, please wait.</value>
-  </data>
-  <data name="ProblemReportLabelCyte2ChineseEdition" xml:space="preserve">
-    <value>This wizard will guide you through the Technical Support Request creation process.
-
-Technical Support Request creation wizard automatically collects the instrument configurations, NovoExpress system logs, current screenshot, current experiment file and other information that helps diagnosis and troubleshooting of the instrument. You can also attach any other files using this function.</value>
-  </data>
-  <data name="WizardCreateButtonText" xml:space="preserve">
-    <value>Create</value>
-  </data>
-  <data name="ErrorDiagnosisReport" xml:space="preserve">
-    <value>Error Diagnosis Report</value>
-  </data>
-  <data name="Information Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Information Input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StrOK" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="TechnicalSupportRequest" xml:space="preserve">
-    <value>Technical Support Request</value>
-  </data>
-  <data name="StrProblemReportCreateFinish" xml:space="preserve">
-    <value>{0} creation is complete, please click Next button to continue.</value>
-  </data>
-  <data name="StrBuiltDate" xml:space="preserve">
-    <value>Built Date: </value>
-  </data>
-  <data name="strCreateFailedTitle" xml:space="preserve">
-    <value>{0} creation failed</value>
-  </data>
-  <data name="Central Monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Central Monitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StrCreateReport" xml:space="preserve">
-    <value>Click Report to create a Technical Support Request.</value>
-  </data>
-  <data name="Quality Control Process" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Quality Control Process.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="strCreateReportFailed" xml:space="preserve">
-    <value>Create {0} failed. There is not enough disk space in the target location.</value>
-  </data>
-  <data name="StrUnknownErrorMsg" xml:space="preserve">
-    <value>Encountered an unknown error. Please restart the program.</value>
-  </data>
-  <data name="SplashScreen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\SplashScreen2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Login" xml:space="preserve">
-    <value>Login {0}</value>
-  </data>
-  <data name="StrInputUserName" xml:space="preserve">
-    <value>Please input the username.</value>
+  <data name="labelX5.Text" xml:space="preserve">
+    <value>用户组</value>
   </data>
 </root>

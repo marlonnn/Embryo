@@ -33,7 +33,13 @@
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItemReportManagerment = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem14 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItemInformationInput = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItemQualityControlProcess = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItemDailyManagerment = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItemCentralMonitor = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBarSetting = new DevComponents.DotNetBar.RibbonBar();
             this.itemContainer5 = new DevComponents.DotNetBar.ItemContainer();
@@ -41,19 +47,6 @@
             this.comboBoxItemLanguage = new DevComponents.DotNetBar.ComboBoxItem();
             this.comboItem3 = new DevComponents.Editors.ComboItem();
             this.comboItem4 = new DevComponents.Editors.ComboItem();
-            this.ribbonTabItemHome = new DevComponents.DotNetBar.RibbonTabItem();
-            this.ribbonTabItemSetting = new DevComponents.DotNetBar.RibbonTabItem();
-            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
-            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
-            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
-            this.comboItem1 = new DevComponents.Editors.ComboItem();
-            this.comboItem2 = new DevComponents.Editors.ComboItem();
-            this.buttonItemReportManagerment = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem14 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItemInformationInput = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItemQualityControlProcess = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItemDailyManagerment = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItemCentralMonitor = new DevComponents.DotNetBar.ButtonItem();
             this.applicationButton1 = new DevComponents.DotNetBar.ApplicationButton();
             this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();
             this.itemContainer2 = new DevComponents.DotNetBar.ItemContainer();
@@ -73,6 +66,13 @@
             this.itemContainer4 = new DevComponents.DotNetBar.ItemContainer();
             this.buttonItem12 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem13 = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonTabItemHome = new DevComponents.DotNetBar.RibbonTabItem();
+            this.ribbonTabItemSetting = new DevComponents.DotNetBar.RibbonTabItem();
+            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
+            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
+            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
+            this.comboItem1 = new DevComponents.Editors.ComboItem();
+            this.comboItem2 = new DevComponents.Editors.ComboItem();
             this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
@@ -164,6 +164,24 @@
             // 
             this.ribbonBar2.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
+            // buttonItemReportManagerment
+            // 
+            this.buttonItemReportManagerment.Image = global::EmbryoExpress.Properties.Resources.Report_Managerment;
+            this.buttonItemReportManagerment.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonItemReportManagerment.Name = "buttonItemReportManagerment";
+            this.buttonItemReportManagerment.SubItemsExpandWidth = 14;
+            resources.ApplyResources(this.buttonItemReportManagerment, "buttonItemReportManagerment");
+            this.buttonItemReportManagerment.Click += new System.EventHandler(this.buttonItemReportManagerment_Click);
+            // 
+            // buttonItem14
+            // 
+            this.buttonItem14.Image = global::EmbryoExpress.Properties.Resources.User_Management;
+            this.buttonItem14.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonItem14.Name = "buttonItem14";
+            this.buttonItem14.SubItemsExpandWidth = 14;
+            resources.ApplyResources(this.buttonItem14, "buttonItem14");
+            this.buttonItem14.Click += new System.EventHandler(this.buttonItem14_Click);
+            // 
             // ribbonBar1
             // 
             this.ribbonBar1.AutoOverflowEnabled = true;
@@ -193,6 +211,42 @@
             // 
             // 
             this.ribbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // buttonItemInformationInput
+            // 
+            this.buttonItemInformationInput.Image = global::EmbryoExpress.Properties.Resources.Information_Input;
+            this.buttonItemInformationInput.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonItemInformationInput.Name = "buttonItemInformationInput";
+            this.buttonItemInformationInput.SubItemsExpandWidth = 14;
+            resources.ApplyResources(this.buttonItemInformationInput, "buttonItemInformationInput");
+            this.buttonItemInformationInput.Click += new System.EventHandler(this.buttonItemInformationInput_Click);
+            // 
+            // buttonItemQualityControlProcess
+            // 
+            this.buttonItemQualityControlProcess.Image = global::EmbryoExpress.Properties.Resources.Quality_Control_Process;
+            this.buttonItemQualityControlProcess.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonItemQualityControlProcess.Name = "buttonItemQualityControlProcess";
+            this.buttonItemQualityControlProcess.SubItemsExpandWidth = 14;
+            resources.ApplyResources(this.buttonItemQualityControlProcess, "buttonItemQualityControlProcess");
+            this.buttonItemQualityControlProcess.Click += new System.EventHandler(this.buttonItemQualityControlProcess_Click);
+            // 
+            // buttonItemDailyManagerment
+            // 
+            this.buttonItemDailyManagerment.Image = global::EmbryoExpress.Properties.Resources.Daily_Managerment;
+            this.buttonItemDailyManagerment.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonItemDailyManagerment.Name = "buttonItemDailyManagerment";
+            this.buttonItemDailyManagerment.SubItemsExpandWidth = 14;
+            resources.ApplyResources(this.buttonItemDailyManagerment, "buttonItemDailyManagerment");
+            this.buttonItemDailyManagerment.Click += new System.EventHandler(this.buttonItemDailyManagerment_Click);
+            // 
+            // buttonItemCentralMonitor
+            // 
+            this.buttonItemCentralMonitor.Image = global::EmbryoExpress.Properties.Resources.Central_Monitor;
+            this.buttonItemCentralMonitor.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonItemCentralMonitor.Name = "buttonItemCentralMonitor";
+            this.buttonItemCentralMonitor.SubItemsExpandWidth = 14;
+            resources.ApplyResources(this.buttonItemCentralMonitor, "buttonItemCentralMonitor");
+            this.buttonItemCentralMonitor.Click += new System.EventHandler(this.buttonItemCentralMonitor_Click);
             // 
             // ribbonPanel2
             // 
@@ -279,95 +333,6 @@
             // comboItem4
             // 
             resources.ApplyResources(this.comboItem4, "comboItem4");
-            // 
-            // ribbonTabItemHome
-            // 
-            this.ribbonTabItemHome.Checked = true;
-            this.ribbonTabItemHome.Name = "ribbonTabItemHome";
-            this.ribbonTabItemHome.Panel = this.ribbonPanel1;
-            resources.ApplyResources(this.ribbonTabItemHome, "ribbonTabItemHome");
-            // 
-            // ribbonTabItemSetting
-            // 
-            this.ribbonTabItemSetting.Name = "ribbonTabItemSetting";
-            this.ribbonTabItemSetting.Panel = this.ribbonPanel2;
-            resources.ApplyResources(this.ribbonTabItemSetting, "ribbonTabItemSetting");
-            // 
-            // buttonItem1
-            // 
-            this.buttonItem1.Name = "buttonItem1";
-            resources.ApplyResources(this.buttonItem1, "buttonItem1");
-            // 
-            // qatCustomizeItem1
-            // 
-            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
-            // 
-            // styleManager1
-            // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Blue;
-            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
-            // 
-            // comboItem1
-            // 
-            resources.ApplyResources(this.comboItem1, "comboItem1");
-            // 
-            // comboItem2
-            // 
-            resources.ApplyResources(this.comboItem2, "comboItem2");
-            // 
-            // buttonItemReportManagerment
-            // 
-            this.buttonItemReportManagerment.Image = global::EmbryoExpress.Properties.Resources.Report_Managerment;
-            this.buttonItemReportManagerment.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItemReportManagerment.Name = "buttonItemReportManagerment";
-            this.buttonItemReportManagerment.SubItemsExpandWidth = 14;
-            resources.ApplyResources(this.buttonItemReportManagerment, "buttonItemReportManagerment");
-            this.buttonItemReportManagerment.Click += new System.EventHandler(this.buttonItemReportManagerment_Click);
-            // 
-            // buttonItem14
-            // 
-            this.buttonItem14.Image = global::EmbryoExpress.Properties.Resources.User_Management;
-            this.buttonItem14.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItem14.Name = "buttonItem14";
-            this.buttonItem14.SubItemsExpandWidth = 14;
-            resources.ApplyResources(this.buttonItem14, "buttonItem14");
-            this.buttonItem14.Click += new System.EventHandler(this.buttonItem14_Click);
-            // 
-            // buttonItemInformationInput
-            // 
-            this.buttonItemInformationInput.Image = global::EmbryoExpress.Properties.Resources.Information_Input;
-            this.buttonItemInformationInput.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItemInformationInput.Name = "buttonItemInformationInput";
-            this.buttonItemInformationInput.SubItemsExpandWidth = 14;
-            resources.ApplyResources(this.buttonItemInformationInput, "buttonItemInformationInput");
-            this.buttonItemInformationInput.Click += new System.EventHandler(this.buttonItemInformationInput_Click);
-            // 
-            // buttonItemQualityControlProcess
-            // 
-            this.buttonItemQualityControlProcess.Image = global::EmbryoExpress.Properties.Resources.Quality_Control_Process;
-            this.buttonItemQualityControlProcess.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItemQualityControlProcess.Name = "buttonItemQualityControlProcess";
-            this.buttonItemQualityControlProcess.SubItemsExpandWidth = 14;
-            resources.ApplyResources(this.buttonItemQualityControlProcess, "buttonItemQualityControlProcess");
-            this.buttonItemQualityControlProcess.Click += new System.EventHandler(this.buttonItemQualityControlProcess_Click);
-            // 
-            // buttonItemDailyManagerment
-            // 
-            this.buttonItemDailyManagerment.Image = global::EmbryoExpress.Properties.Resources.Daily_Managerment;
-            this.buttonItemDailyManagerment.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItemDailyManagerment.Name = "buttonItemDailyManagerment";
-            this.buttonItemDailyManagerment.SubItemsExpandWidth = 14;
-            resources.ApplyResources(this.buttonItemDailyManagerment, "buttonItemDailyManagerment");
-            this.buttonItemDailyManagerment.Click += new System.EventHandler(this.buttonItemDailyManagerment_Click);
-            // 
-            // buttonItemCentralMonitor
-            // 
-            this.buttonItemCentralMonitor.Image = global::EmbryoExpress.Properties.Resources.Central_Monitor;
-            this.buttonItemCentralMonitor.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItemCentralMonitor.Name = "buttonItemCentralMonitor";
-            this.buttonItemCentralMonitor.SubItemsExpandWidth = 14;
-            resources.ApplyResources(this.buttonItemCentralMonitor, "buttonItemCentralMonitor");
-            this.buttonItemCentralMonitor.Click += new System.EventHandler(this.buttonItemCentralMonitor_Click);
             // 
             // applicationButton1
             // 
@@ -580,6 +545,41 @@
             this.buttonItem13.Name = "buttonItem13";
             this.buttonItem13.SubItemsExpandWidth = 24;
             resources.ApplyResources(this.buttonItem13, "buttonItem13");
+            // 
+            // ribbonTabItemHome
+            // 
+            this.ribbonTabItemHome.Checked = true;
+            this.ribbonTabItemHome.Name = "ribbonTabItemHome";
+            this.ribbonTabItemHome.Panel = this.ribbonPanel1;
+            resources.ApplyResources(this.ribbonTabItemHome, "ribbonTabItemHome");
+            // 
+            // ribbonTabItemSetting
+            // 
+            this.ribbonTabItemSetting.Name = "ribbonTabItemSetting";
+            this.ribbonTabItemSetting.Panel = this.ribbonPanel2;
+            resources.ApplyResources(this.ribbonTabItemSetting, "ribbonTabItemSetting");
+            // 
+            // buttonItem1
+            // 
+            this.buttonItem1.Name = "buttonItem1";
+            resources.ApplyResources(this.buttonItem1, "buttonItem1");
+            // 
+            // qatCustomizeItem1
+            // 
+            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
+            // 
+            // styleManager1
+            // 
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2010Blue;
+            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
+            // 
+            // comboItem1
+            // 
+            resources.ApplyResources(this.comboItem1, "comboItem1");
+            // 
+            // comboItem2
+            // 
+            resources.ApplyResources(this.comboItem2, "comboItem2");
             // 
             // panelEx1
             // 

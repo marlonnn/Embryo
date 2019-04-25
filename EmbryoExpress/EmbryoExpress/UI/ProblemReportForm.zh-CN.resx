@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="DevComponents.DotNetBar2" name="DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04" />
+  <data name="wizard.WizardStyle" type="DevComponents.DotNetBar.eWizardStyle, DevComponents.DotNetBar2">
+    <value>Office2007</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="wizard.CancelButtonText" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="wizard.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="wizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="wizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 340</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="wizard.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pageWelcome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 18</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 66</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>技术支持请求创建向导</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>pageWelcome</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 100</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 162</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>此向导将引导您完成技术支持请求创建过程。
+
+技术支持请求创建向导将自动收集 NovoCyte 配置信息，NovoExpress 系统日志，当前屏幕的截屏，当前实验文件以及其他能够帮助我们分析问题的有用信息，您还可以附上任何与您的问题相关的文件。
+</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>pageWelcome</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 271</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>若要继续，请单击下一步。</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>pageWelcome</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pageWelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pageWelcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 294</value>
+  </data>
+  <data name="pageWelcome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pageWelcome.Name" xml:space="preserve">
+    <value>pageWelcome</value>
+  </data>
+  <data name="&gt;&gt;pageWelcome.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.WizardPage, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;pageWelcome.Parent" xml:space="preserve">
+    <value>wizard</value>
+  </data>
+  <data name="&gt;&gt;pageWelcome.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pageInputDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 1</value>
+  </data>
+  <data name="labelDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 28</value>
+  </data>
+  <data name="labelDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelDescription.Text" xml:space="preserve">
+    <value>请描述您的问题：</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.Name" xml:space="preserve">
+    <value>labelDescription</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.Parent" xml:space="preserve">
+    <value>pageInputDescription</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 35</value>
+  </data>
+  <data name="textBoxDescription.MaxLength" type="System.Int32, mscorlib">
+    <value>32767000</value>
+  </data>
+  <data name="textBoxDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxDescription.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="textBoxDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 162</value>
+  </data>
+  <data name="textBoxDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.Name" xml:space="preserve">
+    <value>textBoxDescription</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.Parent" xml:space="preserve">
+    <value>pageInputDescription</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pageInputDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 82</value>
+  </data>
+  <data name="pageInputDescription.PageDescription" xml:space="preserve">
+    <value>&lt; Wizard step description &gt;</value>
+  </data>
+  <data name="pageInputDescription.PageTitle" xml:space="preserve">
+    <value>输入问题描述</value>
+  </data>
+  <data name="pageInputDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 200</value>
+  </data>
+  <data name="pageInputDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pageInputDescription.Name" xml:space="preserve">
+    <value>pageInputDescription</value>
+  </data>
+  <data name="&gt;&gt;pageInputDescription.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.WizardPage, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;pageInputDescription.Parent" xml:space="preserve">
+    <value>wizard</value>
+  </data>
+  <data name="&gt;&gt;pageInputDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pageSelectFiles.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="buttonRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 146</value>
+  </data>
+  <data name="buttonRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonRemove.Text" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="&gt;&gt;buttonRemove.Name" xml:space="preserve">
+    <value>buttonRemove</value>
+  </data>
+  <data name="&gt;&gt;buttonRemove.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonRemove.Parent" xml:space="preserve">
+    <value>pageSelectFiles</value>
+  </data>
+  <data name="&gt;&gt;buttonRemove.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 74</value>
+  </data>
+  <data name="buttonAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonAdd.Text" xml:space="preserve">
+    <value>添加...</value>
+  </data>
+  <data name="&gt;&gt;buttonAdd.Name" xml:space="preserve">
+    <value>buttonAdd</value>
+  </data>
+  <data name="&gt;&gt;buttonAdd.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;buttonAdd.Parent" xml:space="preserve">
+    <value>pageSelectFiles</value>
+  </data>
+  <data name="&gt;&gt;buttonAdd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelAttachFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 2</value>
+  </data>
+  <data name="labelAttachFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 34</value>
+  </data>
+  <data name="labelAttachFile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelAttachFile.Text" xml:space="preserve">
+    <value>请附上任何与您的问题相关的文件（尤其是 .ncf 实验文件）。</value>
+  </data>
+  <data name="&gt;&gt;labelAttachFile.Name" xml:space="preserve">
+    <value>labelAttachFile</value>
+  </data>
+  <data name="&gt;&gt;labelAttachFile.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelAttachFile.Parent" xml:space="preserve">
+    <value>pageSelectFiles</value>
+  </data>
+  <data name="&gt;&gt;labelAttachFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="listViewFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 41</value>
+  </data>
+  <data name="listViewFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 157</value>
+  </data>
+  <data name="listViewFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listViewFiles.Name" xml:space="preserve">
+    <value>listViewFiles</value>
+  </data>
+  <data name="&gt;&gt;listViewFiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewFiles.Parent" xml:space="preserve">
+    <value>pageSelectFiles</value>
+  </data>
+  <data name="&gt;&gt;listViewFiles.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pageSelectFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 82</value>
+  </data>
+  <data name="pageSelectFiles.PageDescription" xml:space="preserve">
+    <value>&lt; Wizard step description &gt;</value>
+  </data>
+  <data name="pageSelectFiles.PageTitle" xml:space="preserve">
+    <value>选择要附加的文件</value>
+  </data>
+  <data name="pageSelectFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 200</value>
+  </data>
+  <data name="pageSelectFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pageSelectFiles.Name" xml:space="preserve">
+    <value>pageSelectFiles</value>
+  </data>
+  <data name="&gt;&gt;pageSelectFiles.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.WizardPage, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;pageSelectFiles.Parent" xml:space="preserve">
+    <value>wizard</value>
+  </data>
+  <data name="&gt;&gt;pageSelectFiles.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pageCreating.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelCreating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 3</value>
+  </data>
+  <data name="labelCreating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 44</value>
+  </data>
+  <data name="labelCreating.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelCreating.Text" xml:space="preserve">
+    <value>技术支持请求创建过程中，请稍候。</value>
+  </data>
+  <data name="&gt;&gt;labelCreating.Name" xml:space="preserve">
+    <value>labelCreating</value>
+  </data>
+  <data name="&gt;&gt;labelCreating.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelCreating.Parent" xml:space="preserve">
+    <value>pageCreating</value>
+  </data>
+  <data name="&gt;&gt;labelCreating.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 55</value>
+  </data>
+  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 23</value>
+  </data>
+  <data name="progressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="progressBar.Text" xml:space="preserve">
+    <value>progressBar</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Name" xml:space="preserve">
+    <value>progressBar</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ProgressBarX, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Parent" xml:space="preserve">
+    <value>pageCreating</value>
+  </data>
+  <data name="&gt;&gt;progressBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pageCreating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 82</value>
+  </data>
+  <data name="pageCreating.PageDescription" xml:space="preserve">
+    <value>&lt; Wizard step description &gt;</value>
+  </data>
+  <data name="pageCreating.PageTitle" xml:space="preserve">
+    <value>创建技术支持请求</value>
+  </data>
+  <data name="pageCreating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 200</value>
+  </data>
+  <data name="pageCreating.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pageCreating.Name" xml:space="preserve">
+    <value>pageCreating</value>
+  </data>
+  <data name="&gt;&gt;pageCreating.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.WizardPage, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;pageCreating.Parent" xml:space="preserve">
+    <value>wizard</value>
+  </data>
+  <data name="&gt;&gt;pageCreating.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pageFinish.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelSuccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 3</value>
+  </data>
+  <data name="labelSuccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 158</value>
+  </data>
+  <data name="labelSuccess.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelSuccess.Text" xml:space="preserve">
+    <value>技术支持请求已成功创建于以下路径：
+
+{0}
+
+请联系 ACEA 技术支持并提供以上文件。</value>
+  </data>
+  <data name="&gt;&gt;labelSuccess.Name" xml:space="preserve">
+    <value>labelSuccess</value>
+  </data>
+  <data name="&gt;&gt;labelSuccess.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;labelSuccess.Parent" xml:space="preserve">
+    <value>pageFinish</value>
+  </data>
+  <data name="&gt;&gt;labelSuccess.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBoxOpenContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 167</value>
+  </data>
+  <data name="checkBoxOpenContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 23</value>
+  </data>
+  <data name="checkBoxOpenContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBoxOpenContainer.Text" xml:space="preserve">
+    <value>打开技术支持请求文件所在的文件夹</value>
+  </data>
+  <data name="&gt;&gt;checkBoxOpenContainer.Name" xml:space="preserve">
+    <value>checkBoxOpenContainer</value>
+  </data>
+  <data name="&gt;&gt;checkBoxOpenContainer.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.CheckBoxX, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;checkBoxOpenContainer.Parent" xml:space="preserve">
+    <value>pageFinish</value>
+  </data>
+  <data name="&gt;&gt;checkBoxOpenContainer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pageFinish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 82</value>
+  </data>
+  <data name="pageFinish.PageDescription" xml:space="preserve">
+    <value>&lt; Wizard step description &gt;</value>
+  </data>
+  <data name="pageFinish.PageTitle" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="pageFinish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 200</value>
+  </data>
+  <data name="pageFinish.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;pageFinish.Name" xml:space="preserve">
+    <value>pageFinish</value>
+  </data>
+  <data name="&gt;&gt;pageFinish.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.WizardPage, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;pageFinish.Parent" xml:space="preserve">
+    <value>wizard</value>
+  </data>
+  <data name="&gt;&gt;pageFinish.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;wizard.Name" xml:space="preserve">
+    <value>wizard</value>
+  </data>
+  <data name="&gt;&gt;wizard.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Wizard, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;wizard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;wizard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>474, 340</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>技术支持请求</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ProblemReportForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>NovoCyte.UI.ChildForm, NovoCyte, Version=1.2.4.1602, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="wizard.BackButtonText" xml:space="preserve">
+    <value>上一步</value>
+  </data>
+  <data name="wizard.FinishButtonText" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="wizard.NextButtonText" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+</root>

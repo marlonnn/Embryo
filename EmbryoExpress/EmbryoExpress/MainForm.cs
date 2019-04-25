@@ -13,9 +13,12 @@ namespace EmbryoExpress
 {
     public partial class MainForm : Office2007RibbonForm
     {
+        public bool ToRestart { get; set; }
+
         private InputControl inputControl;
         public MainForm()
         {
+            ToRestart = false;
             InitializeComponent();
             inputControl = new InputControl();
         }

@@ -117,82 +117,57 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Daily Managerment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Daily Managerment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="User Management" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\User Management.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="problem_report" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\problem_report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StrReport" xml:space="preserve">
-    <value>Report</value>
-  </data>
-  <data name="Report Managerment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Report Managerment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WizardNextButtonText" xml:space="preserve">
-    <value>Next &gt;</value>
-  </data>
-  <data name="StrCreating" xml:space="preserve">
-    <value>{0} creation is in progress, please wait.</value>
-  </data>
-  <data name="StrCollecting" xml:space="preserve">
-    <value>Reading EmbryoExpress event logs, please wait.</value>
+  <data name="ErrorDiagnosisReport" xml:space="preserve">
+    <value>故障诊断报告</value>
   </data>
   <data name="ProblemReportLabelCyte2ChineseEdition" xml:space="preserve">
-    <value>This wizard will guide you through the Technical Support Request creation process.
+    <value>此向导将引导您完成技术支持请求创建过程。
 
-Technical Support Request creation wizard automatically collects the instrument configurations, NovoExpress system logs, current screenshot, current experiment file and other information that helps diagnosis and troubleshooting of the instrument. You can also attach any other files using this function.</value>
-  </data>
-  <data name="WizardCreateButtonText" xml:space="preserve">
-    <value>Create</value>
-  </data>
-  <data name="ErrorDiagnosisReport" xml:space="preserve">
-    <value>Error Diagnosis Report</value>
-  </data>
-  <data name="Information Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Information Input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StrOK" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="TechnicalSupportRequest" xml:space="preserve">
-    <value>Technical Support Request</value>
-  </data>
-  <data name="StrProblemReportCreateFinish" xml:space="preserve">
-    <value>{0} creation is complete, please click Next button to continue.</value>
+技术支持请求创建向导将自动收集仪器配置信息，NovoExpress 系统日志，当前屏幕的截屏，当前实验文件以及其他能够帮助我们分析问题的有用信息，您还可以附上任何与您的问题相关的文件。</value>
   </data>
   <data name="StrBuiltDate" xml:space="preserve">
-    <value>Built Date: </value>
+    <value>编译日期：</value>
+  </data>
+  <data name="StrCollecting" xml:space="preserve">
+    <value>正在读取仪器日志，请稍候。</value>
   </data>
   <data name="strCreateFailedTitle" xml:space="preserve">
-    <value>{0} creation failed</value>
-  </data>
-  <data name="Central Monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Central Monitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>{0}创建失败</value>
   </data>
   <data name="StrCreateReport" xml:space="preserve">
-    <value>Click Report to create a Technical Support Request.</value>
-  </data>
-  <data name="Quality Control Process" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\Quality Control Process.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>点击报告按钮创建技术支持请求。</value>
   </data>
   <data name="strCreateReportFailed" xml:space="preserve">
-    <value>Create {0} failed. There is not enough disk space in the target location.</value>
+    <value>磁盘空间不足，创建{0}失败。</value>
+  </data>
+  <data name="StrCreating" xml:space="preserve">
+    <value>{0}创建过程中，请稍候。</value>
+  </data>
+  <data name="StrOK" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="StrProblemReportCreateFinish" xml:space="preserve">
+    <value>{0}创建完成，请单击下一步按钮继续。</value>
+  </data>
+  <data name="StrReport" xml:space="preserve">
+    <value>报告</value>
   </data>
   <data name="StrUnknownErrorMsg" xml:space="preserve">
-    <value>Encountered an unknown error. Please restart the program.</value>
+    <value>遇到未知错误，请重启程序。</value>
   </data>
-  <data name="SplashScreen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Reources\SplashScreen2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TechnicalSupportRequest" xml:space="preserve">
+    <value>技术支持请求</value>
+  </data>
+  <data name="WizardCreateButtonText" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="WizardNextButtonText" xml:space="preserve">
+    <value>下一步</value>
   </data>
   <data name="Login" xml:space="preserve">
-    <value>Login {0}</value>
+    <value>登录 {0}</value>
   </data>
   <data name="StrInputUserName" xml:space="preserve">
-    <value>Please input the username.</value>
+    <value>请输入用户名。</value>
   </data>
 </root>
