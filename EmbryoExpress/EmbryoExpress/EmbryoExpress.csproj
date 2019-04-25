@@ -120,6 +120,9 @@
     <EmbeddedResource Include="InputControl.resx">
       <DependentUpon>InputControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InputControl.zh-CN.resx">
+      <DependentUpon>InputControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

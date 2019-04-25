@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InputControl));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnTimer = new System.Windows.Forms.Button();
             this.btnThermometer = new System.Windows.Forms.Button();
             this.btnAir = new System.Windows.Forms.Button();
             this.btnFridge = new System.Windows.Forms.Button();
@@ -42,19 +42,20 @@
             this.navigationPage2 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.navigationPage3 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.panelStep = new DevExpress.XtraEditors.PanelControl();
+            this.btnMeasurment = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame1)).BeginInit();
             this.navigationFrame1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelStep)).BeginInit();
             this.panelStep.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btnTimer
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            resources.ApplyResources(this.btnTimer, "btnTimer");
+            this.btnTimer.BackColor = System.Drawing.Color.Transparent;
+            this.btnTimer.FlatAppearance.BorderSize = 0;
+            this.btnTimer.Name = "btnTimer";
+            this.btnTimer.UseVisualStyleBackColor = false;
             // 
             // btnThermometer
             // 
@@ -135,8 +136,8 @@
             // 
             // navigationPage2
             // 
-            this.navigationPage2.Name = "navigationPage2";
             resources.ApplyResources(this.navigationPage2, "navigationPage2");
+            this.navigationPage2.Name = "navigationPage2";
             // 
             // navigationPage3
             // 
@@ -150,7 +151,8 @@
             this.panelStep.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("panelStep.Appearance.Font")));
             this.panelStep.Appearance.Options.UseBackColor = true;
             this.panelStep.Appearance.Options.UseFont = true;
-            this.panelStep.Controls.Add(this.button1);
+            this.panelStep.Controls.Add(this.btnMeasurment);
+            this.panelStep.Controls.Add(this.btnTimer);
             this.panelStep.Controls.Add(this.btnMicroscope);
             this.panelStep.Controls.Add(this.btnThermometer);
             this.panelStep.Controls.Add(this.btnIncubator);
@@ -165,6 +167,14 @@
             this.panelStep.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelStep.Name = "panelStep";
             this.panelStep.Paint += new System.Windows.Forms.PaintEventHandler(this.panelStep_Paint);
+            // 
+            // btnMeasurment
+            // 
+            resources.ApplyResources(this.btnMeasurment, "btnMeasurment");
+            this.btnMeasurment.BackColor = System.Drawing.Color.Transparent;
+            this.btnMeasurment.FlatAppearance.BorderSize = 0;
+            this.btnMeasurment.Name = "btnMeasurment";
+            this.btnMeasurment.UseVisualStyleBackColor = false;
             // 
             // InputControl
             // 
@@ -194,7 +204,8 @@
         private System.Windows.Forms.Button btnAir;
         private System.Windows.Forms.Button btnFridge;
         private System.Windows.Forms.Button btnLiquidNitrogen;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnTimer;
         private DevExpress.XtraEditors.PanelControl panelStep;
+        private System.Windows.Forms.Button btnMeasurment;
     }
 }
