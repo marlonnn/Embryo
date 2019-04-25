@@ -36,8 +36,6 @@
             this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
             this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
             this.checkBoxX1 = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.comboTreeUserGroup = new DevComponents.DotNetBar.Controls.ComboTree();
-            this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.SuspendLayout();
             // 
             // comboBoxEx1
@@ -107,30 +105,6 @@
             this.checkBoxX1.Name = "checkBoxX1";
             this.checkBoxX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             // 
-            // comboTreeUserGroup
-            // 
-            this.comboTreeUserGroup.BackColor = System.Drawing.SystemColors.Window;
-            // 
-            // 
-            // 
-            this.comboTreeUserGroup.BackgroundStyle.Class = "TextBoxBorder";
-            this.comboTreeUserGroup.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.comboTreeUserGroup.ButtonDropDown.Visible = true;
-            this.comboTreeUserGroup.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
-            resources.ApplyResources(this.comboTreeUserGroup, "comboTreeUserGroup");
-            this.comboTreeUserGroup.Name = "comboTreeUserGroup";
-            this.comboTreeUserGroup.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboTreeUserGroup.SelectedIndexChanged += new System.EventHandler(this.comboTreeUserGroup_SelectedIndexChanged);
-            // 
-            // labelX5
-            // 
-            // 
-            // 
-            // 
-            this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            resources.ApplyResources(this.labelX5, "labelX5");
-            this.labelX5.Name = "labelX5";
-            // 
             // Login
             // 
             this.AcceptButton = this.buttonX1;
@@ -139,8 +113,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
             this.CancelButton = this.buttonX2;
             this.ControlBox = false;
-            this.Controls.Add(this.comboTreeUserGroup);
-            this.Controls.Add(this.labelX5);
             this.Controls.Add(this.checkBoxX1);
             this.Controls.Add(this.buttonX2);
             this.Controls.Add(this.buttonX1);
@@ -148,6 +120,7 @@
             this.Controls.Add(this.labelX2);
             this.Controls.Add(this.labelX1);
             this.Controls.Add(this.comboBoxEx1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -167,7 +140,5 @@
         private DevComponents.DotNetBar.ButtonX buttonX1;
         private DevComponents.DotNetBar.ButtonX buttonX2;
         private DevComponents.DotNetBar.Controls.CheckBoxX checkBoxX1;
-        private DevComponents.DotNetBar.Controls.ComboTree comboTreeUserGroup;
-        private DevComponents.DotNetBar.LabelX labelX5;
     }
 }

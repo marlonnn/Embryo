@@ -123,7 +123,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="comboBoxEx1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 41</value>
+    <value>96, 5</value>
   </data>
   <data name="comboBoxEx1.MaxLength" type="System.Int32, mscorlib">
     <value>32</value>
@@ -144,10 +144,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;comboBoxEx1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>6</value>
   </data>
   <data name="labelX1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 40</value>
+    <value>12, 4</value>
   </data>
   <data name="labelX1.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 25</value>
@@ -168,10 +168,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelX1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>5</value>
   </data>
   <data name="labelX2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 71</value>
+    <value>12, 35</value>
   </data>
   <data name="labelX2.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 25</value>
@@ -192,10 +192,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelX2.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="textBoxPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 72</value>
+    <value>96, 36</value>
   </data>
   <data name="textBoxPassword.MaxLength" type="System.Int32, mscorlib">
     <value>20</value>
@@ -219,10 +219,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxPassword.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>3</value>
   </data>
   <data name="buttonX1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 102</value>
+    <value>116, 66</value>
   </data>
   <data name="buttonX1.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 25</value>
@@ -243,10 +243,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonX1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="buttonX2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>188, 102</value>
+    <value>188, 66</value>
   </data>
   <data name="buttonX2.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 25</value>
@@ -267,16 +267,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonX2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="checkBoxX1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkBoxX1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 108</value>
+    <value>8, 72</value>
   </data>
   <data name="checkBoxX1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 16</value>
+    <value>75, 15</value>
   </data>
   <data name="checkBoxX1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -294,52 +294,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;checkBoxX1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="comboTreeUserGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 10</value>
-  </data>
-  <data name="comboTreeUserGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 20</value>
-  </data>
-  <data name="comboTreeUserGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;comboTreeUserGroup.Name" xml:space="preserve">
-    <value>comboTreeUserGroup</value>
-  </data>
-  <data name="&gt;&gt;comboTreeUserGroup.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Controls.ComboTree, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;comboTreeUserGroup.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboTreeUserGroup.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="labelX5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="labelX5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 25</value>
-  </data>
-  <data name="labelX5.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="labelX5.Text" xml:space="preserve">
-    <value>Group</value>
-  </data>
-  <data name="&gt;&gt;labelX5.Name" xml:space="preserve">
-    <value>labelX5</value>
-  </data>
-  <data name="&gt;&gt;labelX5.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;labelX5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelX5.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -348,7 +303,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>255, 135</value>
+    <value>255, 96</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
