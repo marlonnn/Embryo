@@ -136,8 +136,8 @@
             // 
             // navigationPage2
             // 
-            resources.ApplyResources(this.navigationPage2, "navigationPage2");
             this.navigationPage2.Name = "navigationPage2";
+            resources.ApplyResources(this.navigationPage2, "navigationPage2");
             // 
             // navigationPage3
             // 
@@ -149,7 +149,7 @@
             this.panelStep.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("panelStep.Appearance.BackColor")));
             this.panelStep.Appearance.BackColor2 = ((System.Drawing.Color)(resources.GetObject("panelStep.Appearance.BackColor2")));
             this.panelStep.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("panelStep.Appearance.Font")));
-            this.panelStep.Appearance.Options.UseBackColor = true;
+            this.panelStep.Appearance.ForeColor = ((System.Drawing.Color)(resources.GetObject("panelStep.Appearance.ForeColor")));
             this.panelStep.Appearance.Options.UseFont = true;
             this.panelStep.Controls.Add(this.btnMeasurment);
             this.panelStep.Controls.Add(this.btnTimer);

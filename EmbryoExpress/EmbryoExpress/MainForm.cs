@@ -1,6 +1,7 @@
 ﻿using DevComponents.DotNetBar;
 using DevComponents.Editors;
 using EmbryoExpress.SysClass;
+using EmbryoExpress.UI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,18 +21,25 @@ namespace EmbryoExpress
         public bool ToRestart { get; set; }
 
         private InputControl inputControl;
+        private InformationControl informationControl;
         public MainForm()
         {
             ToRestart = false;
             InitializeComponent();
             inputControl = new InputControl();
+            informationControl = new InformationControl();
+
+            inputControl.Dock = DockStyle.Fill;
+            informationControl.Dock = DockStyle.Fill;
+            this.panelEx1.Controls.Add(informationControl);
         }
 
         private void buttonItemInformationInput_Click(object sender, EventArgs e)
         {
             this.panelEx1.Controls.Clear();
             inputControl.Dock = DockStyle.Fill;
-            this.panelEx1.Controls.Add(inputControl);
+            informationControl.Dock = DockStyle.Fill;
+            this.panelEx1.Controls.Add(informationControl);
         }
 
         private void comboBoxItemLanguage_SelectedIndexChanged(object sender, EventArgs e)
