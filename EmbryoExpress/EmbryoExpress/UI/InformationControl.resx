@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="groupIncubator.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
-    <value>Transparent</value>
+    <value>230, 239, 249</value>
   </data>
   <data name="txtCalibration.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 190</value>
@@ -443,6 +443,9 @@
   <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="groupMicroscope.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>230, 239, 249</value>
+  </data>
   <data name="groupMicroscope.Location" type="System.Drawing.Point, System.Drawing">
     <value>257, 3</value>
   </data>
@@ -466,6 +469,9 @@
   </data>
   <data name="&gt;&gt;groupMicroscope.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="groupCylinder.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>230, 239, 249</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 76</value>
@@ -542,6 +548,9 @@
   <data name="&gt;&gt;groupCylinder.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="groupHotStage.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>230, 239, 249</value>
+  </data>
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 76</value>
   </data>
@@ -616,6 +625,9 @@
   </data>
   <data name="&gt;&gt;groupHotStage.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="groupTemperatureLoweringInstrument.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>230, 239, 249</value>
   </data>
   <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
     <value>143, 148</value>
@@ -845,6 +857,9 @@
   <data name="&gt;&gt;groupTemperatureLoweringInstrument.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="groupFridge.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>230, 239, 249</value>
+  </data>
   <data name="txtFreezing.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 109</value>
   </data>
@@ -1046,6 +1061,9 @@
   <data name="&gt;&gt;groupFridge.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="groupAirConditioner.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>230, 239, 249</value>
+  </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1223,6 +1241,9 @@
   <data name="&gt;&gt;groupAirConditioner.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="groupThermometer.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>230, 239, 249</value>
+  </data>
   <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 76</value>
   </data>
@@ -1298,6 +1319,9 @@
   <data name="&gt;&gt;groupThermometer.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="groupTimer.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>230, 239, 249</value>
+  </data>
   <data name="textBox16.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 76</value>
   </data>
@@ -1372,6 +1396,9 @@
   </data>
   <data name="&gt;&gt;groupTimer.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="groupControl2.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>230, 239, 249</value>
   </data>
   <data name="textBox17.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 76</value>

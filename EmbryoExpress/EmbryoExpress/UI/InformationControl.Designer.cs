@@ -122,6 +122,8 @@
             this.groupIncubator.Controls.Add(this.txtCO2Concentration);
             this.groupIncubator.Controls.Add(this.lblCO2Concentration);
             resources.ApplyResources(this.groupIncubator, "groupIncubator");
+            this.groupIncubator.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupIncubator.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupIncubator.Name = "groupIncubator";
             // 
             // txtCalibration
@@ -186,16 +188,24 @@
             // 
             // groupMicroscope
             // 
+            this.groupMicroscope.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupMicroscope.Appearance.BackColor")));
+            this.groupMicroscope.Appearance.Options.UseBackColor = true;
             this.groupMicroscope.Controls.Add(this.textBox5);
             this.groupMicroscope.Controls.Add(this.lblUsageRecord);
             resources.ApplyResources(this.groupMicroscope, "groupMicroscope");
+            this.groupMicroscope.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupMicroscope.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupMicroscope.Name = "groupMicroscope";
             // 
             // groupCylinder
             // 
+            this.groupCylinder.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupCylinder.Appearance.BackColor")));
+            this.groupCylinder.Appearance.Options.UseBackColor = true;
             this.groupCylinder.Controls.Add(this.textBox2);
             this.groupCylinder.Controls.Add(this.label2);
             resources.ApplyResources(this.groupCylinder, "groupCylinder");
+            this.groupCylinder.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupCylinder.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupCylinder.Name = "groupCylinder";
             // 
             // textBox2
@@ -210,9 +220,13 @@
             // 
             // groupHotStage
             // 
+            this.groupHotStage.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupHotStage.Appearance.BackColor")));
+            this.groupHotStage.Appearance.Options.UseBackColor = true;
             this.groupHotStage.Controls.Add(this.textBox3);
             this.groupHotStage.Controls.Add(this.label3);
             resources.ApplyResources(this.groupHotStage, "groupHotStage");
+            this.groupHotStage.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupHotStage.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupHotStage.Name = "groupHotStage";
             // 
             // textBox3
@@ -227,6 +241,8 @@
             // 
             // groupTemperatureLoweringInstrument
             // 
+            this.groupTemperatureLoweringInstrument.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupTemperatureLoweringInstrument.Appearance.BackColor")));
+            this.groupTemperatureLoweringInstrument.Appearance.Options.UseBackColor = true;
             this.groupTemperatureLoweringInstrument.Controls.Add(this.textBox6);
             this.groupTemperatureLoweringInstrument.Controls.Add(this.lblEndTemperature);
             this.groupTemperatureLoweringInstrument.Controls.Add(this.textBox7);
@@ -236,6 +252,8 @@
             this.groupTemperatureLoweringInstrument.Controls.Add(this.textBox9);
             this.groupTemperatureLoweringInstrument.Controls.Add(this.label8);
             resources.ApplyResources(this.groupTemperatureLoweringInstrument, "groupTemperatureLoweringInstrument");
+            this.groupTemperatureLoweringInstrument.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupTemperatureLoweringInstrument.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupTemperatureLoweringInstrument.Name = "groupTemperatureLoweringInstrument";
             // 
             // textBox6
@@ -280,6 +298,8 @@
             // 
             // groupFridge
             // 
+            this.groupFridge.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupFridge.Appearance.BackColor")));
+            this.groupFridge.Appearance.Options.UseBackColor = true;
             this.groupFridge.Controls.Add(this.txtFreezing);
             this.groupFridge.Controls.Add(this.lblFreezing);
             this.groupFridge.Controls.Add(this.textBox11);
@@ -288,6 +308,8 @@
             this.groupFridge.Controls.Add(this.label4);
             this.groupFridge.Controls.Add(this.textBox4);
             resources.ApplyResources(this.groupFridge, "groupFridge");
+            this.groupFridge.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupFridge.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupFridge.Name = "groupFridge";
             // 
             // txtFreezing
@@ -327,6 +349,8 @@
             // 
             // groupAirConditioner
             // 
+            this.groupAirConditioner.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupAirConditioner.Appearance.BackColor")));
+            this.groupAirConditioner.Appearance.Options.UseBackColor = true;
             this.groupAirConditioner.Controls.Add(this.label6);
             this.groupAirConditioner.Controls.Add(this.textBox13);
             this.groupAirConditioner.Controls.Add(this.label9);
@@ -334,6 +358,8 @@
             this.groupAirConditioner.Controls.Add(this.label10);
             this.groupAirConditioner.Controls.Add(this.textBox15);
             resources.ApplyResources(this.groupAirConditioner, "groupAirConditioner");
+            this.groupAirConditioner.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupAirConditioner.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupAirConditioner.Name = "groupAirConditioner";
             // 
             // label6
@@ -368,9 +394,13 @@
             // 
             // groupThermometer
             // 
+            this.groupThermometer.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupThermometer.Appearance.BackColor")));
+            this.groupThermometer.Appearance.Options.UseBackColor = true;
             this.groupThermometer.Controls.Add(this.textBox12);
             this.groupThermometer.Controls.Add(this.label11);
             resources.ApplyResources(this.groupThermometer, "groupThermometer");
+            this.groupThermometer.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupThermometer.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupThermometer.Name = "groupThermometer";
             // 
             // textBox12
@@ -385,9 +415,13 @@
             // 
             // groupTimer
             // 
+            this.groupTimer.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupTimer.Appearance.BackColor")));
+            this.groupTimer.Appearance.Options.UseBackColor = true;
             this.groupTimer.Controls.Add(this.textBox16);
             this.groupTimer.Controls.Add(this.label12);
             resources.ApplyResources(this.groupTimer, "groupTimer");
+            this.groupTimer.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupTimer.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupTimer.Name = "groupTimer";
             // 
             // textBox16
@@ -402,9 +436,13 @@
             // 
             // groupControl2
             // 
+            this.groupControl2.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupControl2.Appearance.BackColor")));
+            this.groupControl2.Appearance.Options.UseBackColor = true;
             this.groupControl2.Controls.Add(this.textBox17);
             this.groupControl2.Controls.Add(this.label13);
             resources.ApplyResources(this.groupControl2, "groupControl2");
+            this.groupControl2.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupControl2.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupControl2.Name = "groupControl2";
             // 
             // textBox17
