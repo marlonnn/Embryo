@@ -117,40 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="buttonItemCentralMonitor.Text" xml:space="preserve">
-    <value>中央监控</value>
+  <data name="AssignTo.Caption" xml:space="preserve">
+    <value>分配给</value>
   </data>
-  <data name="buttonItemDailyManagerment.Text" xml:space="preserve">
-    <value>日常管理</value>
+  <data name="btnAllTasks.Text" xml:space="preserve">
+    <value>所有任务</value>
   </data>
-  <data name="buttonItemInformationInput.Text" xml:space="preserve">
-    <value>信息录入</value>
+  <data name="btnCompleted.Text" xml:space="preserve">
+    <value>已完成</value>
   </data>
-  <data name="buttonItemQualityControlProcess.Text" xml:space="preserve">
-    <value>质控流程</value>
+  <data name="btnDeferred.Text" xml:space="preserve">
+    <value>延迟</value>
   </data>
-  <data name="buttonItemReportManagerment.Text" xml:space="preserve">
-    <value>报告管理</value>
+  <data name="btnHighPriority.Text" xml:space="preserve">
+    <value>高优先级</value>
   </data>
-  <data name="buttonItemUserManager.Text" xml:space="preserve">
-    <value>用户管理</value>
+  <data name="btnInProgress.Text" xml:space="preserve">
+    <value>进行中</value>
   </data>
-  <data name="labelItemLanguage.Text" xml:space="preserve">
-    <value>显示语言</value>
+  <data name="btnNotStarted.Text" xml:space="preserve">
+    <value>未开始</value>
   </data>
-  <data name="ribbonBar1.Text" xml:space="preserve">
-    <value>功能</value>
+  <data name="btnUrgent.Text" xml:space="preserve">
+    <value>紧急任务</value>
   </data>
-  <data name="ribbonBar2.Text" xml:space="preserve">
-    <value>管理</value>
+  <data name="Completion.Caption" xml:space="preserve">
+    <value>% 完成</value>
   </data>
-  <data name="ribbonBarSetting.Text" xml:space="preserve">
-    <value>语言</value>
+  <data name="DueDate.Caption" xml:space="preserve">
+    <value>到期日</value>
   </data>
-  <data name="ribbonTabItemHome.Text" xml:space="preserve">
-    <value>主页</value>
+  <data name="OwnedBy.Caption" xml:space="preserve">
+    <value>持有者</value>
   </data>
-  <data name="ribbonTabItemSetting.Text" xml:space="preserve">
-    <value>设置</value>
+  <data name="Priority.Caption" xml:space="preserve">
+    <value>优先级</value>
+  </data>
+  <data name="Subject.Caption" xml:space="preserve">
+    <value>任务</value>
   </data>
 </root>

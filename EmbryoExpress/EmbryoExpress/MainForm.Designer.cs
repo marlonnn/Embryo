@@ -34,7 +34,7 @@
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
             this.buttonItemReportManagerment = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem14 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItemUserManager = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
             this.buttonItemInformationInput = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItemQualityControlProcess = new DevComponents.DotNetBar.ButtonItem();
@@ -151,7 +151,7 @@
             resources.ApplyResources(this.ribbonBar2, "ribbonBar2");
             this.ribbonBar2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.buttonItemReportManagerment,
-            this.buttonItem14});
+            this.buttonItemUserManager});
             this.ribbonBar2.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.ribbonBar2.Name = "ribbonBar2";
             this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -173,14 +173,14 @@
             resources.ApplyResources(this.buttonItemReportManagerment, "buttonItemReportManagerment");
             this.buttonItemReportManagerment.Click += new System.EventHandler(this.buttonItemReportManagerment_Click);
             // 
-            // buttonItem14
+            // buttonItemUserManager
             // 
-            this.buttonItem14.Image = global::EmbryoExpress.Properties.Resources.User_Management;
-            this.buttonItem14.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItem14.Name = "buttonItem14";
-            this.buttonItem14.SubItemsExpandWidth = 14;
-            resources.ApplyResources(this.buttonItem14, "buttonItem14");
-            this.buttonItem14.Click += new System.EventHandler(this.buttonItem14_Click);
+            this.buttonItemUserManager.Image = global::EmbryoExpress.Properties.Resources.User_Management;
+            this.buttonItemUserManager.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonItemUserManager.Name = "buttonItemUserManager";
+            this.buttonItemUserManager.SubItemsExpandWidth = 14;
+            resources.ApplyResources(this.buttonItemUserManager, "buttonItemUserManager");
+            this.buttonItemUserManager.Click += new System.EventHandler(this.buttonItem14_Click);
             // 
             // ribbonBar1
             // 
@@ -649,7 +649,7 @@
         private DevComponents.DotNetBar.ButtonItem buttonItemCentralMonitor;
         private DevComponents.DotNetBar.RibbonBar ribbonBar2;
         private DevComponents.DotNetBar.ButtonItem buttonItemReportManagerment;
-        private DevComponents.DotNetBar.ButtonItem buttonItem14;
+        private DevComponents.DotNetBar.ButtonItem buttonItemUserManager;
         private DevComponents.DotNetBar.RibbonBar ribbonBarSetting;
         private DevComponents.DotNetBar.ItemContainer itemContainer5;
         private DevComponents.DotNetBar.LabelItem labelItemLanguage;

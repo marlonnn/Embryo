@@ -170,4 +170,13 @@
   <data name="StrInputUserName" xml:space="preserve">
     <value>请输入用户名。</value>
   </data>
+  <data name="AdminUser" xml:space="preserve">
+    <value>管理员</value>
+  </data>
+  <data name="CommonUser" xml:space="preserve">
+    <value>普通用户</value>
+  </data>
+  <data name="StrAddUserSuccess" xml:space="preserve">
+    <value>添加成功。</value>
+  </data>
 </root>

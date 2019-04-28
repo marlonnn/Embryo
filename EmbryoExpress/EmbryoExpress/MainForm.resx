@@ -124,7 +124,7 @@
   <data name="buttonItemReportManagerment.Text" xml:space="preserve">
     <value>Report Mangerment</value>
   </data>
-  <data name="buttonItem14.Text" xml:space="preserve">
+  <data name="buttonItemUserManager.Text" xml:space="preserve">
     <value>User Managerment</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
@@ -717,10 +717,10 @@
   <data name="&gt;&gt;buttonItemReportManagerment.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
-  <data name="&gt;&gt;buttonItem14.Name" xml:space="preserve">
-    <value>buttonItem14</value>
+  <data name="&gt;&gt;buttonItemUserManager.Name" xml:space="preserve">
+    <value>buttonItemUserManager</value>
   </data>
-  <data name="&gt;&gt;buttonItem14.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonItemUserManager.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
   </data>
   <data name="&gt;&gt;buttonItemInformationInput.Name" xml:space="preserve">

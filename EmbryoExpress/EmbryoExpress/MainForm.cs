@@ -22,16 +22,30 @@ namespace EmbryoExpress
 
         private InputControl inputControl;
         private InformationControl informationControl;
+        private TasksControl tasksControl;
         public MainForm()
         {
             ToRestart = false;
             InitializeComponent();
             inputControl = new InputControl();
             informationControl = new InformationControl();
+            tasksControl = new TasksControl();
 
             inputControl.Dock = DockStyle.Fill;
             informationControl.Dock = DockStyle.Fill;
             this.panelEx1.Controls.Add(informationControl);
+
+            Program.SysConfig.UserRoleChanged += new EventHandler(SysConfig_UserRoleChanged);
+
+        }
+
+        private void SysConfig_UserRoleChanged(object sender, EventArgs e)
+        {
+            if (!Program.SysConfig.UserConfig.IsAdminLogin())
+            {
+                //buttonUserManager.Enabled = false;
+                buttonItemUserManager.Enabled = false;
+            }
         }
 
         private void buttonItemInformationInput_Click(object sender, EventArgs e)
@@ -49,7 +63,9 @@ namespace EmbryoExpress
 
         private void buttonItemQualityControlProcess_Click(object sender, EventArgs e)
         {
-
+            this.panelEx1.Controls.Clear();
+            tasksControl.Dock = DockStyle.Fill;
+            this.panelEx1.Controls.Add(tasksControl);
         }
 
         private void buttonItemDailyManagerment_Click(object sender, EventArgs e)
@@ -69,7 +85,8 @@ namespace EmbryoExpress
 
         private void buttonItem14_Click(object sender, EventArgs e)
         {
-
+            UserManagerForm userManagerForm = new UserManagerForm();
+            userManagerForm.ShowDialog();
         }
 
         private void MainForm_Load(object sender, EventArgs e)

@@ -54,6 +54,19 @@ namespace EmbryoExpress.SysClass
             UserConfig = new UserConfig();
         }
 
+        [field: NonSerialized]
+        public event EventHandler UserRoleChanged;
+
+        private void OnUserRoleChanged()
+        {
+            UserRoleChanged(null, null);
+        }
+
+        public void RaiseUserRoleChangedEvent()
+        {
+            OnUserRoleChanged();
+        }
+
         // set default value
         [OnDeserializing]
         private void OnDeserializing(StreamingContext sc)

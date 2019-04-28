@@ -235,6 +235,90 @@ namespace EmbryoExpress.SysClass
             }
         }
 
+        public bool ModifyUserInfo(string userName, string newUsername, 
+            string oldPassword, string Password1, string Password2,
+                bool needOldPassword, bool changeUserName,
+                bool changePassword, User.UserRoleType userRole)
+        {
+            if (changeUserName)
+            {
+                if (userName.ToUpper() == adminUser || userName.ToUpper() == serviceUser)
+                {
+                    MessageBox.Show(Res.User.StrModify_SystemUser, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+
+                if (GetRidOfSpecialChars(newUsername) != newUsername)
+                {
+                    MessageBox.Show(Res.User.StrAddUser_Characters, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+
+                if (newUsername.Length > 32 || newUsername.Length < 1)
+                {
+                    MessageBox.Show(Res.User.StrAddUser_NameTooLong, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+                if (IsUserExist(newUsername))
+                {
+                    MessageBox.Show(Res.User.StrAddUser_Exist, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+            }
+
+            User user = GetUserFromName(userName);
+            if (user == null) return false;
+
+            if (changePassword)
+            {
+                if (needOldPassword)
+                {
+                    if (oldPassword != user.UserPassword)
+                    {
+                        MessageBox.Show(Res.User.StrModify_PasswordError, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return false;
+                    }
+                }
+
+                if (Password1 == null)
+                {
+                    MessageBox.Show(Res.User.StrModify_InputNewPassword, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+
+                if (Password1 != Password2)
+                {
+                    MessageBox.Show(Res.User.StrModify_NewPasswordNotMatch, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+
+                if ((userName.ToUpper() == adminUser || userName.ToUpper() == serviceUser) && Password1.Length < 4)
+                {
+                    MessageBox.Show(Res.User.StrModify_AdminPasswordLength, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+
+                if (Password1.Length > 20)
+                {
+                    MessageBox.Show(Res.User.StrModify_PasswordTooLong, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+
+            }
+
+
+            if (changeUserName)
+            {
+                user.UserName = newUsername;
+            }
+            if (changePassword)
+            {
+                user.UserPassword = Password1;
+            }
+            user.UserRole = userRole;
+            return true;
+        }
+
         public bool AddUser(string userName, string userPassword1, string userPassword2, User.UserRoleType userRole)
         {
             if (_list.Count >= _maxUserNum)
@@ -301,6 +385,49 @@ namespace EmbryoExpress.SysClass
             }
             return false;
         }
+
+        public int GetPossibleAddNo()
+        {
+            int no = _maxUserNum - _list.Count;
+            no = no < 0 ? 0 : no;
+            return no;
+        }
+
+        public bool DeleteUser(string userName)
+        {
+            if (userName.ToUpper() == adminUser || userName.ToUpper() == serviceUser)
+            {
+                MessageBox.Show(Res.User.StrDeleteUser_SystemUser, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            if (MessageBox.Show(String.Format(Res.User.StrDeleteUser_SystemAsk, userName), Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
+            {
+                return false;
+            }
+
+            User user = GetUserFromName(userName);
+            if (_list.Remove(user))
+            {
+                return true;
+            }
+            else
+            {
+                MessageBox.Show(Res.User.StrDeleteUser_NotExist, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// if an administrator or service engineer log in
+        /// </summary>
+        /// <returns></returns>
+        public bool IsAdminLogin()
+        {
+            //return LoginUser.UserName.ToUpper() == serviceUser || LoginUser.UserName.ToUpper() == adminUser;
+            return IsAdminUser(LoginUser.UserName);
+        }
+
         public bool IsServiceengineerLogin()
         {
             return IsServiceengineer(LoginUser.UserName);

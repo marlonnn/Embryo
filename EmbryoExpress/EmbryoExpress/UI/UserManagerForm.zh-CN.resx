@@ -117,40 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="buttonItemCentralMonitor.Text" xml:space="preserve">
-    <value>中央监控</value>
-  </data>
-  <data name="buttonItemDailyManagerment.Text" xml:space="preserve">
-    <value>日常管理</value>
-  </data>
-  <data name="buttonItemInformationInput.Text" xml:space="preserve">
-    <value>信息录入</value>
-  </data>
-  <data name="buttonItemQualityControlProcess.Text" xml:space="preserve">
-    <value>质控流程</value>
-  </data>
-  <data name="buttonItemReportManagerment.Text" xml:space="preserve">
-    <value>报告管理</value>
-  </data>
-  <data name="buttonItemUserManager.Text" xml:space="preserve">
+  <data name="$this.Text" xml:space="preserve">
     <value>用户管理</value>
   </data>
-  <data name="labelItemLanguage.Text" xml:space="preserve">
-    <value>显示语言</value>
+  <data name="buttonAdd.Text" xml:space="preserve">
+    <value>添加用户</value>
   </data>
-  <data name="ribbonBar1.Text" xml:space="preserve">
-    <value>功能</value>
+  <data name="buttonDelete.Text" xml:space="preserve">
+    <value>删除</value>
   </data>
-  <data name="ribbonBar2.Text" xml:space="preserve">
-    <value>管理</value>
+  <data name="buttonModify.Text" xml:space="preserve">
+    <value>修改</value>
   </data>
-  <data name="ribbonBarSetting.Text" xml:space="preserve">
-    <value>语言</value>
-  </data>
-  <data name="ribbonTabItemHome.Text" xml:space="preserve">
-    <value>主页</value>
-  </data>
-  <data name="ribbonTabItemSetting.Text" xml:space="preserve">
-    <value>设置</value>
+  <data name="lblUsers.Text" xml:space="preserve">
+    <value>所有的用户：</value>
   </data>
 </root>
