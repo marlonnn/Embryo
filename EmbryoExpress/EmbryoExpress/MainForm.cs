@@ -20,18 +20,15 @@ namespace EmbryoExpress
 
         public bool ToRestart { get; set; }
 
-        private InputControl inputControl;
         private InformationControl informationControl;
         private TasksControl tasksControl;
         public MainForm()
         {
             ToRestart = false;
             InitializeComponent();
-            inputControl = new InputControl();
             informationControl = new InformationControl();
             tasksControl = new TasksControl();
 
-            inputControl.Dock = DockStyle.Fill;
             informationControl.Dock = DockStyle.Fill;
             this.panelEx1.Controls.Add(informationControl);
 
@@ -51,7 +48,6 @@ namespace EmbryoExpress
         private void buttonItemInformationInput_Click(object sender, EventArgs e)
         {
             this.panelEx1.Controls.Clear();
-            inputControl.Dock = DockStyle.Fill;
             informationControl.Dock = DockStyle.Fill;
             this.panelEx1.Controls.Add(informationControl);
         }

@@ -41,47 +41,59 @@
             this.txtCO2Concentration = new System.Windows.Forms.TextBox();
             this.lblCO2Concentration = new System.Windows.Forms.Label();
             this.lblUsageRecord = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtMicroUsageRecord = new System.Windows.Forms.TextBox();
             this.groupMicroscope = new DevExpress.XtraEditors.GroupControl();
             this.groupCylinder = new DevExpress.XtraEditors.GroupControl();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.txtCylinderUsageRercord = new System.Windows.Forms.TextBox();
+            this.lblCylingerUsageRecord = new System.Windows.Forms.Label();
             this.groupHotStage = new DevExpress.XtraEditors.GroupControl();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.txtHotStageUsageRercord = new System.Windows.Forms.TextBox();
+            this.lblHotStageUsageRercord = new System.Windows.Forms.Label();
             this.groupTemperatureLoweringInstrument = new DevExpress.XtraEditors.GroupControl();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtEndTemperature = new System.Windows.Forms.TextBox();
             this.lblEndTemperature = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtSeedTemperature = new System.Windows.Forms.TextBox();
             this.lblSeedTemperature = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.txtStartTemperature = new System.Windows.Forms.TextBox();
+            this.lblStartTemperature = new System.Windows.Forms.Label();
+            this.txtLiquidNitrogen = new System.Windows.Forms.TextBox();
+            this.lblLiquidNitrogen = new System.Windows.Forms.Label();
             this.groupFridge = new DevExpress.XtraEditors.GroupControl();
             this.txtFreezing = new System.Windows.Forms.TextBox();
             this.lblFreezing = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.txtColdStorage = new System.Windows.Forms.TextBox();
+            this.lblColdStorage = new System.Windows.Forms.Label();
+            this.txtFridgeTemperature = new System.Windows.Forms.TextBox();
+            this.lbFridgeTemperature = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.groupAirConditioner = new DevExpress.XtraEditors.GroupControl();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.lblAirUsageRecord = new System.Windows.Forms.Label();
+            this.txtAirHumidity = new System.Windows.Forms.TextBox();
+            this.lblAirHumidity = new System.Windows.Forms.Label();
+            this.txtAirTemperature = new System.Windows.Forms.TextBox();
+            this.lblAirTemperature = new System.Windows.Forms.Label();
+            this.txtAirUsageRecord = new System.Windows.Forms.TextBox();
             this.groupThermometer = new DevExpress.XtraEditors.GroupControl();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.txtThermoUsageRecord = new System.Windows.Forms.TextBox();
+            this.lblThermoUsageRecord = new System.Windows.Forms.Label();
             this.groupTimer = new DevExpress.XtraEditors.GroupControl();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.txtTimerUsageRecord = new System.Windows.Forms.TextBox();
+            this.lblTimerUsageRecord = new System.Windows.Forms.Label();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.txtCo2UsageRecord = new System.Windows.Forms.TextBox();
+            this.lblCo2UsageRecord = new System.Windows.Forms.Label();
+            this.txtMicroCleaning = new System.Windows.Forms.TextBox();
+            this.lblMicroClean = new System.Windows.Forms.Label();
+            this.txtPressure = new System.Windows.Forms.TextBox();
+            this.lblPressure = new System.Windows.Forms.Label();
+            this.txtHotStageTemperature = new System.Windows.Forms.TextBox();
+            this.lblHotStageTemperature = new System.Windows.Forms.Label();
+            this.txtThermCalibration = new System.Windows.Forms.TextBox();
+            this.lblThermometerCalubration = new System.Windows.Forms.Label();
+            this.txtTimerCalibration = new System.Windows.Forms.TextBox();
+            this.lblTimerCalibration = new System.Windows.Forms.Label();
+            this.txtCo2Calibration = new System.Windows.Forms.TextBox();
+            this.lblCo2Calibration = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.groupIncubator)).BeginInit();
             this.groupIncubator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupMicroscope)).BeginInit();
@@ -110,6 +122,7 @@
             this.groupIncubator.Appearance.Options.UseBackColor = true;
             this.groupIncubator.Appearance.Options.UseFont = true;
             this.groupIncubator.Appearance.Options.UseForeColor = true;
+            this.groupIncubator.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.groupIncubator.CaptionLocation = DevExpress.Utils.Locations.Top;
             this.groupIncubator.Controls.Add(this.txtCalibration);
             this.groupIncubator.Controls.Add(this.lblCalibration);
@@ -181,16 +194,20 @@
             resources.ApplyResources(this.lblUsageRecord, "lblUsageRecord");
             this.lblUsageRecord.Name = "lblUsageRecord";
             // 
-            // textBox5
+            // txtMicroUsageRecord
             // 
-            resources.ApplyResources(this.textBox5, "textBox5");
-            this.textBox5.Name = "textBox5";
+            this.txtMicroUsageRecord.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtMicroUsageRecord, "txtMicroUsageRecord");
+            this.txtMicroUsageRecord.Name = "txtMicroUsageRecord";
             // 
             // groupMicroscope
             // 
             this.groupMicroscope.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupMicroscope.Appearance.BackColor")));
             this.groupMicroscope.Appearance.Options.UseBackColor = true;
-            this.groupMicroscope.Controls.Add(this.textBox5);
+            this.groupMicroscope.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupMicroscope.Controls.Add(this.txtMicroCleaning);
+            this.groupMicroscope.Controls.Add(this.lblMicroClean);
+            this.groupMicroscope.Controls.Add(this.txtMicroUsageRecord);
             this.groupMicroscope.Controls.Add(this.lblUsageRecord);
             resources.ApplyResources(this.groupMicroscope, "groupMicroscope");
             this.groupMicroscope.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
@@ -201,111 +218,121 @@
             // 
             this.groupCylinder.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupCylinder.Appearance.BackColor")));
             this.groupCylinder.Appearance.Options.UseBackColor = true;
-            this.groupCylinder.Controls.Add(this.textBox2);
-            this.groupCylinder.Controls.Add(this.label2);
+            this.groupCylinder.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupCylinder.Controls.Add(this.txtPressure);
+            this.groupCylinder.Controls.Add(this.lblPressure);
+            this.groupCylinder.Controls.Add(this.txtCylinderUsageRercord);
+            this.groupCylinder.Controls.Add(this.lblCylingerUsageRecord);
             resources.ApplyResources(this.groupCylinder, "groupCylinder");
             this.groupCylinder.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
             this.groupCylinder.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupCylinder.Name = "groupCylinder";
             // 
-            // textBox2
+            // txtCylinderUsageRercord
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
+            this.txtCylinderUsageRercord.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCylinderUsageRercord, "txtCylinderUsageRercord");
+            this.txtCylinderUsageRercord.Name = "txtCylinderUsageRercord";
             // 
-            // label2
+            // lblCylingerUsageRecord
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
+            resources.ApplyResources(this.lblCylingerUsageRecord, "lblCylingerUsageRecord");
+            this.lblCylingerUsageRecord.Name = "lblCylingerUsageRecord";
             // 
             // groupHotStage
             // 
             this.groupHotStage.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupHotStage.Appearance.BackColor")));
             this.groupHotStage.Appearance.Options.UseBackColor = true;
-            this.groupHotStage.Controls.Add(this.textBox3);
-            this.groupHotStage.Controls.Add(this.label3);
+            this.groupHotStage.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupHotStage.Controls.Add(this.txtHotStageTemperature);
+            this.groupHotStage.Controls.Add(this.lblHotStageTemperature);
+            this.groupHotStage.Controls.Add(this.txtHotStageUsageRercord);
+            this.groupHotStage.Controls.Add(this.lblHotStageUsageRercord);
             resources.ApplyResources(this.groupHotStage, "groupHotStage");
             this.groupHotStage.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
             this.groupHotStage.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupHotStage.Name = "groupHotStage";
             // 
-            // textBox3
+            // txtHotStageUsageRercord
             // 
-            resources.ApplyResources(this.textBox3, "textBox3");
-            this.textBox3.Name = "textBox3";
+            this.txtHotStageUsageRercord.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtHotStageUsageRercord, "txtHotStageUsageRercord");
+            this.txtHotStageUsageRercord.Name = "txtHotStageUsageRercord";
             // 
-            // label3
+            // lblHotStageUsageRercord
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
+            resources.ApplyResources(this.lblHotStageUsageRercord, "lblHotStageUsageRercord");
+            this.lblHotStageUsageRercord.Name = "lblHotStageUsageRercord";
             // 
             // groupTemperatureLoweringInstrument
             // 
             this.groupTemperatureLoweringInstrument.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupTemperatureLoweringInstrument.Appearance.BackColor")));
             this.groupTemperatureLoweringInstrument.Appearance.Options.UseBackColor = true;
-            this.groupTemperatureLoweringInstrument.Controls.Add(this.textBox6);
+            this.groupTemperatureLoweringInstrument.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupTemperatureLoweringInstrument.Controls.Add(this.txtEndTemperature);
             this.groupTemperatureLoweringInstrument.Controls.Add(this.lblEndTemperature);
-            this.groupTemperatureLoweringInstrument.Controls.Add(this.textBox7);
+            this.groupTemperatureLoweringInstrument.Controls.Add(this.txtSeedTemperature);
             this.groupTemperatureLoweringInstrument.Controls.Add(this.lblSeedTemperature);
-            this.groupTemperatureLoweringInstrument.Controls.Add(this.textBox8);
-            this.groupTemperatureLoweringInstrument.Controls.Add(this.label7);
-            this.groupTemperatureLoweringInstrument.Controls.Add(this.textBox9);
-            this.groupTemperatureLoweringInstrument.Controls.Add(this.label8);
+            this.groupTemperatureLoweringInstrument.Controls.Add(this.txtStartTemperature);
+            this.groupTemperatureLoweringInstrument.Controls.Add(this.lblStartTemperature);
+            this.groupTemperatureLoweringInstrument.Controls.Add(this.txtLiquidNitrogen);
+            this.groupTemperatureLoweringInstrument.Controls.Add(this.lblLiquidNitrogen);
             resources.ApplyResources(this.groupTemperatureLoweringInstrument, "groupTemperatureLoweringInstrument");
             this.groupTemperatureLoweringInstrument.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
             this.groupTemperatureLoweringInstrument.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupTemperatureLoweringInstrument.Name = "groupTemperatureLoweringInstrument";
             // 
-            // textBox6
+            // txtEndTemperature
             // 
-            resources.ApplyResources(this.textBox6, "textBox6");
-            this.textBox6.Name = "textBox6";
+            resources.ApplyResources(this.txtEndTemperature, "txtEndTemperature");
+            this.txtEndTemperature.Name = "txtEndTemperature";
             // 
             // lblEndTemperature
             // 
             resources.ApplyResources(this.lblEndTemperature, "lblEndTemperature");
             this.lblEndTemperature.Name = "lblEndTemperature";
             // 
-            // textBox7
+            // txtSeedTemperature
             // 
-            resources.ApplyResources(this.textBox7, "textBox7");
-            this.textBox7.Name = "textBox7";
+            resources.ApplyResources(this.txtSeedTemperature, "txtSeedTemperature");
+            this.txtSeedTemperature.Name = "txtSeedTemperature";
             // 
             // lblSeedTemperature
             // 
             resources.ApplyResources(this.lblSeedTemperature, "lblSeedTemperature");
             this.lblSeedTemperature.Name = "lblSeedTemperature";
             // 
-            // textBox8
+            // txtStartTemperature
             // 
-            resources.ApplyResources(this.textBox8, "textBox8");
-            this.textBox8.Name = "textBox8";
+            resources.ApplyResources(this.txtStartTemperature, "txtStartTemperature");
+            this.txtStartTemperature.Name = "txtStartTemperature";
             // 
-            // label7
+            // lblStartTemperature
             // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
+            resources.ApplyResources(this.lblStartTemperature, "lblStartTemperature");
+            this.lblStartTemperature.Name = "lblStartTemperature";
             // 
-            // textBox9
+            // txtLiquidNitrogen
             // 
-            resources.ApplyResources(this.textBox9, "textBox9");
-            this.textBox9.Name = "textBox9";
+            resources.ApplyResources(this.txtLiquidNitrogen, "txtLiquidNitrogen");
+            this.txtLiquidNitrogen.Name = "txtLiquidNitrogen";
             // 
-            // label8
+            // lblLiquidNitrogen
             // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.Name = "label8";
+            resources.ApplyResources(this.lblLiquidNitrogen, "lblLiquidNitrogen");
+            this.lblLiquidNitrogen.Name = "lblLiquidNitrogen";
             // 
             // groupFridge
             // 
             this.groupFridge.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupFridge.Appearance.BackColor")));
             this.groupFridge.Appearance.Options.UseBackColor = true;
+            this.groupFridge.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.groupFridge.Controls.Add(this.txtFreezing);
             this.groupFridge.Controls.Add(this.lblFreezing);
-            this.groupFridge.Controls.Add(this.textBox11);
-            this.groupFridge.Controls.Add(this.label5);
-            this.groupFridge.Controls.Add(this.textBox10);
-            this.groupFridge.Controls.Add(this.label4);
+            this.groupFridge.Controls.Add(this.txtColdStorage);
+            this.groupFridge.Controls.Add(this.lblColdStorage);
+            this.groupFridge.Controls.Add(this.txtFridgeTemperature);
+            this.groupFridge.Controls.Add(this.lbFridgeTemperature);
             this.groupFridge.Controls.Add(this.textBox4);
             resources.ApplyResources(this.groupFridge, "groupFridge");
             this.groupFridge.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
@@ -322,28 +349,29 @@
             resources.ApplyResources(this.lblFreezing, "lblFreezing");
             this.lblFreezing.Name = "lblFreezing";
             // 
-            // textBox11
+            // txtColdStorage
             // 
-            resources.ApplyResources(this.textBox11, "textBox11");
-            this.textBox11.Name = "textBox11";
+            resources.ApplyResources(this.txtColdStorage, "txtColdStorage");
+            this.txtColdStorage.Name = "txtColdStorage";
             // 
-            // label5
+            // lblColdStorage
             // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
+            resources.ApplyResources(this.lblColdStorage, "lblColdStorage");
+            this.lblColdStorage.Name = "lblColdStorage";
             // 
-            // textBox10
+            // txtFridgeTemperature
             // 
-            resources.ApplyResources(this.textBox10, "textBox10");
-            this.textBox10.Name = "textBox10";
+            resources.ApplyResources(this.txtFridgeTemperature, "txtFridgeTemperature");
+            this.txtFridgeTemperature.Name = "txtFridgeTemperature";
             // 
-            // label4
+            // lbFridgeTemperature
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
+            resources.ApplyResources(this.lbFridgeTemperature, "lbFridgeTemperature");
+            this.lbFridgeTemperature.Name = "lbFridgeTemperature";
             // 
             // textBox4
             // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.textBox4, "textBox4");
             this.textBox4.Name = "textBox4";
             // 
@@ -351,109 +379,183 @@
             // 
             this.groupAirConditioner.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupAirConditioner.Appearance.BackColor")));
             this.groupAirConditioner.Appearance.Options.UseBackColor = true;
-            this.groupAirConditioner.Controls.Add(this.label6);
-            this.groupAirConditioner.Controls.Add(this.textBox13);
-            this.groupAirConditioner.Controls.Add(this.label9);
-            this.groupAirConditioner.Controls.Add(this.textBox14);
-            this.groupAirConditioner.Controls.Add(this.label10);
-            this.groupAirConditioner.Controls.Add(this.textBox15);
+            this.groupAirConditioner.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupAirConditioner.Controls.Add(this.lblAirUsageRecord);
+            this.groupAirConditioner.Controls.Add(this.txtAirHumidity);
+            this.groupAirConditioner.Controls.Add(this.lblAirHumidity);
+            this.groupAirConditioner.Controls.Add(this.txtAirTemperature);
+            this.groupAirConditioner.Controls.Add(this.lblAirTemperature);
+            this.groupAirConditioner.Controls.Add(this.txtAirUsageRecord);
             resources.ApplyResources(this.groupAirConditioner, "groupAirConditioner");
             this.groupAirConditioner.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
             this.groupAirConditioner.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupAirConditioner.Name = "groupAirConditioner";
             // 
-            // label6
+            // lblAirUsageRecord
             // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
+            resources.ApplyResources(this.lblAirUsageRecord, "lblAirUsageRecord");
+            this.lblAirUsageRecord.Name = "lblAirUsageRecord";
             // 
-            // textBox13
+            // txtAirHumidity
             // 
-            resources.ApplyResources(this.textBox13, "textBox13");
-            this.textBox13.Name = "textBox13";
+            resources.ApplyResources(this.txtAirHumidity, "txtAirHumidity");
+            this.txtAirHumidity.Name = "txtAirHumidity";
             // 
-            // label9
+            // lblAirHumidity
             // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.Name = "label9";
+            resources.ApplyResources(this.lblAirHumidity, "lblAirHumidity");
+            this.lblAirHumidity.Name = "lblAirHumidity";
             // 
-            // textBox14
+            // txtAirTemperature
             // 
-            resources.ApplyResources(this.textBox14, "textBox14");
-            this.textBox14.Name = "textBox14";
+            resources.ApplyResources(this.txtAirTemperature, "txtAirTemperature");
+            this.txtAirTemperature.Name = "txtAirTemperature";
             // 
-            // label10
+            // lblAirTemperature
             // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.Name = "label10";
+            resources.ApplyResources(this.lblAirTemperature, "lblAirTemperature");
+            this.lblAirTemperature.Name = "lblAirTemperature";
             // 
-            // textBox15
+            // txtAirUsageRecord
             // 
-            resources.ApplyResources(this.textBox15, "textBox15");
-            this.textBox15.Name = "textBox15";
+            this.txtAirUsageRecord.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtAirUsageRecord, "txtAirUsageRecord");
+            this.txtAirUsageRecord.Name = "txtAirUsageRecord";
             // 
             // groupThermometer
             // 
             this.groupThermometer.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupThermometer.Appearance.BackColor")));
             this.groupThermometer.Appearance.Options.UseBackColor = true;
-            this.groupThermometer.Controls.Add(this.textBox12);
-            this.groupThermometer.Controls.Add(this.label11);
+            this.groupThermometer.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupThermometer.Controls.Add(this.txtThermCalibration);
+            this.groupThermometer.Controls.Add(this.lblThermometerCalubration);
+            this.groupThermometer.Controls.Add(this.txtThermoUsageRecord);
+            this.groupThermometer.Controls.Add(this.lblThermoUsageRecord);
             resources.ApplyResources(this.groupThermometer, "groupThermometer");
             this.groupThermometer.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
             this.groupThermometer.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupThermometer.Name = "groupThermometer";
             // 
-            // textBox12
+            // txtThermoUsageRecord
             // 
-            resources.ApplyResources(this.textBox12, "textBox12");
-            this.textBox12.Name = "textBox12";
+            this.txtThermoUsageRecord.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtThermoUsageRecord, "txtThermoUsageRecord");
+            this.txtThermoUsageRecord.Name = "txtThermoUsageRecord";
             // 
-            // label11
+            // lblThermoUsageRecord
             // 
-            resources.ApplyResources(this.label11, "label11");
-            this.label11.Name = "label11";
+            resources.ApplyResources(this.lblThermoUsageRecord, "lblThermoUsageRecord");
+            this.lblThermoUsageRecord.Name = "lblThermoUsageRecord";
             // 
             // groupTimer
             // 
             this.groupTimer.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupTimer.Appearance.BackColor")));
             this.groupTimer.Appearance.Options.UseBackColor = true;
-            this.groupTimer.Controls.Add(this.textBox16);
-            this.groupTimer.Controls.Add(this.label12);
+            this.groupTimer.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupTimer.Controls.Add(this.txtTimerCalibration);
+            this.groupTimer.Controls.Add(this.lblTimerCalibration);
+            this.groupTimer.Controls.Add(this.txtTimerUsageRecord);
+            this.groupTimer.Controls.Add(this.lblTimerUsageRecord);
             resources.ApplyResources(this.groupTimer, "groupTimer");
             this.groupTimer.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
             this.groupTimer.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupTimer.Name = "groupTimer";
             // 
-            // textBox16
+            // txtTimerUsageRecord
             // 
-            resources.ApplyResources(this.textBox16, "textBox16");
-            this.textBox16.Name = "textBox16";
+            this.txtTimerUsageRecord.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtTimerUsageRecord, "txtTimerUsageRecord");
+            this.txtTimerUsageRecord.Name = "txtTimerUsageRecord";
             // 
-            // label12
+            // lblTimerUsageRecord
             // 
-            resources.ApplyResources(this.label12, "label12");
-            this.label12.Name = "label12";
+            resources.ApplyResources(this.lblTimerUsageRecord, "lblTimerUsageRecord");
+            this.lblTimerUsageRecord.Name = "lblTimerUsageRecord";
             // 
             // groupControl2
             // 
             this.groupControl2.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupControl2.Appearance.BackColor")));
             this.groupControl2.Appearance.Options.UseBackColor = true;
-            this.groupControl2.Controls.Add(this.textBox17);
-            this.groupControl2.Controls.Add(this.label13);
+            this.groupControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupControl2.Controls.Add(this.txtCo2Calibration);
+            this.groupControl2.Controls.Add(this.lblCo2Calibration);
+            this.groupControl2.Controls.Add(this.txtCo2UsageRecord);
+            this.groupControl2.Controls.Add(this.lblCo2UsageRecord);
             resources.ApplyResources(this.groupControl2, "groupControl2");
             this.groupControl2.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
             this.groupControl2.LookAndFeel.UseDefaultLookAndFeel = false;
             this.groupControl2.Name = "groupControl2";
             // 
-            // textBox17
+            // txtCo2UsageRecord
             // 
-            resources.ApplyResources(this.textBox17, "textBox17");
-            this.textBox17.Name = "textBox17";
+            this.txtCo2UsageRecord.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCo2UsageRecord, "txtCo2UsageRecord");
+            this.txtCo2UsageRecord.Name = "txtCo2UsageRecord";
             // 
-            // label13
+            // lblCo2UsageRecord
             // 
-            resources.ApplyResources(this.label13, "label13");
-            this.label13.Name = "label13";
+            resources.ApplyResources(this.lblCo2UsageRecord, "lblCo2UsageRecord");
+            this.lblCo2UsageRecord.Name = "lblCo2UsageRecord";
+            // 
+            // txtMicroCleaning
+            // 
+            resources.ApplyResources(this.txtMicroCleaning, "txtMicroCleaning");
+            this.txtMicroCleaning.Name = "txtMicroCleaning";
+            // 
+            // lblMicroClean
+            // 
+            resources.ApplyResources(this.lblMicroClean, "lblMicroClean");
+            this.lblMicroClean.Name = "lblMicroClean";
+            // 
+            // txtPressure
+            // 
+            resources.ApplyResources(this.txtPressure, "txtPressure");
+            this.txtPressure.Name = "txtPressure";
+            // 
+            // lblPressure
+            // 
+            resources.ApplyResources(this.lblPressure, "lblPressure");
+            this.lblPressure.Name = "lblPressure";
+            // 
+            // txtHotStageTemperature
+            // 
+            resources.ApplyResources(this.txtHotStageTemperature, "txtHotStageTemperature");
+            this.txtHotStageTemperature.Name = "txtHotStageTemperature";
+            // 
+            // lblHotStageTemperature
+            // 
+            resources.ApplyResources(this.lblHotStageTemperature, "lblHotStageTemperature");
+            this.lblHotStageTemperature.Name = "lblHotStageTemperature";
+            // 
+            // txtThermCalibration
+            // 
+            resources.ApplyResources(this.txtThermCalibration, "txtThermCalibration");
+            this.txtThermCalibration.Name = "txtThermCalibration";
+            // 
+            // lblThermometerCalubration
+            // 
+            resources.ApplyResources(this.lblThermometerCalubration, "lblThermometerCalubration");
+            this.lblThermometerCalubration.Name = "lblThermometerCalubration";
+            // 
+            // txtTimerCalibration
+            // 
+            resources.ApplyResources(this.txtTimerCalibration, "txtTimerCalibration");
+            this.txtTimerCalibration.Name = "txtTimerCalibration";
+            // 
+            // lblTimerCalibration
+            // 
+            resources.ApplyResources(this.lblTimerCalibration, "lblTimerCalibration");
+            this.lblTimerCalibration.Name = "lblTimerCalibration";
+            // 
+            // txtCo2Calibration
+            // 
+            resources.ApplyResources(this.txtCo2Calibration, "txtCo2Calibration");
+            this.txtCo2Calibration.Name = "txtCo2Calibration";
+            // 
+            // lblCo2Calibration
+            // 
+            resources.ApplyResources(this.lblCo2Calibration, "lblCo2Calibration");
+            this.lblCo2Calibration.Name = "lblCo2Calibration";
             // 
             // InformationControl
             // 
@@ -519,46 +621,58 @@
         private System.Windows.Forms.TextBox txtCO2Concentration;
         private System.Windows.Forms.Label lblCO2Concentration;
         private System.Windows.Forms.Label lblUsageRecord;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtMicroUsageRecord;
         private DevExpress.XtraEditors.GroupControl groupMicroscope;
         private DevExpress.XtraEditors.GroupControl groupCylinder;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtCylinderUsageRercord;
+        private System.Windows.Forms.Label lblCylingerUsageRecord;
         private DevExpress.XtraEditors.GroupControl groupHotStage;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtHotStageUsageRercord;
+        private System.Windows.Forms.Label lblHotStageUsageRercord;
         private DevExpress.XtraEditors.GroupControl groupTemperatureLoweringInstrument;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtEndTemperature;
         private System.Windows.Forms.Label lblEndTemperature;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtSeedTemperature;
         private System.Windows.Forms.Label lblSeedTemperature;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtStartTemperature;
+        private System.Windows.Forms.Label lblStartTemperature;
+        private System.Windows.Forms.TextBox txtLiquidNitrogen;
+        private System.Windows.Forms.Label lblLiquidNitrogen;
         private DevExpress.XtraEditors.GroupControl groupFridge;
         private System.Windows.Forms.TextBox txtFreezing;
         private System.Windows.Forms.Label lblFreezing;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtColdStorage;
+        private System.Windows.Forms.Label lblColdStorage;
+        private System.Windows.Forms.TextBox txtFridgeTemperature;
+        private System.Windows.Forms.Label lbFridgeTemperature;
         private System.Windows.Forms.TextBox textBox4;
         private DevExpress.XtraEditors.GroupControl groupAirConditioner;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label lblAirUsageRecord;
+        private System.Windows.Forms.TextBox txtAirHumidity;
+        private System.Windows.Forms.Label lblAirHumidity;
+        private System.Windows.Forms.TextBox txtAirTemperature;
+        private System.Windows.Forms.Label lblAirTemperature;
+        private System.Windows.Forms.TextBox txtAirUsageRecord;
         private DevExpress.XtraEditors.GroupControl groupThermometer;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtThermoUsageRecord;
+        private System.Windows.Forms.Label lblThermoUsageRecord;
         private DevExpress.XtraEditors.GroupControl groupTimer;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtTimerUsageRecord;
+        private System.Windows.Forms.Label lblTimerUsageRecord;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtCo2UsageRecord;
+        private System.Windows.Forms.Label lblCo2UsageRecord;
+        private System.Windows.Forms.TextBox txtMicroCleaning;
+        private System.Windows.Forms.Label lblMicroClean;
+        private System.Windows.Forms.TextBox txtPressure;
+        private System.Windows.Forms.Label lblPressure;
+        private System.Windows.Forms.TextBox txtHotStageTemperature;
+        private System.Windows.Forms.Label lblHotStageTemperature;
+        private System.Windows.Forms.TextBox txtThermCalibration;
+        private System.Windows.Forms.Label lblThermometerCalubration;
+        private System.Windows.Forms.TextBox txtTimerCalibration;
+        private System.Windows.Forms.Label lblTimerCalibration;
+        private System.Windows.Forms.TextBox txtCo2Calibration;
+        private System.Windows.Forms.Label lblCo2Calibration;
     }
 }

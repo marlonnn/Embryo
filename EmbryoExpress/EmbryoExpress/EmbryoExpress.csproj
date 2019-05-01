@@ -68,12 +68,6 @@
     <Compile Include="BaseFunction.cs" />
     <Compile Include="CultureSettings.cs" />
     <Compile Include="ExtensionMethods.cs" />
-    <Compile Include="InputControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="InputControl.Designer.cs">
-      <DependentUpon>InputControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +98,7 @@
     <Compile Include="SysClass\CustomAttrs.cs" />
     <Compile Include="SysClass\SysConfig.cs" />
     <Compile Include="SysClass\User.cs" />
+    <Compile Include="Task.cs" />
     <Compile Include="UI\AddUserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,12 +113,6 @@
     </Compile>
     <Compile Include="UI\InformationControl.Designer.cs">
       <DependentUpon>InformationControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI\InformationInputControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UI\InformationInputControl.Designer.cs">
-      <DependentUpon>InformationInputControl.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\ModifyUserForm.cs">
       <SubType>Form</SubType>
@@ -161,12 +150,6 @@
     <Compile Include="UI\UserManagerForm.Designer.cs">
       <DependentUpon>UserManagerForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="InputControl.resx">
-      <DependentUpon>InputControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InputControl.zh-CN.resx">
-      <DependentUpon>InputControl.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -209,12 +192,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\InformationControl.zh-CN.resx">
       <DependentUpon>InformationControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI\InformationInputControl.resx">
-      <DependentUpon>InformationInputControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI\InformationInputControl.zh-CN.resx">
-      <DependentUpon>InformationInputControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\ModifyUserForm.resx">
       <DependentUpon>ModifyUserForm.cs</DependentUpon>

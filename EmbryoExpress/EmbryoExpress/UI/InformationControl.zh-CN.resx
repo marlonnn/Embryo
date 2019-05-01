@@ -210,4 +210,61 @@
   <data name="lblUsageRecord.Text" xml:space="preserve">
     <value>使用记录：</value>
   </data>
+  <data name="lbFridgeTemperature.Text" xml:space="preserve">
+    <value>温度：</value>
+  </data>
+  <data name="lblAirHumidity.Text" xml:space="preserve">
+    <value>湿度：</value>
+  </data>
+  <data name="lblAirTemperature.Text" xml:space="preserve">
+    <value>温度：</value>
+  </data>
+  <data name="lblAirUsageRecord.Text" xml:space="preserve">
+    <value>使用记录：</value>
+  </data>
+  <data name="lblCo2Calibration.Text" xml:space="preserve">
+    <value>校准：</value>
+  </data>
+  <data name="lblCo2UsageRecord.Text" xml:space="preserve">
+    <value>使用记录：</value>
+  </data>
+  <data name="lblColdStorage.Text" xml:space="preserve">
+    <value>冷藏：</value>
+  </data>
+  <data name="lblCylingerUsageRecord.Text" xml:space="preserve">
+    <value>使用记录：</value>
+  </data>
+  <data name="lblFreezing.Text1" xml:space="preserve">
+    <value>冷冻：</value>
+  </data>
+  <data name="lblHotStageTemperature.Text" xml:space="preserve">
+    <value>温度：</value>
+  </data>
+  <data name="lblHotStageUsageRercord.Text" xml:space="preserve">
+    <value>使用记录：</value>
+  </data>
+  <data name="lblLiquidNitrogen.Text" xml:space="preserve">
+    <value>液氮罐：</value>
+  </data>
+  <data name="lblMicroClean.Text" xml:space="preserve">
+    <value>清洁：</value>
+  </data>
+  <data name="lblPressure.Text" xml:space="preserve">
+    <value>压力：</value>
+  </data>
+  <data name="lblStartTemperature.Text" xml:space="preserve">
+    <value>开始温度：</value>
+  </data>
+  <data name="lblThermometerCalubration.Text" xml:space="preserve">
+    <value>校准：</value>
+  </data>
+  <data name="lblThermoUsageRecord.Text" xml:space="preserve">
+    <value>使用记录：</value>
+  </data>
+  <data name="lblTimerCalibration.Text" xml:space="preserve">
+    <value>校准：</value>
+  </data>
+  <data name="lblTimerUsageRecord.Text" xml:space="preserve">
+    <value>使用记录：</value>
+  </data>
 </root>

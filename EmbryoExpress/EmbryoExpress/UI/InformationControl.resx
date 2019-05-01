@@ -147,7 +147,7 @@
     <value>True</value>
   </data>
   <data name="lblCalibration.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 193</value>
+    <value>4, 193</value>
   </data>
   <data name="lblCalibration.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 14</value>
@@ -195,7 +195,7 @@
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 156</value>
+    <value>4, 156</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 14</value>
@@ -243,7 +243,7 @@
     <value>True</value>
   </data>
   <data name="lblMaintenance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 116</value>
+    <value>4, 116</value>
   </data>
   <data name="lblMaintenance.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 14</value>
@@ -294,7 +294,7 @@
     <value>True</value>
   </data>
   <data name="lblTemperature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 79</value>
+    <value>4, 79</value>
   </data>
   <data name="lblTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 14</value>
@@ -345,7 +345,7 @@
     <value>True</value>
   </data>
   <data name="lblCO2Concentration.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 40</value>
+    <value>4, 40</value>
   </data>
   <data name="lblCO2Concentration.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 14</value>
@@ -396,7 +396,7 @@
     <value>True</value>
   </data>
   <data name="lblUsageRecord.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 40</value>
+    <value>5, 84</value>
   </data>
   <data name="lblUsageRecord.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 14</value>
@@ -417,34 +417,86 @@
     <value>groupMicroscope</value>
   </data>
   <data name="&gt;&gt;lblUsageRecord.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 76</value>
-  </data>
-  <data name="textBox5.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 136</value>
-  </data>
-  <data name="textBox5.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
-    <value>textBox5</value>
+  <data name="txtMicroUsageRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 116</value>
   </data>
-  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
+  <data name="txtMicroUsageRecord.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMicroUsageRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 96</value>
+  </data>
+  <data name="txtMicroUsageRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtMicroUsageRecord.Name" xml:space="preserve">
+    <value>txtMicroUsageRecord</value>
+  </data>
+  <data name="&gt;&gt;txtMicroUsageRecord.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtMicroUsageRecord.Parent" xml:space="preserve">
     <value>groupMicroscope</value>
   </data>
-  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;txtMicroUsageRecord.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="groupMicroscope.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>230, 239, 249</value>
+  </data>
+  <data name="txtMicroCleaning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 37</value>
+  </data>
+  <data name="txtMicroCleaning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="txtMicroCleaning.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtMicroCleaning.Name" xml:space="preserve">
+    <value>txtMicroCleaning</value>
+  </data>
+  <data name="&gt;&gt;txtMicroCleaning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMicroCleaning.Parent" xml:space="preserve">
+    <value>groupMicroscope</value>
+  </data>
+  <data name="&gt;&gt;txtMicroCleaning.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMicroClean.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblMicroClean.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMicroClean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 40</value>
+  </data>
+  <data name="lblMicroClean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 14</value>
+  </data>
+  <data name="lblMicroClean.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblMicroClean.Text" xml:space="preserve">
+    <value>Cleaning：</value>
+  </data>
+  <data name="&gt;&gt;lblMicroClean.Name" xml:space="preserve">
+    <value>lblMicroClean</value>
+  </data>
+  <data name="&gt;&gt;lblMicroClean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMicroClean.Parent" xml:space="preserve">
+    <value>groupMicroscope</value>
+  </data>
+  <data name="&gt;&gt;lblMicroClean.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="groupMicroscope.Location" type="System.Drawing.Point, System.Drawing">
     <value>257, 3</value>
@@ -473,56 +525,107 @@
   <data name="groupCylinder.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>230, 239, 249</value>
   </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 76</value>
+  <data name="txtPressure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 37</value>
   </data>
-  <data name="textBox2.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="txtPressure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
   </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 136</value>
+  <data name="txtPressure.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;txtPressure.Name" xml:space="preserve">
+    <value>txtPressure</value>
   </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtPressure.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtPressure.Parent" xml:space="preserve">
     <value>groupCylinder</value>
   </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtPressure.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblPressure.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblPressure.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPressure.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 40</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 14</value>
+  <data name="lblPressure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 14</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblPressure.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Usage Record:</value>
+  <data name="lblPressure.Text" xml:space="preserve">
+    <value>Pressure：</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
+  <data name="&gt;&gt;lblPressure.Name" xml:space="preserve">
+    <value>lblPressure</value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblPressure.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblPressure.Parent" xml:space="preserve">
     <value>groupCylinder</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblPressure.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="txtCylinderUsageRercord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 116</value>
+  </data>
+  <data name="txtCylinderUsageRercord.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCylinderUsageRercord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 96</value>
+  </data>
+  <data name="txtCylinderUsageRercord.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtCylinderUsageRercord.Name" xml:space="preserve">
+    <value>txtCylinderUsageRercord</value>
+  </data>
+  <data name="&gt;&gt;txtCylinderUsageRercord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCylinderUsageRercord.Parent" xml:space="preserve">
+    <value>groupCylinder</value>
+  </data>
+  <data name="&gt;&gt;txtCylinderUsageRercord.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblCylingerUsageRecord.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCylingerUsageRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 84</value>
+  </data>
+  <data name="lblCylingerUsageRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 14</value>
+  </data>
+  <data name="lblCylingerUsageRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblCylingerUsageRecord.Text" xml:space="preserve">
+    <value>Usage Record:</value>
+  </data>
+  <data name="&gt;&gt;lblCylingerUsageRecord.Name" xml:space="preserve">
+    <value>lblCylingerUsageRecord</value>
+  </data>
+  <data name="&gt;&gt;lblCylingerUsageRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCylingerUsageRecord.Parent" xml:space="preserve">
+    <value>groupCylinder</value>
+  </data>
+  <data name="&gt;&gt;lblCylingerUsageRecord.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="groupCylinder.Location" type="System.Drawing.Point, System.Drawing">
     <value>511, 3</value>
@@ -551,56 +654,110 @@
   <data name="groupHotStage.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>230, 239, 249</value>
   </data>
-  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 76</value>
+  <data name="txtHotStageTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 37</value>
   </data>
-  <data name="textBox3.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="txtHotStageTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
   </data>
-  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 136</value>
+  <data name="txtHotStageTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="txtHotStageTemperature.Text" xml:space="preserve">
+    <value>28℃</value>
   </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
+  <data name="&gt;&gt;txtHotStageTemperature.Name" xml:space="preserve">
+    <value>txtHotStageTemperature</value>
   </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtHotStageTemperature.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtHotStageTemperature.Parent" xml:space="preserve">
     <value>groupHotStage</value>
   </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtHotStageTemperature.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblHotStageTemperature.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 40</value>
+  <data name="lblHotStageTemperature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 14</value>
+  <data name="lblHotStageTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 40</value>
   </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblHotStageTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 14</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Usage Record:</value>
+  <data name="lblHotStageTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
+  <data name="lblHotStageTemperature.Text" xml:space="preserve">
+    <value>Temperature:</value>
   </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblHotStageTemperature.Name" xml:space="preserve">
+    <value>lblHotStageTemperature</value>
+  </data>
+  <data name="&gt;&gt;lblHotStageTemperature.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblHotStageTemperature.Parent" xml:space="preserve">
     <value>groupHotStage</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblHotStageTemperature.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="txtHotStageUsageRercord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 116</value>
+  </data>
+  <data name="txtHotStageUsageRercord.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHotStageUsageRercord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 96</value>
+  </data>
+  <data name="txtHotStageUsageRercord.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtHotStageUsageRercord.Name" xml:space="preserve">
+    <value>txtHotStageUsageRercord</value>
+  </data>
+  <data name="&gt;&gt;txtHotStageUsageRercord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHotStageUsageRercord.Parent" xml:space="preserve">
+    <value>groupHotStage</value>
+  </data>
+  <data name="&gt;&gt;txtHotStageUsageRercord.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblHotStageUsageRercord.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHotStageUsageRercord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 84</value>
+  </data>
+  <data name="lblHotStageUsageRercord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 14</value>
+  </data>
+  <data name="lblHotStageUsageRercord.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblHotStageUsageRercord.Text" xml:space="preserve">
+    <value>Usage Record:</value>
+  </data>
+  <data name="&gt;&gt;lblHotStageUsageRercord.Name" xml:space="preserve">
+    <value>lblHotStageUsageRercord</value>
+  </data>
+  <data name="&gt;&gt;lblHotStageUsageRercord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHotStageUsageRercord.Parent" xml:space="preserve">
+    <value>groupHotStage</value>
+  </data>
+  <data name="&gt;&gt;lblHotStageUsageRercord.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="groupHotStage.Location" type="System.Drawing.Point, System.Drawing">
     <value>765, 3</value>
@@ -629,28 +786,28 @@
   <data name="groupTemperatureLoweringInstrument.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>230, 239, 249</value>
   </data>
-  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtEndTemperature.Location" type="System.Drawing.Point, System.Drawing">
     <value>143, 148</value>
   </data>
-  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtEndTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="textBox6.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtEndTemperature.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="textBox6.Text" xml:space="preserve">
+  <data name="txtEndTemperature.Text" xml:space="preserve">
     <value>-15℃</value>
   </data>
-  <data name="&gt;&gt;textBox6.Name" xml:space="preserve">
-    <value>textBox6</value>
+  <data name="&gt;&gt;txtEndTemperature.Name" xml:space="preserve">
+    <value>txtEndTemperature</value>
   </data>
-  <data name="&gt;&gt;textBox6.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtEndTemperature.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtEndTemperature.Parent" xml:space="preserve">
     <value>groupTemperatureLoweringInstrument</value>
   </data>
-  <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtEndTemperature.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="lblEndTemperature.AutoSize" type="System.Boolean, mscorlib">
@@ -680,28 +837,28 @@
   <data name="&gt;&gt;lblEndTemperature.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtSeedTemperature.Location" type="System.Drawing.Point, System.Drawing">
     <value>143, 113</value>
   </data>
-  <data name="textBox7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtSeedTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="textBox7.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtSeedTemperature.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="textBox7.Text" xml:space="preserve">
+  <data name="txtSeedTemperature.Text" xml:space="preserve">
     <value>-10℃</value>
   </data>
-  <data name="&gt;&gt;textBox7.Name" xml:space="preserve">
-    <value>textBox7</value>
+  <data name="&gt;&gt;txtSeedTemperature.Name" xml:space="preserve">
+    <value>txtSeedTemperature</value>
   </data>
-  <data name="&gt;&gt;textBox7.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtSeedTemperature.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtSeedTemperature.Parent" xml:space="preserve">
     <value>groupTemperatureLoweringInstrument</value>
   </data>
-  <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtSeedTemperature.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="lblSeedTemperature.AutoSize" type="System.Boolean, mscorlib">
@@ -731,106 +888,106 @@
   <data name="&gt;&gt;lblSeedTemperature.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtStartTemperature.Location" type="System.Drawing.Point, System.Drawing">
     <value>143, 76</value>
   </data>
-  <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtStartTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="textBox8.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtStartTemperature.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="textBox8.Text" xml:space="preserve">
+  <data name="txtStartTemperature.Text" xml:space="preserve">
     <value>28℃</value>
   </data>
-  <data name="&gt;&gt;textBox8.Name" xml:space="preserve">
-    <value>textBox8</value>
+  <data name="&gt;&gt;txtStartTemperature.Name" xml:space="preserve">
+    <value>txtStartTemperature</value>
   </data>
-  <data name="&gt;&gt;textBox8.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtStartTemperature.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtStartTemperature.Parent" xml:space="preserve">
     <value>groupTemperatureLoweringInstrument</value>
   </data>
-  <data name="&gt;&gt;textBox8.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtStartTemperature.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblStartTemperature.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblStartTemperature.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 79</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblStartTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 14</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblStartTemperature.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
+  <data name="lblStartTemperature.Text" xml:space="preserve">
     <value>Start Temperature:</value>
   </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
+  <data name="&gt;&gt;lblStartTemperature.Name" xml:space="preserve">
+    <value>lblStartTemperature</value>
   </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblStartTemperature.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblStartTemperature.Parent" xml:space="preserve">
     <value>groupTemperatureLoweringInstrument</value>
   </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblStartTemperature.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="textBox9.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtLiquidNitrogen.Location" type="System.Drawing.Point, System.Drawing">
     <value>143, 37</value>
   </data>
-  <data name="textBox9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtLiquidNitrogen.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="textBox9.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtLiquidNitrogen.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="textBox9.Text" xml:space="preserve">
+  <data name="txtLiquidNitrogen.Text" xml:space="preserve">
     <value>45%</value>
   </data>
-  <data name="&gt;&gt;textBox9.Name" xml:space="preserve">
-    <value>textBox9</value>
+  <data name="&gt;&gt;txtLiquidNitrogen.Name" xml:space="preserve">
+    <value>txtLiquidNitrogen</value>
   </data>
-  <data name="&gt;&gt;textBox9.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtLiquidNitrogen.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtLiquidNitrogen.Parent" xml:space="preserve">
     <value>groupTemperatureLoweringInstrument</value>
   </data>
-  <data name="&gt;&gt;textBox9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtLiquidNitrogen.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblLiquidNitrogen.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblLiquidNitrogen.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 40</value>
   </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblLiquidNitrogen.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 14</value>
   </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblLiquidNitrogen.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label8.Text" xml:space="preserve">
+  <data name="lblLiquidNitrogen.Text" xml:space="preserve">
     <value>Liquid Nitrogen:</value>
   </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
+  <data name="&gt;&gt;lblLiquidNitrogen.Name" xml:space="preserve">
+    <value>lblLiquidNitrogen</value>
   </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblLiquidNitrogen.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblLiquidNitrogen.Parent" xml:space="preserve">
     <value>groupTemperatureLoweringInstrument</value>
   </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblLiquidNitrogen.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
   <data name="groupTemperatureLoweringInstrument.Location" type="System.Drawing.Point, System.Drawing">
@@ -911,106 +1068,106 @@
   <data name="&gt;&gt;lblFreezing.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="textBox11.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtColdStorage.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 68</value>
   </data>
-  <data name="textBox11.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtColdStorage.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="textBox11.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtColdStorage.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="textBox11.Text" xml:space="preserve">
+  <data name="txtColdStorage.Text" xml:space="preserve">
     <value>2℃~8℃</value>
   </data>
-  <data name="&gt;&gt;textBox11.Name" xml:space="preserve">
-    <value>textBox11</value>
+  <data name="&gt;&gt;txtColdStorage.Name" xml:space="preserve">
+    <value>txtColdStorage</value>
   </data>
-  <data name="&gt;&gt;textBox11.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtColdStorage.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox11.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtColdStorage.Parent" xml:space="preserve">
     <value>groupFridge</value>
   </data>
-  <data name="&gt;&gt;textBox11.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtColdStorage.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblColdStorage.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblColdStorage.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 71</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblColdStorage.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 14</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblColdStorage.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
+  <data name="lblColdStorage.Text" xml:space="preserve">
     <value>Cold Storage:</value>
   </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
+  <data name="&gt;&gt;lblColdStorage.Name" xml:space="preserve">
+    <value>lblColdStorage</value>
   </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblColdStorage.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblColdStorage.Parent" xml:space="preserve">
     <value>groupFridge</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblColdStorage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="textBox10.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtFridgeTemperature.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 33</value>
   </data>
-  <data name="textBox10.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtFridgeTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="textBox10.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtFridgeTemperature.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="textBox10.Text" xml:space="preserve">
+  <data name="txtFridgeTemperature.Text" xml:space="preserve">
     <value>28℃</value>
   </data>
-  <data name="&gt;&gt;textBox10.Name" xml:space="preserve">
-    <value>textBox10</value>
+  <data name="&gt;&gt;txtFridgeTemperature.Name" xml:space="preserve">
+    <value>txtFridgeTemperature</value>
   </data>
-  <data name="&gt;&gt;textBox10.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtFridgeTemperature.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtFridgeTemperature.Parent" xml:space="preserve">
     <value>groupFridge</value>
   </data>
-  <data name="&gt;&gt;textBox10.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtFridgeTemperature.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbFridgeTemperature.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lbFridgeTemperature.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 36</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lbFridgeTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 14</value>
   </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbFridgeTemperature.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
+  <data name="lbFridgeTemperature.Text" xml:space="preserve">
     <value>Temperature:</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="&gt;&gt;lbFridgeTemperature.Name" xml:space="preserve">
+    <value>lbFridgeTemperature</value>
   </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbFridgeTemperature.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbFridgeTemperature.Parent" xml:space="preserve">
     <value>groupFridge</value>
   </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lbFridgeTemperature.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
@@ -1064,157 +1221,157 @@
   <data name="groupAirConditioner.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>230, 239, 249</value>
   </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblAirUsageRecord.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblAirUsageRecord.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 112</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblAirUsageRecord.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 14</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblAirUsageRecord.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="label6.Text" xml:space="preserve">
+  <data name="lblAirUsageRecord.Text" xml:space="preserve">
     <value>Usage Record:</value>
   </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
+  <data name="&gt;&gt;lblAirUsageRecord.Name" xml:space="preserve">
+    <value>lblAirUsageRecord</value>
   </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblAirUsageRecord.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblAirUsageRecord.Parent" xml:space="preserve">
     <value>groupAirConditioner</value>
   </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblAirUsageRecord.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="textBox13.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtAirHumidity.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 68</value>
   </data>
-  <data name="textBox13.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtAirHumidity.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="textBox13.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtAirHumidity.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="textBox13.Text" xml:space="preserve">
+  <data name="txtAirHumidity.Text" xml:space="preserve">
     <value>50%</value>
   </data>
-  <data name="&gt;&gt;textBox13.Name" xml:space="preserve">
-    <value>textBox13</value>
+  <data name="&gt;&gt;txtAirHumidity.Name" xml:space="preserve">
+    <value>txtAirHumidity</value>
   </data>
-  <data name="&gt;&gt;textBox13.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtAirHumidity.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox13.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtAirHumidity.Parent" xml:space="preserve">
     <value>groupAirConditioner</value>
   </data>
-  <data name="&gt;&gt;textBox13.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtAirHumidity.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblAirHumidity.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblAirHumidity.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 71</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblAirHumidity.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 14</value>
   </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblAirHumidity.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="label9.Text" xml:space="preserve">
+  <data name="lblAirHumidity.Text" xml:space="preserve">
     <value>humidity:</value>
   </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
+  <data name="&gt;&gt;lblAirHumidity.Name" xml:space="preserve">
+    <value>lblAirHumidity</value>
   </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblAirHumidity.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblAirHumidity.Parent" xml:space="preserve">
     <value>groupAirConditioner</value>
   </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblAirHumidity.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="textBox14.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtAirTemperature.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 33</value>
   </data>
-  <data name="textBox14.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtAirTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="textBox14.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtAirTemperature.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="textBox14.Text" xml:space="preserve">
+  <data name="txtAirTemperature.Text" xml:space="preserve">
     <value>28℃</value>
   </data>
-  <data name="&gt;&gt;textBox14.Name" xml:space="preserve">
-    <value>textBox14</value>
+  <data name="&gt;&gt;txtAirTemperature.Name" xml:space="preserve">
+    <value>txtAirTemperature</value>
   </data>
-  <data name="&gt;&gt;textBox14.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtAirTemperature.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox14.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtAirTemperature.Parent" xml:space="preserve">
     <value>groupAirConditioner</value>
   </data>
-  <data name="&gt;&gt;textBox14.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtAirTemperature.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblAirTemperature.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblAirTemperature.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 36</value>
   </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblAirTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 14</value>
   </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblAirTemperature.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="label10.Text" xml:space="preserve">
+  <data name="lblAirTemperature.Text" xml:space="preserve">
     <value>Temperature:</value>
   </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
+  <data name="&gt;&gt;lblAirTemperature.Name" xml:space="preserve">
+    <value>lblAirTemperature</value>
   </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblAirTemperature.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblAirTemperature.Parent" xml:space="preserve">
     <value>groupAirConditioner</value>
   </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblAirTemperature.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="textBox15.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtAirUsageRecord.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 148</value>
   </data>
-  <data name="textBox15.Multiline" type="System.Boolean, mscorlib">
+  <data name="txtAirUsageRecord.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="textBox15.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtAirUsageRecord.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 64</value>
   </data>
-  <data name="textBox15.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtAirUsageRecord.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;textBox15.Name" xml:space="preserve">
-    <value>textBox15</value>
+  <data name="&gt;&gt;txtAirUsageRecord.Name" xml:space="preserve">
+    <value>txtAirUsageRecord</value>
   </data>
-  <data name="&gt;&gt;textBox15.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtAirUsageRecord.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox15.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtAirUsageRecord.Parent" xml:space="preserve">
     <value>groupAirConditioner</value>
   </data>
-  <data name="&gt;&gt;textBox15.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtAirUsageRecord.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="groupAirConditioner.Location" type="System.Drawing.Point, System.Drawing">
@@ -1244,56 +1401,107 @@
   <data name="groupThermometer.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>230, 239, 249</value>
   </data>
-  <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 76</value>
+  <data name="txtThermCalibration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 33</value>
   </data>
-  <data name="textBox12.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="txtThermCalibration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
   </data>
-  <data name="textBox12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 136</value>
+  <data name="txtThermCalibration.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="textBox12.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;txtThermCalibration.Name" xml:space="preserve">
+    <value>txtThermCalibration</value>
   </data>
-  <data name="&gt;&gt;textBox12.Name" xml:space="preserve">
-    <value>textBox12</value>
-  </data>
-  <data name="&gt;&gt;textBox12.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtThermCalibration.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox12.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtThermCalibration.Parent" xml:space="preserve">
     <value>groupThermometer</value>
   </data>
-  <data name="&gt;&gt;textBox12.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtThermCalibration.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblThermometerCalubration.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 40</value>
+  <data name="lblThermometerCalubration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 14</value>
+  <data name="lblThermometerCalubration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 36</value>
   </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblThermometerCalubration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 14</value>
   </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Usage Record:</value>
+  <data name="lblThermometerCalubration.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
+  <data name="lblThermometerCalubration.Text" xml:space="preserve">
+    <value>Calibration:</value>
   </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblThermometerCalubration.Name" xml:space="preserve">
+    <value>lblThermometerCalubration</value>
+  </data>
+  <data name="&gt;&gt;lblThermometerCalubration.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblThermometerCalubration.Parent" xml:space="preserve">
     <value>groupThermometer</value>
   </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblThermometerCalubration.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="txtThermoUsageRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 116</value>
+  </data>
+  <data name="txtThermoUsageRecord.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtThermoUsageRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 96</value>
+  </data>
+  <data name="txtThermoUsageRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtThermoUsageRecord.Name" xml:space="preserve">
+    <value>txtThermoUsageRecord</value>
+  </data>
+  <data name="&gt;&gt;txtThermoUsageRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtThermoUsageRecord.Parent" xml:space="preserve">
+    <value>groupThermometer</value>
+  </data>
+  <data name="&gt;&gt;txtThermoUsageRecord.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblThermoUsageRecord.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblThermoUsageRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 80</value>
+  </data>
+  <data name="lblThermoUsageRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 14</value>
+  </data>
+  <data name="lblThermoUsageRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblThermoUsageRecord.Text" xml:space="preserve">
+    <value>Usage Record:</value>
+  </data>
+  <data name="&gt;&gt;lblThermoUsageRecord.Name" xml:space="preserve">
+    <value>lblThermoUsageRecord</value>
+  </data>
+  <data name="&gt;&gt;lblThermoUsageRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblThermoUsageRecord.Parent" xml:space="preserve">
+    <value>groupThermometer</value>
+  </data>
+  <data name="&gt;&gt;lblThermoUsageRecord.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="groupThermometer.Location" type="System.Drawing.Point, System.Drawing">
     <value>511, 233</value>
@@ -1322,56 +1530,107 @@
   <data name="groupTimer.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>230, 239, 249</value>
   </data>
-  <data name="textBox16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 76</value>
+  <data name="txtTimerCalibration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 33</value>
   </data>
-  <data name="textBox16.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="txtTimerCalibration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
   </data>
-  <data name="textBox16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 136</value>
+  <data name="txtTimerCalibration.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="textBox16.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;txtTimerCalibration.Name" xml:space="preserve">
+    <value>txtTimerCalibration</value>
   </data>
-  <data name="&gt;&gt;textBox16.Name" xml:space="preserve">
-    <value>textBox16</value>
-  </data>
-  <data name="&gt;&gt;textBox16.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtTimerCalibration.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox16.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtTimerCalibration.Parent" xml:space="preserve">
     <value>groupTimer</value>
   </data>
-  <data name="&gt;&gt;textBox16.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtTimerCalibration.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblTimerCalibration.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 40</value>
+  <data name="lblTimerCalibration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 14</value>
+  <data name="lblTimerCalibration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 36</value>
   </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblTimerCalibration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 14</value>
   </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Usage Record:</value>
+  <data name="lblTimerCalibration.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
+  <data name="lblTimerCalibration.Text" xml:space="preserve">
+    <value>Calibration:</value>
   </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblTimerCalibration.Name" xml:space="preserve">
+    <value>lblTimerCalibration</value>
+  </data>
+  <data name="&gt;&gt;lblTimerCalibration.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblTimerCalibration.Parent" xml:space="preserve">
     <value>groupTimer</value>
   </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblTimerCalibration.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="txtTimerUsageRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 116</value>
+  </data>
+  <data name="txtTimerUsageRecord.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTimerUsageRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 96</value>
+  </data>
+  <data name="txtTimerUsageRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtTimerUsageRecord.Name" xml:space="preserve">
+    <value>txtTimerUsageRecord</value>
+  </data>
+  <data name="&gt;&gt;txtTimerUsageRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTimerUsageRecord.Parent" xml:space="preserve">
+    <value>groupTimer</value>
+  </data>
+  <data name="&gt;&gt;txtTimerUsageRecord.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTimerUsageRecord.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTimerUsageRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 80</value>
+  </data>
+  <data name="lblTimerUsageRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 14</value>
+  </data>
+  <data name="lblTimerUsageRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTimerUsageRecord.Text" xml:space="preserve">
+    <value>Usage Record:</value>
+  </data>
+  <data name="&gt;&gt;lblTimerUsageRecord.Name" xml:space="preserve">
+    <value>lblTimerUsageRecord</value>
+  </data>
+  <data name="&gt;&gt;lblTimerUsageRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTimerUsageRecord.Parent" xml:space="preserve">
+    <value>groupTimer</value>
+  </data>
+  <data name="&gt;&gt;lblTimerUsageRecord.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="groupTimer.Location" type="System.Drawing.Point, System.Drawing">
     <value>765, 233</value>
@@ -1400,56 +1659,107 @@
   <data name="groupControl2.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>230, 239, 249</value>
   </data>
-  <data name="textBox17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 76</value>
+  <data name="txtCo2Calibration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 33</value>
   </data>
-  <data name="textBox17.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="txtCo2Calibration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
   </data>
-  <data name="textBox17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 136</value>
+  <data name="txtCo2Calibration.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="textBox17.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;txtCo2Calibration.Name" xml:space="preserve">
+    <value>txtCo2Calibration</value>
   </data>
-  <data name="&gt;&gt;textBox17.Name" xml:space="preserve">
-    <value>textBox17</value>
-  </data>
-  <data name="&gt;&gt;textBox17.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtCo2Calibration.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox17.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtCo2Calibration.Parent" xml:space="preserve">
     <value>groupControl2</value>
   </data>
-  <data name="&gt;&gt;textBox17.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtCo2Calibration.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblCo2Calibration.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 40</value>
+  <data name="lblCo2Calibration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 14</value>
+  <data name="lblCo2Calibration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 36</value>
   </data>
-  <data name="label13.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblCo2Calibration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 14</value>
   </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Usage Record:</value>
+  <data name="lblCo2Calibration.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
+  <data name="lblCo2Calibration.Text" xml:space="preserve">
+    <value>Calibration:</value>
   </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblCo2Calibration.Name" xml:space="preserve">
+    <value>lblCo2Calibration</value>
+  </data>
+  <data name="&gt;&gt;lblCo2Calibration.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblCo2Calibration.Parent" xml:space="preserve">
     <value>groupControl2</value>
   </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblCo2Calibration.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="txtCo2UsageRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 116</value>
+  </data>
+  <data name="txtCo2UsageRecord.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCo2UsageRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 96</value>
+  </data>
+  <data name="txtCo2UsageRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtCo2UsageRecord.Name" xml:space="preserve">
+    <value>txtCo2UsageRecord</value>
+  </data>
+  <data name="&gt;&gt;txtCo2UsageRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCo2UsageRecord.Parent" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="&gt;&gt;txtCo2UsageRecord.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblCo2UsageRecord.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCo2UsageRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 80</value>
+  </data>
+  <data name="lblCo2UsageRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 14</value>
+  </data>
+  <data name="lblCo2UsageRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblCo2UsageRecord.Text" xml:space="preserve">
+    <value>Usage Record:</value>
+  </data>
+  <data name="&gt;&gt;lblCo2UsageRecord.Name" xml:space="preserve">
+    <value>lblCo2UsageRecord</value>
+  </data>
+  <data name="&gt;&gt;lblCo2UsageRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCo2UsageRecord.Parent" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="&gt;&gt;lblCo2UsageRecord.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="groupControl2.Location" type="System.Drawing.Point, System.Drawing">
     <value>1019, 233</value>
