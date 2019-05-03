@@ -46,13 +46,24 @@ namespace EmbryoExpress.UI
         {
             this.txtCO2Concentration.Text = string.Format("{0}%", incubator.Co2Concentration);
             this.txtTemperature.Text = string.Format("{0}℃", incubator.Temperature);
+
+            this.txtIncubatorMaintenance.BackColor = incubator.Maintenance == Maintenance.Maintained ?
+                 System.Drawing.SystemColors.Window : Color.Yellow;
             this.txtIncubatorMaintenance.Text = incubator.Maintenance.ToDescription();
+
+            this.txtCleaning.BackColor = incubator.Cleaning == Cleaning.Cleaned ? 
+                System.Drawing.SystemColors.Window : Color.Yellow;
             this.txtCleaning.Text = incubator.Cleaning.ToDescription();
+
+            this.txtCalibration.BackColor = incubator.Calibration == Calibration.Calibrated ?
+                System.Drawing.SystemColors.Window : Color.Yellow;
             this.txtCalibration.Text = incubator.Calibration.ToDescription();
         }
 
         private void ApplyMicroscopeData(Microscope microscope)
         {
+            this.txtMicroCleaning.BackColor = microscope.Cleaning == Cleaning.Cleaned ? 
+                System.Drawing.SystemColors.Window : Color.Yellow;
             this.txtMicroCleaning.Text = microscope.Cleaning.ToDescription();
             this.txtMicroUsageRecord.Text = microscope.UsageRecord;
         }
@@ -94,18 +105,24 @@ namespace EmbryoExpress.UI
 
         private void ApplyThermometerData(Thermometer thermometer)
         {
+            this.txtThermCalibration.BackColor = thermometer.Calibration == Calibration.Calibrated ? 
+                System.Drawing.SystemColors.Window : Color.Yellow;
             this.txtThermCalibration.Text = thermometer.Calibration.ToDescription();
             this.txtThermoUsageRecord.Text = thermometer.UsageRecord;
         }
 
         private void ApplyTimer(Instrument.Timer timer)
         {
+            this.txtTimerCalibration.BackColor = timer.Calibration == Calibration.Calibrated ? 
+                System.Drawing.SystemColors.Window : Color.Yellow;
             this.txtTimerCalibration.Text = timer.Calibration.ToDescription();
             this.txtTimerUsageRecord.Text = timer.UsageRecord;
         }
 
         private void ApplyCo2Measument(Co2Measurment co2Measurment)
         {
+            this.txtCo2Calibration.BackColor = co2Measurment.Calibration == Calibration.Calibrated ? 
+                System.Drawing.SystemColors.Window : Color.Yellow;
             this.txtCo2Calibration.Text = co2Measurment.Calibration.ToDescription();
             this.txtCo2UsageRecord.Text = co2Measurment.UsageRecord;
         }
