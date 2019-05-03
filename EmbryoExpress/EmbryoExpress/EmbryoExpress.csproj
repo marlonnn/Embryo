@@ -116,7 +116,8 @@
     <Compile Include="SysClass\SysConfig.cs" />
     <Compile Include="SysClass\User.cs" />
     <Compile Include="SysData.cs" />
-    <Compile Include="Task.cs" />
+    <Compile Include="Tasks\Task.cs" />
+    <Compile Include="Tasks\TaskManager.cs" />
     <Compile Include="UI\AddUserForm.cs">
       <SubType>Form</SubType>
     </Compile>
