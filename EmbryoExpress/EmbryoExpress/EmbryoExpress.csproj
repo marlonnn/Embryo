@@ -66,8 +66,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseFunction.cs" />
+    <Compile Include="Instrument\AirConditioner.cs" />
+    <Compile Include="Instrument\BaseInstrument.cs" />
     <Compile Include="CultureSettings.cs" />
     <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="Instrument\Co2Measurment.cs" />
+    <Compile Include="Instrument\Cylinder.cs" />
+    <Compile Include="Instrument\Fridge.cs" />
+    <Compile Include="Instrument\HotStage.cs" />
+    <Compile Include="Instrument\Incubator.cs" />
+    <Compile Include="Instrument\Instruments.cs" />
+    <Compile Include="Instrument\Microscope.cs" />
+    <Compile Include="Instrument\TemperLowering.cs" />
+    <Compile Include="Instrument\Thermometer.cs" />
+    <Compile Include="Instrument\Timer.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +97,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.zh-CN.resx</DependentUpon>
     </Compile>
+    <Compile Include="Res\Instrument.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Instrument.resx</DependentUpon>
+    </Compile>
     <Compile Include="Res\ProblemReportForm.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -98,6 +115,7 @@
     <Compile Include="SysClass\CustomAttrs.cs" />
     <Compile Include="SysClass\SysConfig.cs" />
     <Compile Include="SysClass\User.cs" />
+    <Compile Include="SysData.cs" />
     <Compile Include="Task.cs" />
     <Compile Include="UI\AddUserForm.cs">
       <SubType>Form</SubType>
@@ -171,6 +189,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.zh-CN.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Res\Instrument.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Instrument.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res\Instrument.zh-CN.resx" />
     <EmbeddedResource Include="Res\ProblemReportForm.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ProblemReportForm.Designer.cs</LastGenOutput>

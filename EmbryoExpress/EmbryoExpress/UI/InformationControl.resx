@@ -218,25 +218,25 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtIncubatorMaintenance.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 113</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtIncubatorMaintenance.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtIncubatorMaintenance.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;txtIncubatorMaintenance.Name" xml:space="preserve">
+    <value>txtIncubatorMaintenance</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtIncubatorMaintenance.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtIncubatorMaintenance.Parent" xml:space="preserve">
     <value>groupIncubator</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtIncubatorMaintenance.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="lblMaintenance.AutoSize" type="System.Boolean, mscorlib">
@@ -525,25 +525,25 @@
   <data name="groupCylinder.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
     <value>230, 239, 249</value>
   </data>
-  <data name="txtPressure.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtCylinderPressure.Location" type="System.Drawing.Point, System.Drawing">
     <value>127, 37</value>
   </data>
-  <data name="txtPressure.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtCylinderPressure.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="txtPressure.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtCylinderPressure.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;txtPressure.Name" xml:space="preserve">
-    <value>txtPressure</value>
+  <data name="&gt;&gt;txtCylinderPressure.Name" xml:space="preserve">
+    <value>txtCylinderPressure</value>
   </data>
-  <data name="&gt;&gt;txtPressure.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtCylinderPressure.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtPressure.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtCylinderPressure.Parent" xml:space="preserve">
     <value>groupCylinder</value>
   </data>
-  <data name="&gt;&gt;txtPressure.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtCylinderPressure.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="lblPressure.AutoSize" type="System.Boolean, mscorlib">
@@ -1170,28 +1170,28 @@
   <data name="&gt;&gt;lbFridgeTemperature.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtFridgeUsageRecord.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 148</value>
   </data>
-  <data name="textBox4.Multiline" type="System.Boolean, mscorlib">
+  <data name="txtFridgeUsageRecord.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtFridgeUsageRecord.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 64</value>
   </data>
-  <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtFridgeUsageRecord.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
-    <value>textBox4</value>
+  <data name="&gt;&gt;txtFridgeUsageRecord.Name" xml:space="preserve">
+    <value>txtFridgeUsageRecord</value>
   </data>
-  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtFridgeUsageRecord.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtFridgeUsageRecord.Parent" xml:space="preserve">
     <value>groupFridge</value>
   </data>
-  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtFridgeUsageRecord.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="groupFridge.Location" type="System.Drawing.Point, System.Drawing">
