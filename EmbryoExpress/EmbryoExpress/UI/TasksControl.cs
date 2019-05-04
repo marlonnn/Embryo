@@ -18,9 +18,19 @@ namespace EmbryoExpress.UI
         private string[] fildNames;
         private TaskManager taskManager;
         private List<Tasks.Task> taskList;
+        public List<Tasks.Task> TaskList
+        {
+            set
+            {
+                this.taskList = value;
+                SetDataSource();
+            }
+        }
+        private BindingSource bindingSource;
         public TasksControl()
         {
             InitializeComponent();
+            bindingSource = new BindingSource();
             captions = new string[]
             {
                 Properties.Resources.StrAssignTo,
@@ -48,46 +58,48 @@ namespace EmbryoExpress.UI
             taskManager.SimulatorData();
 
             //InitializeGridControl();
-            taskList = taskManager.AllTasks;
-            var bindingSource = new BindingSource();
-            bindingSource.DataSource = taskList;
+            TaskList = taskManager.AllTasks;
+        }
 
+        private void SetDataSource()
+        {
+            bindingSource.DataSource = taskList;
             gridControl.DataSource = bindingSource;
         }
 
         private void btnAllTasks_Click(object sender, EventArgs e)
         {
-
+            TaskList = taskManager.AllTasks;
         }
 
         private void btnInProgress_Click(object sender, EventArgs e)
         {
-
+            TaskList = taskManager.AllTasks.Where(t => t.Complete != 100).ToList();
         }
 
         private void btnNotStarted_Click(object sender, EventArgs e)
         {
-
+            TaskList = taskManager.AllTasks.Where(t => t.Complete == 0).ToList();
         }
 
         private void btnDeferred_Click(object sender, EventArgs e)
         {
-
+            TaskList = taskManager.AllTasks.Where(t => t.Complete != 100).ToList();
         }
 
         private void btnCompleted_Click(object sender, EventArgs e)
         {
-
+            TaskList = taskManager.AllTasks.Where(t => t.Complete == 100).ToList();
         }
 
         private void btnHighPriority_Click(object sender, EventArgs e)
         {
-
+            TaskList = taskManager.AllTasks.Where(t => t.Priority == Tasks.Priority.High).ToList();
         }
 
         private void btnUrgent_Click(object sender, EventArgs e)
         {
-
+            TaskList = taskManager.AllTasks.Where(t => t.Priority == Tasks.Priority.Urgent).ToList();
         }
     }
 }
