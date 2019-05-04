@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using EmbryoExpress.Tasks;
+using DevExpress.XtraGrid.Views.Grid;
+using DevExpress.Utils;
+using DevExpress.XtraGrid.Views.Grid.ViewInfo;
 
 namespace EmbryoExpress.UI
 {
@@ -20,6 +23,7 @@ namespace EmbryoExpress.UI
         private List<Tasks.Task> taskList;
         public List<Tasks.Task> TaskList
         {
+            get { return this.taskList; }
             set
             {
                 this.taskList = value;
@@ -50,6 +54,24 @@ namespace EmbryoExpress.UI
                 "Complete"
             };
             taskManager = TaskManager.GetTaskManager();
+            this.gridView.DoubleClick += GridView_DoubleClick;
+        }
+
+        private void GridView_DoubleClick(object sender, EventArgs e)
+        {
+            DXMouseEventArgs ea = e as DXMouseEventArgs;
+            GridView view = sender as GridView;
+            GridHitInfo info = view.CalcHitInfo(ea.Location);
+            if (info.InRow || info.InRowCell)
+            {
+                //string colCaption = info.Column == null ? "N/A" : info.Column.GetCaption();
+                if (info.RowHandle < TaskList.Count && TaskList[info.RowHandle] != null)
+                {
+                    EditTaskForm editTaskForm = new EditTaskForm(TaskList[info.RowHandle]);
+                    editTaskForm.ShowDialog();
+                }
+                //MessageBox.Show(string.Format("DoubleClick on row: {0}, column: {1}.", info.RowHandle, colCaption));
+            }
         }
 
         protected override void OnLoad(EventArgs e)

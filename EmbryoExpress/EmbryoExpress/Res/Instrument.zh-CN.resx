@@ -174,4 +174,16 @@
   <data name="StrUrgent" xml:space="preserve">
     <value>紧急</value>
   </data>
+  <data name="StrCompleted" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="StrDeferred" xml:space="preserve">
+    <value>延迟</value>
+  </data>
+  <data name="StrInProgress" xml:space="preserve">
+    <value>进行中</value>
+  </data>
+  <data name="StrNotStarted" xml:space="preserve">
+    <value>未开始</value>
+  </data>
 </root>

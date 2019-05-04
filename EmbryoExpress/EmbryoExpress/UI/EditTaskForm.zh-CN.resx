@@ -117,73 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="StrCalibrated" xml:space="preserve">
-    <value>Calibrated</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>编辑任务</value>
   </data>
-  <data name="StrCleaned" xml:space="preserve">
-    <value>Cleaned</value>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
   </data>
-  <data name="StrMaintained" xml:space="preserve">
-    <value>Maintained</value>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>保存</value>
   </data>
-  <data name="StrUncalibrated" xml:space="preserve">
-    <value>UnCalibrated</value>
+  <data name="labelX1.Text" xml:space="preserve">
+    <value>状态：</value>
   </data>
-  <data name="StrUnClean" xml:space="preserve">
-    <value>UnClean</value>
+  <data name="labelX2.Text" xml:space="preserve">
+    <value>描述：</value>
   </data>
-  <data name="StrUnMaintained" xml:space="preserve">
-    <value>UnMaintained</value>
+  <data name="labelX3.Text" xml:space="preserve">
+    <value>提醒：</value>
   </data>
-  <data name="StrDegranulation" xml:space="preserve">
-    <value>Degranulation  Cell Manipulation</value>
+  <data name="labelX4.Text" xml:space="preserve">
+    <value>% 完成 ：</value>
   </data>
-  <data name="StrFrozenEmbryo" xml:space="preserve">
-    <value>Frozen Embryo</value>
+  <data name="lblAssignTo.Text" xml:space="preserve">
+    <value>分配给：</value>
   </data>
-  <data name="StrPickingEgg" xml:space="preserve">
-    <value>Picking Egg</value>
+  <data name="lblDueDate.Text" xml:space="preserve">
+    <value>到期日：</value>
   </data>
-  <data name="StrSelectionEmbryo" xml:space="preserve">
-    <value>Selection Embryo</value>
+  <data name="lblOwner.Text" xml:space="preserve">
+    <value>拥有者：</value>
   </data>
-  <data name="StrThawedEmbryo" xml:space="preserve">
-    <value>Thawed Embryo</value>
+  <data name="lblPriority.Text" xml:space="preserve">
+    <value>优先级：</value>
   </data>
-  <data name="StrTransferEmbryo" xml:space="preserve">
-    <value>Transfer Embryo</value>
+  <data name="lblStartDate.Text" xml:space="preserve">
+    <value>开始时间：</value>
   </data>
-  <data name="StrFailure" xml:space="preserve">
-    <value>Failure</value>
-  </data>
-  <data name="StrSuccess" xml:space="preserve">
-    <value>Success</value>
-  </data>
-  <data name="StrUnKnown" xml:space="preserve">
-    <value>UnKnown</value>
-  </data>
-  <data name="StrHigh" xml:space="preserve">
-    <value>High</value>
-  </data>
-  <data name="StrLow" xml:space="preserve">
-    <value>Low</value>
-  </data>
-  <data name="StrNormal" xml:space="preserve">
-    <value>Normal</value>
-  </data>
-  <data name="StrUrgent" xml:space="preserve">
-    <value>Urgent</value>
-  </data>
-  <data name="StrCompleted" xml:space="preserve">
-    <value>Completed</value>
-  </data>
-  <data name="StrDeferred" xml:space="preserve">
-    <value>Deferred</value>
-  </data>
-  <data name="StrInProgress" xml:space="preserve">
-    <value>In Progress</value>
-  </data>
-  <data name="StrNotStarted" xml:space="preserve">
-    <value>Not Started</value>
+  <data name="lblSubject.Text" xml:space="preserve">
+    <value>任务：</value>
   </data>
 </root>

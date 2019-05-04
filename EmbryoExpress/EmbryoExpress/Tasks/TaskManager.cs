@@ -9,6 +9,11 @@ namespace EmbryoExpress.Tasks
 {
     public class TaskManager
     {
+        public static string[] AssignTo = new string[]
+        {
+                "钟文", "郭荣", "谢波", "袁松", "李四", "张三", "宋江", "李逵", "武松"
+        };
+
         private List<Task> taskList;
         public List<Task> AllTasks
         {

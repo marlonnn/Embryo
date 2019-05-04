@@ -88,6 +88,19 @@ namespace EmbryoExpress.Instrument
         Success
     }
 
+    [LocalizedResource(typeof(Res.Instrument))]
+    public enum Status
+    {
+        [LocalizedDescription("StrNotStarted")]
+        NotStarted,
+        [LocalizedDescription("StrCompleted")]
+        Completed,
+        [LocalizedDescription("StrInProgress")]
+        InProgress,
+        [LocalizedDescription("StrDeferred")]
+        Deferred
+    }
+
     public class BaseInstrument
     {
         private Cleaning cleaning = Cleaning.UnClean;

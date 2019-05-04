@@ -131,6 +131,12 @@
     <Compile Include="UI\ChildForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UI\EditTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EditTaskForm.Designer.cs">
+      <DependentUpon>EditTaskForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\InformationControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -214,6 +220,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\AddUserForm.zh-CN.resx">
       <DependentUpon>AddUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\EditTaskForm.resx">
+      <DependentUpon>EditTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\EditTaskForm.zh-CN.resx">
+      <DependentUpon>EditTaskForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\InformationControl.resx">
       <DependentUpon>InformationControl.cs</DependentUpon>

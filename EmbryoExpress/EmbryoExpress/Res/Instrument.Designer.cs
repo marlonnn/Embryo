@@ -79,6 +79,24 @@ namespace EmbryoExpress.Res {
         }
         
         /// <summary>
+        ///   查找类似 Completed 的本地化字符串。
+        /// </summary>
+        internal static string StrCompleted {
+            get {
+                return ResourceManager.GetString("StrCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Deferred 的本地化字符串。
+        /// </summary>
+        internal static string StrDeferred {
+            get {
+                return ResourceManager.GetString("StrDeferred", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Degranulation  Cell Manipulation 的本地化字符串。
         /// </summary>
         internal static string StrDegranulation {
@@ -115,6 +133,15 @@ namespace EmbryoExpress.Res {
         }
         
         /// <summary>
+        ///   查找类似 In Progress 的本地化字符串。
+        /// </summary>
+        internal static string StrInProgress {
+            get {
+                return ResourceManager.GetString("StrInProgress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Low 的本地化字符串。
         /// </summary>
         internal static string StrLow {
@@ -138,6 +165,15 @@ namespace EmbryoExpress.Res {
         internal static string StrNormal {
             get {
                 return ResourceManager.GetString("StrNormal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Not Started 的本地化字符串。
+        /// </summary>
+        internal static string StrNotStarted {
+            get {
+                return ResourceManager.GetString("StrNotStarted", resourceCulture);
             }
         }
         
