@@ -66,43 +66,83 @@ namespace EmbryoExpress.Tasks
         public void SimulatorData()
         {
             DateTime dateTime = DateTime.Now;
-            for (int i=0; i< 30; i++)
+            string operationType = "";
+            for (int i=0; i< 50; i++)
             {
                 string assignTo = "";
                 Priority priority = Priority.Low;
+                int complete = 0;
                 if (i < 5)
                 {
                     assignTo = "钟文";
-                    priority = Priority.High;
+                    priority = Priority.Low;
+                    complete = 100;
+                    operationType = OperationType.Degranulation.ToDescription();
                 }
                 else if (i >= 5 && i < 10)
                 {
                     assignTo = "郭荣";
-                    priority = Priority.Low;
+                    priority = Priority.Normal;
+                    complete = 20;
+                    operationType = OperationType.FrozenEmbryo.ToDescription();
                 }
                 else if (i >= 10 && i < 15)
                 {
                     assignTo = "谢波";
-                    priority = Priority.Normal;
+                    priority = Priority.High;
+                    complete = 35;
+                    operationType = OperationType.PickingEgg.ToDescription();
                 }
                 else if (i >= 15 && i < 20)
                 {
                     assignTo = "袁松";
                     priority = Priority.Urgent;
+                    complete = 55;
+                    operationType = OperationType.SelectionEmbryo.ToDescription();
                 }
                 else if (i >= 20 && i < 25)
                 {
                     assignTo = "李四";
-                    priority = Priority.Urgent;
+                    priority = Priority.Low;
+                    complete = 0;
+                    operationType = OperationType.ThawedEmbryo.ToDescription();
                 }
                 else if (i >= 25 && i < 30)
                 {
                     assignTo = "张三";
                     priority = Priority.Normal;
+                    complete = 0;
+                    operationType = OperationType.TransferEmbryo.ToDescription();
                 }
-                OperationType operationType = GetOperationType(i / 2);
-                Task task = new Task(assignTo, "管理员", operationType.ToDescription(),
-                    priority, dateTime.AddHours(i * 2)/*, dateTime.AddHours((i + 1) * 2)*/, (i / 3 * 10));
+                else if (i >= 30 && i < 35)
+                {
+                    assignTo = "宋江";
+                    priority = Priority.Normal;
+                    complete = 36;
+                    operationType = OperationType.Degranulation.ToDescription();
+                }
+                else if (i >= 35 && i < 40)
+                {
+                    assignTo = "李俊";
+                    priority = Priority.High;
+                    complete = 78;
+                    operationType = OperationType.FrozenEmbryo.ToDescription();
+                }
+                else if (i >= 40 && i < 45)
+                {
+                    assignTo = "李逵";
+                    priority = Priority.High;
+                    complete = 66;
+                    operationType = OperationType.PickingEgg.ToDescription();
+                }
+                else if (i >= 45 && i < 50)
+                {
+                    assignTo = "武松";
+                    priority = Priority.Urgent;
+                    complete = 88;
+                    operationType = OperationType.TransferEmbryo.ToDescription();
+                }
+                Task task = new Task(assignTo, "管理员", operationType, priority, dateTime, complete);
                 taskList.Add(task);
             }
         }

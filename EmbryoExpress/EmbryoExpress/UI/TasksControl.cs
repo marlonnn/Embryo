@@ -17,6 +17,7 @@ namespace EmbryoExpress.UI
 
         private string[] fildNames;
         private TaskManager taskManager;
+        private List<Tasks.Task> taskList;
         public TasksControl()
         {
             InitializeComponent();
@@ -47,33 +48,46 @@ namespace EmbryoExpress.UI
             taskManager.SimulatorData();
 
             //InitializeGridControl();
+            taskList = taskManager.AllTasks;
             var bindingSource = new BindingSource();
-            bindingSource.DataSource = taskManager.AllTasks;
+            bindingSource.DataSource = taskList;
 
             gridControl.DataSource = bindingSource;
         }
 
-        //private void InitializeGridControl()
-        //{
-        //    for (int i=0; i< captions.Length; i++)
-        //    {
-        //        var gridColumn = new DevExpress.XtraGrid.Columns.GridColumn();
-        //        string caption = captions[i];
-        //        gridColumn.FieldName = fildNames[i];
-        //        gridColumn.Caption = caption;
-        //        //gridColumn.DisplayFormat.FormatType = NovoplexResultPerAnalyteTable.GetColumnFormatType(fieldName);
-        //        //gridColumn.DisplayFormat.FormatString = NovoplexResultPerAnalyteTable.GetColumnFormatString(fieldName);
-        //        gridColumn.VisibleIndex = i;
-        //        gridColumn.BestFit();
-        //        gridColumn.MinWidth = 100;
-        //        gridView1.Columns.Add(gridColumn);
-        //    }
+        private void btnAllTasks_Click(object sender, EventArgs e)
+        {
 
-        //    gridView1.OptionsView.ColumnAutoWidth = false;
-        //    var bindingSource = new BindingSource();
-        //    bindingSource.DataSource = taskManager.AllTasks;
+        }
 
-        //    gridControl1.DataSource = bindingSource;
-        //}
+        private void btnInProgress_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNotStarted_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDeferred_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCompleted_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHighPriority_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUrgent_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -76,6 +76,7 @@
             resources.ApplyResources(this.btnUrgent, "btnUrgent");
             this.btnUrgent.Name = "btnUrgent";
             this.btnUrgent.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnUrgent.Click += new System.EventHandler(this.btnUrgent_Click);
             // 
             // btnHighPriority
             // 
@@ -84,6 +85,7 @@
             resources.ApplyResources(this.btnHighPriority, "btnHighPriority");
             this.btnHighPriority.Name = "btnHighPriority";
             this.btnHighPriority.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnHighPriority.Click += new System.EventHandler(this.btnHighPriority_Click);
             // 
             // btnCompleted
             // 
@@ -92,6 +94,7 @@
             resources.ApplyResources(this.btnCompleted, "btnCompleted");
             this.btnCompleted.Name = "btnCompleted";
             this.btnCompleted.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCompleted.Click += new System.EventHandler(this.btnCompleted_Click);
             // 
             // btnDeferred
             // 
@@ -100,6 +103,7 @@
             resources.ApplyResources(this.btnDeferred, "btnDeferred");
             this.btnDeferred.Name = "btnDeferred";
             this.btnDeferred.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnDeferred.Click += new System.EventHandler(this.btnDeferred_Click);
             // 
             // btnNotStarted
             // 
@@ -108,6 +112,7 @@
             resources.ApplyResources(this.btnNotStarted, "btnNotStarted");
             this.btnNotStarted.Name = "btnNotStarted";
             this.btnNotStarted.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnNotStarted.Click += new System.EventHandler(this.btnNotStarted_Click);
             // 
             // btnInProgress
             // 
@@ -116,6 +121,7 @@
             resources.ApplyResources(this.btnInProgress, "btnInProgress");
             this.btnInProgress.Name = "btnInProgress";
             this.btnInProgress.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnInProgress.Click += new System.EventHandler(this.btnInProgress_Click);
             // 
             // btnAllTasks
             // 
@@ -124,6 +130,7 @@
             resources.ApplyResources(this.btnAllTasks, "btnAllTasks");
             this.btnAllTasks.Name = "btnAllTasks";
             this.btnAllTasks.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAllTasks.Click += new System.EventHandler(this.btnAllTasks_Click);
             // 
             // gridControl
             // 
