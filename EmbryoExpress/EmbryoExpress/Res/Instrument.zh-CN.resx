@@ -135,4 +135,31 @@
   <data name="StrUnMaintained" xml:space="preserve">
     <value>未维护</value>
   </data>
+  <data name="StrDegranulation" xml:space="preserve">
+    <value>脱颗粒细胞操作</value>
+  </data>
+  <data name="StrFrozenEmbryo" xml:space="preserve">
+    <value>冷冻胚胎</value>
+  </data>
+  <data name="StrPickingEgg" xml:space="preserve">
+    <value>拾卵操作</value>
+  </data>
+  <data name="StrSelectionEmbryo" xml:space="preserve">
+    <value>挑选胚胎</value>
+  </data>
+  <data name="StrThawedEmbryo" xml:space="preserve">
+    <value>解冻胚胎</value>
+  </data>
+  <data name="StrTransferEmbryo" xml:space="preserve">
+    <value>移植胚胎</value>
+  </data>
+  <data name="StrFailure" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="StrSuccess" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="StrUnKnown" xml:space="preserve">
+    <value>未知</value>
+  </data>
 </root>

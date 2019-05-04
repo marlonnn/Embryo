@@ -267,4 +267,49 @@
   <data name="lblTimerUsageRecord.Text" xml:space="preserve">
     <value>使用记录：</value>
   </data>
+  <data name="groupEnvironment.Text" xml:space="preserve">
+    <value>环境：</value>
+  </data>
+  <data name="lblEnvironmentHumidity.Text" xml:space="preserve">
+    <value>湿度：</value>
+  </data>
+  <data name="lblEnvironmentTemperature.Text" xml:space="preserve">
+    <value>温度：</value>
+  </data>
+  <data name="lblTvoc.Text" xml:space="preserve">
+    <value>Tvoc：</value>
+  </data>
+  <data name="groupOperationItem.Text" xml:space="preserve">
+    <value>操作项</value>
+  </data>
+  <data name="groupStatisticalItems.Text" xml:space="preserve">
+    <value>统计项</value>
+  </data>
+  <data name="lblBlastocystFormation.Text" xml:space="preserve">
+    <value>囊胚形成率：</value>
+  </data>
+  <data name="lblExcellentEmbryoRate.Text" xml:space="preserve">
+    <value>优胚率：</value>
+  </data>
+  <data name="lblFertilizationRate.Text" xml:space="preserve">
+    <value>受精率：</value>
+  </data>
+  <data name="lblImplantationRate.Text" xml:space="preserve">
+    <value>胚胎着床率：</value>
+  </data>
+  <data name="lblOperationNumber.Text" xml:space="preserve">
+    <value>操作数量：</value>
+  </data>
+  <data name="lblOperationResults.Text" xml:space="preserve">
+    <value>操作结果：</value>
+  </data>
+  <data name="lblOperationType.Text" xml:space="preserve">
+    <value>操作类型：</value>
+  </data>
+  <data name="lblOperator.Text" xml:space="preserve">
+    <value>操作人员：</value>
+  </data>
+  <data name="lblPregnancyRate.Text" xml:space="preserve">
+    <value>妊娠率：</value>
+  </data>
 </root>

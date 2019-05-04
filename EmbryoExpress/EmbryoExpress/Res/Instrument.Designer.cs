@@ -79,11 +79,83 @@ namespace EmbryoExpress.Res {
         }
         
         /// <summary>
+        ///   查找类似 Degranulation  Cell Manipulation 的本地化字符串。
+        /// </summary>
+        internal static string StrDegranulation {
+            get {
+                return ResourceManager.GetString("StrDegranulation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Failure 的本地化字符串。
+        /// </summary>
+        internal static string StrFailure {
+            get {
+                return ResourceManager.GetString("StrFailure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Frozen Embryo 的本地化字符串。
+        /// </summary>
+        internal static string StrFrozenEmbryo {
+            get {
+                return ResourceManager.GetString("StrFrozenEmbryo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Maintained 的本地化字符串。
         /// </summary>
         internal static string StrMaintained {
             get {
                 return ResourceManager.GetString("StrMaintained", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Picking Egg 的本地化字符串。
+        /// </summary>
+        internal static string StrPickingEgg {
+            get {
+                return ResourceManager.GetString("StrPickingEgg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Selection Embryo 的本地化字符串。
+        /// </summary>
+        internal static string StrSelectionEmbryo {
+            get {
+                return ResourceManager.GetString("StrSelectionEmbryo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Success 的本地化字符串。
+        /// </summary>
+        internal static string StrSuccess {
+            get {
+                return ResourceManager.GetString("StrSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Thawed Embryo 的本地化字符串。
+        /// </summary>
+        internal static string StrThawedEmbryo {
+            get {
+                return ResourceManager.GetString("StrThawedEmbryo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Transfer Embryo 的本地化字符串。
+        /// </summary>
+        internal static string StrTransferEmbryo {
+            get {
+                return ResourceManager.GetString("StrTransferEmbryo", resourceCulture);
             }
         }
         
@@ -102,6 +174,15 @@ namespace EmbryoExpress.Res {
         internal static string StrUnClean {
             get {
                 return ResourceManager.GetString("StrUnClean", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 UnKnown 的本地化字符串。
+        /// </summary>
+        internal static string StrUnKnown {
+            get {
+                return ResourceManager.GetString("StrUnKnown", resourceCulture);
             }
         }
         

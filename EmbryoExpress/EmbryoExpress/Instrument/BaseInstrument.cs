@@ -58,6 +58,36 @@ namespace EmbryoExpress.Instrument
         Maintained
     }
 
+    [LocalizedResource(typeof(Res.Instrument))]
+    public enum OperationType
+    {
+        [LocalizedDescription("StrUnKnown")]
+        UnKnown,
+        [LocalizedDescription("StrPickingEgg")]
+        PickingEgg,
+        [LocalizedDescription("StrDegranulation")]
+        Degranulation,
+        [LocalizedDescription("StrSelectionEmbryo")]
+        SelectionEmbryo,
+        [LocalizedDescription("StrTransferEmbryo")]
+        TransferEmbryo,
+        [LocalizedDescription("StrFrozenEmbryo")]
+        FrozenEmbryo,
+        [LocalizedDescription("StrThawedEmbryo")]
+        ThawedEmbryo
+    }
+
+    [LocalizedResource(typeof(Res.Instrument))]
+    public enum OperationResult
+    {
+        [LocalizedDescription("StrUnKnown")]
+        UnKnown,
+        [LocalizedDescription("StrFailure")]
+        Failure,
+        [LocalizedDescription("StrSuccess")]
+        Success
+    }
+
     public class BaseInstrument
     {
         private Cleaning cleaning = Cleaning.UnClean;
@@ -81,7 +111,7 @@ namespace EmbryoExpress.Instrument
             set { this.maintenance = value; }
         }
 
-        private string usageRecord = "测试信息";
+        private string usageRecord;
         public string UsageRecord
         {
             get { return this.usageRecord; }

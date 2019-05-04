@@ -94,6 +94,34 @@
             this.lblCo2Calibration = new System.Windows.Forms.Label();
             this.txtCo2UsageRecord = new System.Windows.Forms.TextBox();
             this.lblCo2UsageRecord = new System.Windows.Forms.Label();
+            this.groupEnvironment = new DevExpress.XtraEditors.GroupControl();
+            this.txtEnvironmentTvoc = new System.Windows.Forms.TextBox();
+            this.lblTvoc = new System.Windows.Forms.Label();
+            this.txtEnvironmentHumidity = new System.Windows.Forms.TextBox();
+            this.lblEnvironmentHumidity = new System.Windows.Forms.Label();
+            this.txtEnvironmentTemperature = new System.Windows.Forms.TextBox();
+            this.lblEnvironmentTemperature = new System.Windows.Forms.Label();
+            this.txtEnvironmentRecord = new System.Windows.Forms.TextBox();
+            this.groupStatisticalItems = new DevExpress.XtraEditors.GroupControl();
+            this.txtImplantationRate = new System.Windows.Forms.TextBox();
+            this.lblImplantationRate = new System.Windows.Forms.Label();
+            this.txtFertilizationRate = new System.Windows.Forms.TextBox();
+            this.lblFertilizationRate = new System.Windows.Forms.Label();
+            this.txtPregnancyRate = new System.Windows.Forms.TextBox();
+            this.lblPregnancyRate = new System.Windows.Forms.Label();
+            this.txtBlastocystFormation = new System.Windows.Forms.TextBox();
+            this.lblBlastocystFormation = new System.Windows.Forms.Label();
+            this.txtExcellentEmbryo = new System.Windows.Forms.TextBox();
+            this.lblExcellentEmbryoRate = new System.Windows.Forms.Label();
+            this.groupOperationItem = new DevExpress.XtraEditors.GroupControl();
+            this.txtOperationResults = new System.Windows.Forms.TextBox();
+            this.lblOperationResults = new System.Windows.Forms.Label();
+            this.txtOperationsNumber = new System.Windows.Forms.TextBox();
+            this.lblOperationNumber = new System.Windows.Forms.Label();
+            this.txtOperationType = new System.Windows.Forms.TextBox();
+            this.lblOperationType = new System.Windows.Forms.Label();
+            this.txtOperator = new System.Windows.Forms.TextBox();
+            this.lblOperator = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.groupIncubator)).BeginInit();
             this.groupIncubator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupMicroscope)).BeginInit();
@@ -114,6 +142,12 @@
             this.groupTimer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupEnvironment)).BeginInit();
+            this.groupEnvironment.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupStatisticalItems)).BeginInit();
+            this.groupStatisticalItems.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupOperationItem)).BeginInit();
+            this.groupOperationItem.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupIncubator
@@ -557,11 +591,201 @@
             resources.ApplyResources(this.lblCo2UsageRecord, "lblCo2UsageRecord");
             this.lblCo2UsageRecord.Name = "lblCo2UsageRecord";
             // 
+            // groupEnvironment
+            // 
+            this.groupEnvironment.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupEnvironment.Appearance.BackColor")));
+            this.groupEnvironment.Appearance.Options.UseBackColor = true;
+            this.groupEnvironment.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupEnvironment.Controls.Add(this.txtEnvironmentTvoc);
+            this.groupEnvironment.Controls.Add(this.lblTvoc);
+            this.groupEnvironment.Controls.Add(this.txtEnvironmentHumidity);
+            this.groupEnvironment.Controls.Add(this.lblEnvironmentHumidity);
+            this.groupEnvironment.Controls.Add(this.txtEnvironmentTemperature);
+            this.groupEnvironment.Controls.Add(this.lblEnvironmentTemperature);
+            this.groupEnvironment.Controls.Add(this.txtEnvironmentRecord);
+            resources.ApplyResources(this.groupEnvironment, "groupEnvironment");
+            this.groupEnvironment.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupEnvironment.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.groupEnvironment.Name = "groupEnvironment";
+            // 
+            // txtEnvironmentTvoc
+            // 
+            resources.ApplyResources(this.txtEnvironmentTvoc, "txtEnvironmentTvoc");
+            this.txtEnvironmentTvoc.Name = "txtEnvironmentTvoc";
+            // 
+            // lblTvoc
+            // 
+            resources.ApplyResources(this.lblTvoc, "lblTvoc");
+            this.lblTvoc.Name = "lblTvoc";
+            // 
+            // txtEnvironmentHumidity
+            // 
+            resources.ApplyResources(this.txtEnvironmentHumidity, "txtEnvironmentHumidity");
+            this.txtEnvironmentHumidity.Name = "txtEnvironmentHumidity";
+            // 
+            // lblEnvironmentHumidity
+            // 
+            resources.ApplyResources(this.lblEnvironmentHumidity, "lblEnvironmentHumidity");
+            this.lblEnvironmentHumidity.Name = "lblEnvironmentHumidity";
+            // 
+            // txtEnvironmentTemperature
+            // 
+            resources.ApplyResources(this.txtEnvironmentTemperature, "txtEnvironmentTemperature");
+            this.txtEnvironmentTemperature.Name = "txtEnvironmentTemperature";
+            // 
+            // lblEnvironmentTemperature
+            // 
+            resources.ApplyResources(this.lblEnvironmentTemperature, "lblEnvironmentTemperature");
+            this.lblEnvironmentTemperature.Name = "lblEnvironmentTemperature";
+            // 
+            // txtEnvironmentRecord
+            // 
+            this.txtEnvironmentRecord.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtEnvironmentRecord, "txtEnvironmentRecord");
+            this.txtEnvironmentRecord.Name = "txtEnvironmentRecord";
+            // 
+            // groupStatisticalItems
+            // 
+            this.groupStatisticalItems.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupControl1.Appearance.BackColor")));
+            this.groupStatisticalItems.Appearance.Options.UseBackColor = true;
+            this.groupStatisticalItems.Appearance.Options.UseFont = true;
+            this.groupStatisticalItems.Appearance.Options.UseForeColor = true;
+            this.groupStatisticalItems.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupStatisticalItems.CaptionLocation = DevExpress.Utils.Locations.Top;
+            this.groupStatisticalItems.Controls.Add(this.txtImplantationRate);
+            this.groupStatisticalItems.Controls.Add(this.lblImplantationRate);
+            this.groupStatisticalItems.Controls.Add(this.txtFertilizationRate);
+            this.groupStatisticalItems.Controls.Add(this.lblFertilizationRate);
+            this.groupStatisticalItems.Controls.Add(this.txtPregnancyRate);
+            this.groupStatisticalItems.Controls.Add(this.lblPregnancyRate);
+            this.groupStatisticalItems.Controls.Add(this.txtBlastocystFormation);
+            this.groupStatisticalItems.Controls.Add(this.lblBlastocystFormation);
+            this.groupStatisticalItems.Controls.Add(this.txtExcellentEmbryo);
+            this.groupStatisticalItems.Controls.Add(this.lblExcellentEmbryoRate);
+            resources.ApplyResources(this.groupStatisticalItems, "groupStatisticalItems");
+            this.groupStatisticalItems.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupStatisticalItems.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.groupStatisticalItems.Name = "groupStatisticalItems";
+            // 
+            // txtImplantationRate
+            // 
+            resources.ApplyResources(this.txtImplantationRate, "txtImplantationRate");
+            this.txtImplantationRate.Name = "txtImplantationRate";
+            // 
+            // lblImplantationRate
+            // 
+            resources.ApplyResources(this.lblImplantationRate, "lblImplantationRate");
+            this.lblImplantationRate.Name = "lblImplantationRate";
+            // 
+            // txtFertilizationRate
+            // 
+            resources.ApplyResources(this.txtFertilizationRate, "txtFertilizationRate");
+            this.txtFertilizationRate.Name = "txtFertilizationRate";
+            // 
+            // lblFertilizationRate
+            // 
+            resources.ApplyResources(this.lblFertilizationRate, "lblFertilizationRate");
+            this.lblFertilizationRate.Name = "lblFertilizationRate";
+            // 
+            // txtPregnancyRate
+            // 
+            resources.ApplyResources(this.txtPregnancyRate, "txtPregnancyRate");
+            this.txtPregnancyRate.Name = "txtPregnancyRate";
+            // 
+            // lblPregnancyRate
+            // 
+            resources.ApplyResources(this.lblPregnancyRate, "lblPregnancyRate");
+            this.lblPregnancyRate.Name = "lblPregnancyRate";
+            // 
+            // txtBlastocystFormation
+            // 
+            resources.ApplyResources(this.txtBlastocystFormation, "txtBlastocystFormation");
+            this.txtBlastocystFormation.Name = "txtBlastocystFormation";
+            // 
+            // lblBlastocystFormation
+            // 
+            resources.ApplyResources(this.lblBlastocystFormation, "lblBlastocystFormation");
+            this.lblBlastocystFormation.Name = "lblBlastocystFormation";
+            // 
+            // txtExcellentEmbryo
+            // 
+            resources.ApplyResources(this.txtExcellentEmbryo, "txtExcellentEmbryo");
+            this.txtExcellentEmbryo.Name = "txtExcellentEmbryo";
+            // 
+            // lblExcellentEmbryoRate
+            // 
+            resources.ApplyResources(this.lblExcellentEmbryoRate, "lblExcellentEmbryoRate");
+            this.lblExcellentEmbryoRate.Name = "lblExcellentEmbryoRate";
+            // 
+            // groupOperationItem
+            // 
+            this.groupOperationItem.Appearance.BackColor = ((System.Drawing.Color)(resources.GetObject("groupControl1.Appearance.BackColor1")));
+            this.groupOperationItem.Appearance.Options.UseBackColor = true;
+            this.groupOperationItem.Appearance.Options.UseFont = true;
+            this.groupOperationItem.Appearance.Options.UseForeColor = true;
+            this.groupOperationItem.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.groupOperationItem.CaptionLocation = DevExpress.Utils.Locations.Top;
+            this.groupOperationItem.Controls.Add(this.txtOperationResults);
+            this.groupOperationItem.Controls.Add(this.lblOperationResults);
+            this.groupOperationItem.Controls.Add(this.txtOperationsNumber);
+            this.groupOperationItem.Controls.Add(this.lblOperationNumber);
+            this.groupOperationItem.Controls.Add(this.txtOperationType);
+            this.groupOperationItem.Controls.Add(this.lblOperationType);
+            this.groupOperationItem.Controls.Add(this.txtOperator);
+            this.groupOperationItem.Controls.Add(this.lblOperator);
+            resources.ApplyResources(this.groupOperationItem, "groupOperationItem");
+            this.groupOperationItem.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.groupOperationItem.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.groupOperationItem.Name = "groupOperationItem";
+            // 
+            // txtOperationResults
+            // 
+            resources.ApplyResources(this.txtOperationResults, "txtOperationResults");
+            this.txtOperationResults.Name = "txtOperationResults";
+            // 
+            // lblOperationResults
+            // 
+            resources.ApplyResources(this.lblOperationResults, "lblOperationResults");
+            this.lblOperationResults.Name = "lblOperationResults";
+            // 
+            // txtOperationsNumber
+            // 
+            resources.ApplyResources(this.txtOperationsNumber, "txtOperationsNumber");
+            this.txtOperationsNumber.Name = "txtOperationsNumber";
+            // 
+            // lblOperationNumber
+            // 
+            resources.ApplyResources(this.lblOperationNumber, "lblOperationNumber");
+            this.lblOperationNumber.Name = "lblOperationNumber";
+            // 
+            // txtOperationType
+            // 
+            resources.ApplyResources(this.txtOperationType, "txtOperationType");
+            this.txtOperationType.Name = "txtOperationType";
+            // 
+            // lblOperationType
+            // 
+            resources.ApplyResources(this.lblOperationType, "lblOperationType");
+            this.lblOperationType.Name = "lblOperationType";
+            // 
+            // txtOperator
+            // 
+            resources.ApplyResources(this.txtOperator, "txtOperator");
+            this.txtOperator.Name = "txtOperator";
+            // 
+            // lblOperator
+            // 
+            resources.ApplyResources(this.lblOperator, "lblOperator");
+            this.lblOperator.Name = "lblOperator";
+            // 
             // InformationControl
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
+            this.Controls.Add(this.groupOperationItem);
+            this.Controls.Add(this.groupStatisticalItems);
+            this.Controls.Add(this.groupEnvironment);
             this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.groupTimer);
             this.Controls.Add(this.groupThermometer);
@@ -603,6 +827,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupEnvironment)).EndInit();
+            this.groupEnvironment.ResumeLayout(false);
+            this.groupEnvironment.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupStatisticalItems)).EndInit();
+            this.groupStatisticalItems.ResumeLayout(false);
+            this.groupStatisticalItems.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupOperationItem)).EndInit();
+            this.groupOperationItem.ResumeLayout(false);
+            this.groupOperationItem.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -674,5 +907,33 @@
         private System.Windows.Forms.Label lblTimerCalibration;
         private System.Windows.Forms.TextBox txtCo2Calibration;
         private System.Windows.Forms.Label lblCo2Calibration;
+        private DevExpress.XtraEditors.GroupControl groupEnvironment;
+        private System.Windows.Forms.TextBox txtEnvironmentHumidity;
+        private System.Windows.Forms.Label lblEnvironmentHumidity;
+        private System.Windows.Forms.TextBox txtEnvironmentTemperature;
+        private System.Windows.Forms.Label lblEnvironmentTemperature;
+        private System.Windows.Forms.TextBox txtEnvironmentRecord;
+        private System.Windows.Forms.TextBox txtEnvironmentTvoc;
+        private System.Windows.Forms.Label lblTvoc;
+        private DevExpress.XtraEditors.GroupControl groupStatisticalItems;
+        private System.Windows.Forms.TextBox txtImplantationRate;
+        private System.Windows.Forms.Label lblImplantationRate;
+        private System.Windows.Forms.TextBox txtFertilizationRate;
+        private System.Windows.Forms.Label lblFertilizationRate;
+        private System.Windows.Forms.TextBox txtPregnancyRate;
+        private System.Windows.Forms.Label lblPregnancyRate;
+        private System.Windows.Forms.TextBox txtBlastocystFormation;
+        private System.Windows.Forms.Label lblBlastocystFormation;
+        private System.Windows.Forms.TextBox txtExcellentEmbryo;
+        private System.Windows.Forms.Label lblExcellentEmbryoRate;
+        private DevExpress.XtraEditors.GroupControl groupOperationItem;
+        private System.Windows.Forms.TextBox txtOperationResults;
+        private System.Windows.Forms.Label lblOperationResults;
+        private System.Windows.Forms.TextBox txtOperationsNumber;
+        private System.Windows.Forms.Label lblOperationNumber;
+        private System.Windows.Forms.TextBox txtOperationType;
+        private System.Windows.Forms.Label lblOperationType;
+        private System.Windows.Forms.TextBox txtOperator;
+        private System.Windows.Forms.Label lblOperator;
     }
 }

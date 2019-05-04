@@ -85,10 +85,32 @@ namespace EmbryoExpress.Instrument
             set { this.co2Measurment = value; }
         }
 
+        private Environment environment;
+        public Environment Environment
+        {
+            get { return this.environment; }
+            set { this.environment = value; }
+        }
+
+        private StatisticalItems statisticalItems;
+        public StatisticalItems StatisticalItems
+        {
+            get { return this.statisticalItems; }
+            set { this.statisticalItems = value; }
+        }
+
+        private OperationItems operationItems;
+        public OperationItems OperationItems
+        {
+            get { return this.operationItems; }
+            set { this.operationItems = value; }
+        }
+
         public Instruments() { }
 
         public Instruments(Incubator incubator, Microscope microscope, Cylinder cylinder, HotStage hotStage, TemperLowering temperLowering, 
-            Fridge fridge, AirConditioner airConditioner, Thermometer thermometer, Timer timer, Co2Measurment co2Measurment)
+            Fridge fridge, AirConditioner airConditioner, Thermometer thermometer, Timer timer, Co2Measurment co2Measurment,
+            Environment environment, StatisticalItems statisticalItems, OperationItems operationItems)
         {
             this.incubator = incubator;
             this.microscope = microscope;
@@ -100,6 +122,9 @@ namespace EmbryoExpress.Instrument
             this.thermometer = thermometer;
             this.timer = timer;
             this.co2Measurment = co2Measurment;
+            this.environment = environment;
+            this.statisticalItems = statisticalItems;
+            this.operationItems = operationItems;
         }
 
     }

@@ -40,6 +40,9 @@ namespace EmbryoExpress.UI
             ApplyThermometerData(instruments.Thermometer);
             ApplyTimer(instruments.Timer);
             ApplyCo2Measument(instruments.Co2Measurment);
+            ApplyEnvironmentData(instruments.Environment);
+            ApplyStatisticalData(instruments.StatisticalItems);
+            ApplyOperationData(instruments.OperationItems);
         }
 
         private void ApplyIncubatorData(Incubator incubator)
@@ -125,6 +128,30 @@ namespace EmbryoExpress.UI
                 System.Drawing.SystemColors.Window : Color.Yellow;
             this.txtCo2Calibration.Text = co2Measurment.Calibration.ToDescription();
             this.txtCo2UsageRecord.Text = co2Measurment.UsageRecord;
+        }
+
+        private void ApplyEnvironmentData(Instrument.Environment environment)
+        {
+            this.txtEnvironmentTemperature.Text = string.Format("{0}℃", environment.Temperature);
+            this.txtEnvironmentHumidity.Text = string.Format("{0}%", environment.Humidity);
+            this.txtEnvironmentTvoc.Text = string.Format("{0}%", environment.Tvoc);
+        }
+
+        private void ApplyStatisticalData(StatisticalItems statisticalItems)
+        {
+            this.txtExcellentEmbryo.Text = string.Format("{0}%", statisticalItems.ExcellentEmbryo);
+            this.txtBlastocystFormation.Text = string.Format("{0}%", statisticalItems.BlastocystFormation);
+            this.txtPregnancyRate.Text = string.Format("{0}%", statisticalItems.PregnancyRate);
+            this.txtFertilizationRate.Text = string.Format("{0}%", statisticalItems.FertilizationRate);
+            this.txtImplantationRate.Text = string.Format("{0}%", statisticalItems.ImplantationRate);
+        }
+
+        private void ApplyOperationData(OperationItems operationItems)
+        {
+            this.txtOperator.Text = operationItems.Operator;
+            this.txtOperationsNumber.Text = operationItems.OperationNumber.ToString();
+            this.txtOperationType.Text = operationItems.OperatorType.ToDescription();
+            this.txtOperationResults.Text = operationItems.OperationResult.ToDescription();
         }
     }
 }

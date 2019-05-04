@@ -135,4 +135,31 @@
   <data name="StrUnMaintained" xml:space="preserve">
     <value>UnMaintained</value>
   </data>
+  <data name="StrDegranulation" xml:space="preserve">
+    <value>Degranulation  Cell Manipulation</value>
+  </data>
+  <data name="StrFrozenEmbryo" xml:space="preserve">
+    <value>Frozen Embryo</value>
+  </data>
+  <data name="StrPickingEgg" xml:space="preserve">
+    <value>Picking Egg</value>
+  </data>
+  <data name="StrSelectionEmbryo" xml:space="preserve">
+    <value>Selection Embryo</value>
+  </data>
+  <data name="StrThawedEmbryo" xml:space="preserve">
+    <value>Thawed Embryo</value>
+  </data>
+  <data name="StrTransferEmbryo" xml:space="preserve">
+    <value>Transfer Embryo</value>
+  </data>
+  <data name="StrFailure" xml:space="preserve">
+    <value>Failure</value>
+  </data>
+  <data name="StrSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="StrUnKnown" xml:space="preserve">
+    <value>UnKnown</value>
+  </data>
 </root>

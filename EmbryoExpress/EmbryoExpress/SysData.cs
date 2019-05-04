@@ -66,8 +66,19 @@ namespace EmbryoExpress
                 co2Measurment.Calibration = Calibration.Calibrated;
                 co2Measurment.UsageRecord = "二氧化碳测量仪正常使用中";
 
+                Instrument.Environment environment = new Instrument.Environment();
+                environment.Temperature = i + 10;
+                environment.Humidity = i + 20;
+                environment.Tvoc = i + 30;
+
+                StatisticalItems staisticalItems = new StatisticalItems(i + 10, i +20, i + 30, i + 40, i + 50);
+
+                string operators = string.Format("操作员{0}", i);
+                OperationItems operationItems = new OperationItems(operators, OperationType.SelectionEmbryo, i + 1, OperationResult.Success);
+
                 Instruments instruments = new Instruments(incubator, microscope, cylinder, hs, theperLowering,
-                    fridge, airConditioner, thermometer, timer, co2Measurment);
+                    fridge, airConditioner, thermometer, timer, co2Measurment,
+                    environment, staisticalItems, operationItems);
                 instruments.DateTime = DateTime.Now.AddDays(-i);
                 instrumentsList.Add(instruments);
             }

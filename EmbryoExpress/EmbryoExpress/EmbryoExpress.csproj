@@ -72,11 +72,14 @@
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="Instrument\Co2Measurment.cs" />
     <Compile Include="Instrument\Cylinder.cs" />
+    <Compile Include="Instrument\Environment.cs" />
     <Compile Include="Instrument\Fridge.cs" />
     <Compile Include="Instrument\HotStage.cs" />
     <Compile Include="Instrument\Incubator.cs" />
     <Compile Include="Instrument\Instruments.cs" />
     <Compile Include="Instrument\Microscope.cs" />
+    <Compile Include="Instrument\OperationItems.cs" />
+    <Compile Include="Instrument\StatisticalItems.cs" />
     <Compile Include="Instrument\TemperLowering.cs" />
     <Compile Include="Instrument\Thermometer.cs" />
     <Compile Include="Instrument\Timer.cs" />
