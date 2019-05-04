@@ -187,6 +187,15 @@ namespace EmbryoExpress.Properties {
         }
         
         /// <summary>
+        ///   查找类似 Assign To 的本地化字符串。
+        /// </summary>
+        internal static string StrAssignTo {
+            get {
+                return ResourceManager.GetString("StrAssignTo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Built Date:  的本地化字符串。
         /// </summary>
         internal static string StrBuiltDate {
@@ -201,6 +210,15 @@ namespace EmbryoExpress.Properties {
         internal static string StrCollecting {
             get {
                 return ResourceManager.GetString("StrCollecting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 % Complete 的本地化字符串。
+        /// </summary>
+        internal static string StrComplete {
+            get {
+                return ResourceManager.GetString("StrComplete", resourceCulture);
             }
         }
         
@@ -241,6 +259,15 @@ namespace EmbryoExpress.Properties {
         }
         
         /// <summary>
+        ///   查找类似 EndTime 的本地化字符串。
+        /// </summary>
+        internal static string StrEndTime {
+            get {
+                return ResourceManager.GetString("StrEndTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Please input the username. 的本地化字符串。
         /// </summary>
         internal static string StrInputUserName {
@@ -259,6 +286,24 @@ namespace EmbryoExpress.Properties {
         }
         
         /// <summary>
+        ///   查找类似 OwnedBy 的本地化字符串。
+        /// </summary>
+        internal static string StrOwnedBy {
+            get {
+                return ResourceManager.GetString("StrOwnedBy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Priority 的本地化字符串。
+        /// </summary>
+        internal static string StrPriority {
+            get {
+                return ResourceManager.GetString("StrPriority", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 {0} creation is complete, please click Next button to continue. 的本地化字符串。
         /// </summary>
         internal static string StrProblemReportCreateFinish {
@@ -273,6 +318,15 @@ namespace EmbryoExpress.Properties {
         internal static string StrReport {
             get {
                 return ResourceManager.GetString("StrReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Subject 的本地化字符串。
+        /// </summary>
+        internal static string StrSubject {
+            get {
+                return ResourceManager.GetString("StrSubject", resourceCulture);
             }
         }
         

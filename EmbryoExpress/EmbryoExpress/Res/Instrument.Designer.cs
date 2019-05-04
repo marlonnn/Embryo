@@ -106,11 +106,38 @@ namespace EmbryoExpress.Res {
         }
         
         /// <summary>
+        ///   查找类似 High 的本地化字符串。
+        /// </summary>
+        internal static string StrHigh {
+            get {
+                return ResourceManager.GetString("StrHigh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Low 的本地化字符串。
+        /// </summary>
+        internal static string StrLow {
+            get {
+                return ResourceManager.GetString("StrLow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Maintained 的本地化字符串。
         /// </summary>
         internal static string StrMaintained {
             get {
                 return ResourceManager.GetString("StrMaintained", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Normal 的本地化字符串。
+        /// </summary>
+        internal static string StrNormal {
+            get {
+                return ResourceManager.GetString("StrNormal", resourceCulture);
             }
         }
         
@@ -192,6 +219,15 @@ namespace EmbryoExpress.Res {
         internal static string StrUnMaintained {
             get {
                 return ResourceManager.GetString("StrUnMaintained", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Urgent 的本地化字符串。
+        /// </summary>
+        internal static string StrUrgent {
+            get {
+                return ResourceManager.GetString("StrUrgent", resourceCulture);
             }
         }
     }

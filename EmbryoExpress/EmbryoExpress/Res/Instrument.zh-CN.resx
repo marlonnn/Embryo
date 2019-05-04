@@ -162,4 +162,16 @@
   <data name="StrUnKnown" xml:space="preserve">
     <value>未知</value>
   </data>
+  <data name="StrHigh" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="StrLow" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="StrNormal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="StrUrgent" xml:space="preserve">
+    <value>紧急</value>
+  </data>
 </root>

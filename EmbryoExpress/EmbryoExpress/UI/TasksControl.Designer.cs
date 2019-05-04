@@ -38,16 +38,22 @@
             this.btnInProgress = new DevComponents.DotNetBar.ButtonX();
             this.btnAllTasks = new DevComponents.DotNetBar.ButtonX();
             this.gridControl = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridView = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.AssignTo = new DevExpress.XtraGrid.Columns.GridColumn();
             this.OwnedBy = new DevExpress.XtraGrid.Columns.GridColumn();
             this.Subject = new DevExpress.XtraGrid.Columns.GridColumn();
             this.Priority = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemImageComboBox1 = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
+            this.priorityImageCollection = new DevExpress.Utils.ImageCollection();
             this.DueDate = new DevExpress.XtraGrid.Columns.GridColumn();
             this.Completion = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemProgressBar1 = new DevExpress.XtraEditors.Repository.RepositoryItemProgressBar();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageComboBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.priorityImageCollection)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemProgressBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -122,72 +128,123 @@
             // gridControl
             // 
             resources.ApplyResources(this.gridControl, "gridControl");
-            this.gridControl.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(239)))), ((int)(((byte)(249)))));
-            this.gridControl.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.gridControl.MainView = this.gridView1;
+            this.gridControl.EmbeddedNavigator.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("gridControl.EmbeddedNavigator.Margin")));
+            this.gridControl.MainView = this.gridView;
             this.gridControl.Name = "gridControl";
+            this.gridControl.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemImageComboBox1,
+            this.repositoryItemProgressBar1});
+            this.gridControl.ShowOnlyPredefinedDetails = true;
             this.gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.gridView});
             // 
-            // gridView1
+            // gridView
             // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridView.Appearance.FooterPanel.Options.UseTextOptions = true;
+            this.gridView.Appearance.FooterPanel.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.gridView.Appearance.GroupPanel.Options.UseTextOptions = true;
+            this.gridView.Appearance.GroupPanel.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.gridView.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.AssignTo,
             this.OwnedBy,
             this.Subject,
             this.Priority,
             this.DueDate,
             this.Completion});
-            this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.None;
-            this.gridView1.FooterPanelHeight = 60;
-            this.gridView1.GridControl = this.gridControl;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsBehavior.AllowSortAnimation = DevExpress.Utils.DefaultBoolean.True;
-            this.gridView1.OptionsBehavior.Editable = false;
-            this.gridView1.OptionsBehavior.KeepFocusedRowOnUpdate = false;
-            this.gridView1.OptionsCustomization.AllowQuickHideColumns = false;
-            this.gridView1.OptionsFind.AllowFindPanel = false;
-            this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
-            this.gridView1.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.Never;
-            this.gridView1.OptionsView.ShowFooter = true;
-            this.gridView1.OptionsView.ShowGroupPanel = false;
-            this.gridView1.OptionsView.ShowIndicator = false;
-            this.gridView1.RowHeight = 10;
-            this.gridView1.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
-            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.DueDate, DevExpress.Data.ColumnSortOrder.Descending)});
+            this.gridView.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.None;
+            this.gridView.FooterPanelHeight = 60;
+            this.gridView.GridControl = this.gridControl;
+            this.gridView.Name = "gridView";
+            this.gridView.OptionsBehavior.AllowSortAnimation = DevExpress.Utils.DefaultBoolean.True;
+            this.gridView.OptionsBehavior.Editable = false;
+            this.gridView.OptionsBehavior.KeepFocusedRowOnUpdate = false;
+            this.gridView.OptionsCustomization.AllowQuickHideColumns = false;
+            this.gridView.OptionsFind.AllowFindPanel = false;
+            this.gridView.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gridView.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.Never;
+            this.gridView.OptionsView.ShowFooter = true;
+            this.gridView.OptionsView.ShowGroupPanel = false;
+            this.gridView.OptionsView.ShowIndicator = false;
+            this.gridView.RowHeight = 10;
+            this.gridView.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
+            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.DueDate, DevExpress.Data.ColumnSortOrder.Ascending)});
             // 
             // AssignTo
             // 
             resources.ApplyResources(this.AssignTo, "AssignTo");
+            this.AssignTo.FieldName = "AssignTo";
             this.AssignTo.Name = "AssignTo";
             // 
             // OwnedBy
             // 
             resources.ApplyResources(this.OwnedBy, "OwnedBy");
+            this.OwnedBy.FieldName = "OwnedBy";
             this.OwnedBy.Name = "OwnedBy";
             // 
             // Subject
             // 
-            resources.ApplyResources(this.Subject, "Subject");
+            this.Subject.FieldName = "Subject";
             this.Subject.Name = "Subject";
+            resources.ApplyResources(this.Subject, "Subject");
             // 
             // Priority
             // 
-            resources.ApplyResources(this.Priority, "Priority");
+            this.Priority.ColumnEdit = this.repositoryItemImageComboBox1;
+            this.Priority.FieldName = "Priority";
             this.Priority.ImageOptions.Alignment = ((System.Drawing.StringAlignment)(resources.GetObject("Priority.ImageOptions.Alignment")));
             this.Priority.Name = "Priority";
+            this.Priority.OptionsFilter.AllowAutoFilter = false;
+            this.Priority.OptionsFilter.AllowFilter = false;
+            this.Priority.SortMode = DevExpress.XtraGrid.ColumnSortMode.Value;
+            resources.ApplyResources(this.Priority, "Priority");
+            // 
+            // repositoryItemImageComboBox1
+            // 
+            this.repositoryItemImageComboBox1.Appearance.Options.UseTextOptions = true;
+            this.repositoryItemImageComboBox1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.repositoryItemImageComboBox1.AutoHeight = false;
+            this.repositoryItemImageComboBox1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemImageComboBox1.GlyphAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.repositoryItemImageComboBox1.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", EmbryoExpress.Tasks.Priority.Low, 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", EmbryoExpress.Tasks.Priority.Normal, 1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", EmbryoExpress.Tasks.Priority.High, 2),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", EmbryoExpress.Tasks.Priority.Urgent, 3)});
+            this.repositoryItemImageComboBox1.Name = "repositoryItemImageComboBox1";
+            this.repositoryItemImageComboBox1.PopupSizeable = true;
+            this.repositoryItemImageComboBox1.SmallImages = this.priorityImageCollection;
+            // 
+            // priorityImageCollection
+            // 
+            this.priorityImageCollection.ImageSize = new System.Drawing.Size(24, 24);
+            this.priorityImageCollection.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("priorityImageCollection.ImageStream")));
+            this.priorityImageCollection.Images.SetKeyName(0, "LowPriority.png");
+            this.priorityImageCollection.Images.SetKeyName(1, "NormalPriority.png");
+            this.priorityImageCollection.Images.SetKeyName(2, "MediumPriority.png");
+            this.priorityImageCollection.Images.SetKeyName(3, "HighPriority.png");
             // 
             // DueDate
             // 
-            resources.ApplyResources(this.DueDate, "DueDate");
+            this.DueDate.FieldName = "EndTime";
             this.DueDate.Name = "DueDate";
+            resources.ApplyResources(this.DueDate, "DueDate");
             // 
             // Completion
             // 
             resources.ApplyResources(this.Completion, "Completion");
+            this.Completion.ColumnEdit = this.repositoryItemProgressBar1;
+            this.Completion.FieldName = "Complete";
             this.Completion.Name = "Completion";
             this.Completion.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
             new DevExpress.XtraGrid.GridColumnSummaryItem(((DevExpress.Data.SummaryItemType)(resources.GetObject("Completion.Summary"))), resources.GetString("Completion.Summary1"), resources.GetString("Completion.Summary2"))});
+            // 
+            // repositoryItemProgressBar1
+            // 
+            this.repositoryItemProgressBar1.Name = "repositoryItemProgressBar1";
+            this.repositoryItemProgressBar1.ProgressPadding = new System.Windows.Forms.Padding(0, 1, 0, 0);
+            this.repositoryItemProgressBar1.ProgressViewStyle = DevExpress.XtraEditors.Controls.ProgressViewStyle.Solid;
+            this.repositoryItemProgressBar1.ShowTitle = true;
             // 
             // TasksControl
             // 
@@ -198,7 +255,10 @@
             this.Name = "TasksControl";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageComboBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.priorityImageCollection)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemProgressBar1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -214,12 +274,15 @@
         private DevComponents.DotNetBar.ButtonX btnUrgent;
         private DevComponents.DotNetBar.ButtonX btnHighPriority;
         private DevExpress.XtraGrid.GridControl gridControl;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView;
         private DevExpress.XtraGrid.Columns.GridColumn AssignTo;
         private DevExpress.XtraGrid.Columns.GridColumn OwnedBy;
         private DevExpress.XtraGrid.Columns.GridColumn Subject;
         private DevExpress.XtraGrid.Columns.GridColumn Priority;
+        private DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox repositoryItemImageComboBox1;
+        private DevExpress.Utils.ImageCollection priorityImageCollection;
         private DevExpress.XtraGrid.Columns.GridColumn DueDate;
         private DevExpress.XtraGrid.Columns.GridColumn Completion;
+        private DevExpress.XtraEditors.Repository.RepositoryItemProgressBar repositoryItemProgressBar1;
     }
 }

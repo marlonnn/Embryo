@@ -179,4 +179,22 @@
   <data name="StrAddUserSuccess" xml:space="preserve">
     <value>添加成功。</value>
   </data>
+  <data name="StrAssignTo" xml:space="preserve">
+    <value>分配给</value>
+  </data>
+  <data name="StrComplete" xml:space="preserve">
+    <value>% 完成</value>
+  </data>
+  <data name="StrEndTime" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="StrOwnedBy" xml:space="preserve">
+    <value>持有者</value>
+  </data>
+  <data name="StrPriority" xml:space="preserve">
+    <value>优先级</value>
+  </data>
+  <data name="StrSubject" xml:space="preserve">
+    <value>任务</value>
+  </data>
 </root>

@@ -204,4 +204,22 @@ Technical Support Request creation wizard automatically collects the instrument 
   <data name="StrAddUserSuccess" xml:space="preserve">
     <value> has been added successfully.</value>
   </data>
+  <data name="StrAssignTo" xml:space="preserve">
+    <value>Assign To</value>
+  </data>
+  <data name="StrComplete" xml:space="preserve">
+    <value>% Complete</value>
+  </data>
+  <data name="StrEndTime" xml:space="preserve">
+    <value>EndTime</value>
+  </data>
+  <data name="StrOwnedBy" xml:space="preserve">
+    <value>OwnedBy</value>
+  </data>
+  <data name="StrPriority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="StrSubject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
 </root>
