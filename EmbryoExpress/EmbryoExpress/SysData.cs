@@ -12,9 +12,21 @@ namespace EmbryoExpress
         private List<Instruments> instrumentsList;
         public List<Instruments> InstrumentsList { get { return this.instrumentsList; } }
 
+        private static SysData sysData;
+
+
         public SysData()
         {
             instrumentsList = new List<Instruments>();
+        }
+
+        public static SysData GetSysData()
+        {
+            if (sysData == null)
+            {
+                sysData = new SysData();
+            }
+            return sysData;
         }
 
         public void SimulatorInstrumentsData()
@@ -23,7 +35,7 @@ namespace EmbryoExpress
             for (int i=0; i<30; i++)
             {
                 Incubator incubator = new Incubator();
-                incubator.Simulator();
+                incubator.Simulator(i);
 
                 Microscope microscope = new Microscope();
                 microscope.Calibration = Calibration.Calibrated;

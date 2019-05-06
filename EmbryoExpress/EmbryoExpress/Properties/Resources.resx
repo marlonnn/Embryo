@@ -222,4 +222,10 @@ Technical Support Request creation wizard automatically collects the instrument 
   <data name="StrSubject" xml:space="preserve">
     <value>Subject</value>
   </data>
+  <data name="Export Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Reources\Export Table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save as Picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Reources\Save as Picture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

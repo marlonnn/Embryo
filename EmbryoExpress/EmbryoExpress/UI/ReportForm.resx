@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnFridge.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnFridge.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnFridge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnFridge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 234</value>
+  </data>
+  <data name="btnFridge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 32</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnFridge.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnFridge.Text" xml:space="preserve">
+    <value> 4 Fridge</value>
+  </data>
+  <data name="btnFridge.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnFridge.Name" xml:space="preserve">
+    <value>btnFridge</value>
+  </data>
+  <data name="&gt;&gt;btnFridge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFridge.Parent" xml:space="preserve">
+    <value>panelStep</value>
+  </data>
+  <data name="&gt;&gt;btnFridge.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelStep.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>207, 221, 238</value>
+  </data>
+  <data name="panelStep.Appearance.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>207, 221, 238</value>
+  </data>
+  <data name="panelStep.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnReport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnReport.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnReport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 437</value>
+  </data>
+  <data name="btnReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 32</value>
+  </data>
+  <data name="btnReport.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnReport.Text" xml:space="preserve">
+    <value> 8 Report</value>
+  </data>
+  <data name="btnReport.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnReport.Name" xml:space="preserve">
+    <value>btnReport</value>
+  </data>
+  <data name="&gt;&gt;btnReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReport.Parent" xml:space="preserve">
+    <value>panelStep</value>
+  </data>
+  <data name="&gt;&gt;btnReport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnEnvironment.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnEnvironment.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnEnvironment.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnEnvironment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 344</value>
+  </data>
+  <data name="btnEnvironment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 32</value>
+  </data>
+  <data name="btnEnvironment.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnEnvironment.Text" xml:space="preserve">
+    <value> 6 Environment</value>
+  </data>
+  <data name="btnEnvironment.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnEnvironment.Name" xml:space="preserve">
+    <value>btnEnvironment</value>
+  </data>
+  <data name="&gt;&gt;btnEnvironment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEnvironment.Parent" xml:space="preserve">
+    <value>panelStep</value>
+  </data>
+  <data name="&gt;&gt;btnEnvironment.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnStatisticalItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnStatisticalItems.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStatisticalItems.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStatisticalItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 399</value>
+  </data>
+  <data name="btnStatisticalItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 32</value>
+  </data>
+  <data name="btnStatisticalItems.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnStatisticalItems.Text" xml:space="preserve">
+    <value> 7 Statistical Items</value>
+  </data>
+  <data name="btnStatisticalItems.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnStatisticalItems.Name" xml:space="preserve">
+    <value>btnStatisticalItems</value>
+  </data>
+  <data name="&gt;&gt;btnStatisticalItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStatisticalItems.Parent" xml:space="preserve">
+    <value>panelStep</value>
+  </data>
+  <data name="&gt;&gt;btnStatisticalItems.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnHotStage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnHotStage.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnHotStage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHotStage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 124</value>
+  </data>
+  <data name="btnHotStage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 32</value>
+  </data>
+  <data name="btnHotStage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnHotStage.Text" xml:space="preserve">
+    <value> 2 Hot Stage</value>
+  </data>
+  <data name="btnHotStage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnHotStage.Name" xml:space="preserve">
+    <value>btnHotStage</value>
+  </data>
+  <data name="&gt;&gt;btnHotStage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHotStage.Parent" xml:space="preserve">
+    <value>panelStep</value>
+  </data>
+  <data name="&gt;&gt;btnHotStage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnTemperatureLowering.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnTemperatureLowering.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnTemperatureLowering.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTemperatureLowering.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 179</value>
+  </data>
+  <data name="btnTemperatureLowering.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 32</value>
+  </data>
+  <data name="btnTemperatureLowering.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnTemperatureLowering.Text" xml:space="preserve">
+    <value> 3 Temperature Lowering</value>
+  </data>
+  <data name="btnTemperatureLowering.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnTemperatureLowering.Name" xml:space="preserve">
+    <value>btnTemperatureLowering</value>
+  </data>
+  <data name="&gt;&gt;btnTemperatureLowering.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTemperatureLowering.Parent" xml:space="preserve">
+    <value>panelStep</value>
+  </data>
+  <data name="&gt;&gt;btnTemperatureLowering.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnIncubator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnIncubator.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnIncubator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnIncubator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 69</value>
+  </data>
+  <data name="btnIncubator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 32</value>
+  </data>
+  <data name="btnIncubator.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnIncubator.Text" xml:space="preserve">
+    <value> 1 Incubator</value>
+  </data>
+  <data name="btnIncubator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnIncubator.Name" xml:space="preserve">
+    <value>btnIncubator</value>
+  </data>
+  <data name="&gt;&gt;btnIncubator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIncubator.Parent" xml:space="preserve">
+    <value>panelStep</value>
+  </data>
+  <data name="&gt;&gt;btnIncubator.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnAirConditioner.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnAirConditioner.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAirConditioner.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAirConditioner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 289</value>
+  </data>
+  <data name="btnAirConditioner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 32</value>
+  </data>
+  <data name="btnAirConditioner.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnAirConditioner.Text" xml:space="preserve">
+    <value> 5 Air Conditioner</value>
+  </data>
+  <data name="btnAirConditioner.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnAirConditioner.Name" xml:space="preserve">
+    <value>btnAirConditioner</value>
+  </data>
+  <data name="&gt;&gt;btnAirConditioner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAirConditioner.Parent" xml:space="preserve">
+    <value>panelStep</value>
+  </data>
+  <data name="&gt;&gt;btnAirConditioner.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panelStep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="panelStep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 738</value>
+  </data>
+  <data name="panelStep.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panelStep.Name" xml:space="preserve">
+    <value>panelStep</value>
+  </data>
+  <data name="&gt;&gt;panelStep.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelStep.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelStep.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelIncubator.Caption" xml:space="preserve">
+    <value>panelIncubator</value>
+  </data>
+  <data name="panelIncubator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 735</value>
+  </data>
+  <data name="&gt;&gt;panelIncubator.Name" xml:space="preserve">
+    <value>panelIncubator</value>
+  </data>
+  <data name="&gt;&gt;panelIncubator.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelIncubator.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;panelIncubator.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelHotStage.Caption" xml:space="preserve">
+    <value>panelHotStage</value>
+  </data>
+  <data name="panelHotStage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 735</value>
+  </data>
+  <data name="&gt;&gt;panelHotStage.Name" xml:space="preserve">
+    <value>panelHotStage</value>
+  </data>
+  <data name="&gt;&gt;panelHotStage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelHotStage.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;panelHotStage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelTemperatureLowering.Caption" xml:space="preserve">
+    <value>panelTemperatureLowering</value>
+  </data>
+  <data name="panelTemperatureLowering.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 735</value>
+  </data>
+  <data name="&gt;&gt;panelTemperatureLowering.Name" xml:space="preserve">
+    <value>panelTemperatureLowering</value>
+  </data>
+  <data name="&gt;&gt;panelTemperatureLowering.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelTemperatureLowering.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;panelTemperatureLowering.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelAirConditioner.Caption" xml:space="preserve">
+    <value>panelAirConditioner</value>
+  </data>
+  <data name="panelAirConditioner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 735</value>
+  </data>
+  <data name="&gt;&gt;panelAirConditioner.Name" xml:space="preserve">
+    <value>panelAirConditioner</value>
+  </data>
+  <data name="&gt;&gt;panelAirConditioner.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelAirConditioner.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;panelAirConditioner.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelStatisticalItems.Caption" xml:space="preserve">
+    <value>panelStatisticalItems</value>
+  </data>
+  <data name="panelStatisticalItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 735</value>
+  </data>
+  <data name="&gt;&gt;panelStatisticalItems.Name" xml:space="preserve">
+    <value>panelStatisticalItems</value>
+  </data>
+  <data name="&gt;&gt;panelStatisticalItems.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelStatisticalItems.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;panelStatisticalItems.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelFridge.Caption" xml:space="preserve">
+    <value>panelFridge</value>
+  </data>
+  <data name="panelFridge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 735</value>
+  </data>
+  <data name="&gt;&gt;panelFridge.Name" xml:space="preserve">
+    <value>panelFridge</value>
+  </data>
+  <data name="&gt;&gt;panelFridge.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelFridge.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;panelFridge.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelEnvironment.Caption" xml:space="preserve">
+    <value>panelEnvironment</value>
+  </data>
+  <data name="panelEnvironment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 735</value>
+  </data>
+  <data name="&gt;&gt;panelEnvironment.Name" xml:space="preserve">
+    <value>panelEnvironment</value>
+  </data>
+  <data name="&gt;&gt;panelEnvironment.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelEnvironment.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;panelEnvironment.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;panelReport.Name" xml:space="preserve">
+    <value>panelReport</value>
+  </data>
+  <data name="&gt;&gt;panelReport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelReport.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;panelReport.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 2</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 735</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabControl1.Text" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationFrame, DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelReport.Caption" xml:space="preserve">
+    <value>panelReport</value>
+  </data>
+  <data name="panelReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 735</value>
+  </data>
+  <data name="&gt;&gt;panelReport.Name" xml:space="preserve">
+    <value>panelReport</value>
+  </data>
+  <data name="&gt;&gt;panelReport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavigationPage, DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelReport.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;panelReport.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panel1.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>207, 221, 238</value>
+  </data>
+  <data name="panel1.Appearance.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>207, 221, 238</value>
+  </data>
+  <data name="panel1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 739</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>840, 739</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Report Form</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ReportForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Office2007Form, DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+</root>

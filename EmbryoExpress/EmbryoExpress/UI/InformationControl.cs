@@ -14,10 +14,11 @@ namespace EmbryoExpress.UI
     public partial class InformationControl : UserControl
     {
         private List<Instruments> instrumentsList;
+        private SysData sysData;
         public InformationControl()
         {
             InitializeComponent();
-            SysData sysData = new SysData();
+            sysData = SysData.GetSysData();
             sysData.SimulatorInstrumentsData();
             instrumentsList = sysData.InstrumentsList;
         }

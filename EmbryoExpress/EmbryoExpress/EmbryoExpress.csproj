@@ -35,11 +35,15 @@
   <ItemGroup>
     <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.DotNetBar2, Version=11.1.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.DevAV.v18.1.Data, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.UI, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.Wizard, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -155,6 +159,54 @@
     <Compile Include="UI\ProblemReportForm.designer.cs">
       <DependentUpon>ProblemReportForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\StatisticalItemsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Report\StatisticalItemsControl.Designer.cs">
+      <DependentUpon>StatisticalItemsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\EnvironmentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Report\EnvironmentControl.Designer.cs">
+      <DependentUpon>EnvironmentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\AirConditionerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Report\AirConditionerControl.Designer.cs">
+      <DependentUpon>AirConditionerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\HotStageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Report\HotStageControl.Designer.cs">
+      <DependentUpon>HotStageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\FridgeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Report\FridgeControl.Designer.cs">
+      <DependentUpon>FridgeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\TemperLoweringControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Report\TemperLoweringControl.Designer.cs">
+      <DependentUpon>TemperLoweringControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\IncubatorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Report\IncubatorControl.Designer.cs">
+      <DependentUpon>IncubatorControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\SplashScreenForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -245,6 +297,30 @@
     <EmbeddedResource Include="UI\ProblemReportForm.zh-CN.resx">
       <DependentUpon>ProblemReportForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\StatisticalItemsControl.resx">
+      <DependentUpon>StatisticalItemsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\EnvironmentControl.resx">
+      <DependentUpon>EnvironmentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\AirConditionerControl.resx">
+      <DependentUpon>AirConditionerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\HotStageControl.resx">
+      <DependentUpon>HotStageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\FridgeControl.resx">
+      <DependentUpon>FridgeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\TemperLoweringControl.resx">
+      <DependentUpon>TemperLoweringControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\IncubatorControl.resx">
+      <DependentUpon>IncubatorControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\SplashScreenForm.resx">
       <DependentUpon>SplashScreenForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -283,6 +359,8 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Reources\Central Monitor.png" />
+    <None Include="Reources\Export Table.png" />
+    <None Include="Reources\Save as Picture.png" />
     <Content Include="Reources\SplashScreen2.png" />
     <None Include="Reources\User Management.png" />
     <None Include="Reources\Report Managerment.png" />

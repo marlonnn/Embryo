@@ -76,7 +76,8 @@ namespace EmbryoExpress
 
         private void buttonItemReportManagerment_Click(object sender, EventArgs e)
         {
-
+            ReportForm reportForm = new ReportForm();
+            reportForm.ShowDialog();
         }
 
         private void buttonItem14_Click(object sender, EventArgs e)

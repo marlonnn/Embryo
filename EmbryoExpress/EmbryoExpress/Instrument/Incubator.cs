@@ -22,11 +22,16 @@ namespace EmbryoExpress.Instrument
             set { this.temperature = value; }
         }
 
-        public void Simulator()
+        public void Simulator(int i)
         {
-            Random r = new Random();
-            this.co2Concentration = 40 * r.Next(1, 2);
-            this.temperature = 15 * r.Next(1, 2);
+            Random radom1 = new Random(i);
+            var r1 = radom1.Next(1, 100);
+            this.co2Concentration = 1 * r1;
+
+            Random radom2 = new Random(r1);
+            var r2 = radom2.Next(15, 38);
+
+            this.temperature = r2;
             this.Cleaning = Cleaning.Cleaned;
             this.Maintenance = Maintenance.Maintained;
             this.Calibration = Calibration.Calibrated;
