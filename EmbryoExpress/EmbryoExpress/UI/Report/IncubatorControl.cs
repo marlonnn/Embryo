@@ -71,14 +71,27 @@ namespace EmbryoExpress.UI.Report
         private void FillChartControl()
         {
             this.chartControl1.Titles[0].Text = this.cmbIncubatorItem.SelectedItem.ToString();
+            XYDiagram xyDiagram1 = (XYDiagram)chartControl1.Diagram;
+
             xyDiagram1.AxisX.Title.Text = "DateTime";
             xyDiagram1.AxisY.Title.Text = this.cmbIncubatorItem.SelectedItem.ToString();
 
             List<DateTime> xs; List<int> ys;
             GetStandardPoints(out xs, out ys);
 
-            //var curveSeries = this.chartControl1.Series.FirstOrDefault(s => s.Name == "curveSeries") as Series;
             FillSeries(series1, xs, ys);
+
+            xyDiagram1.AxisX.WholeRange.SideMarginsValue = 0;
+            DateTime min = (DateTime)xyDiagram1.AxisX.WholeRange.MinValue;
+            DateTime max = (DateTime)xyDiagram1.AxisX.WholeRange.MaxValue;
+            var margin = max - min;
+
+            xyDiagram1.AxisX.WholeRange.SetMinMaxValues(min, max);
+
+
+            //xyDiagram1.AxisX.VisualRange.Auto = false;
+            //xyDiagram1.AxisX.VisualRange.MinValue = xs[0];
+            //xyDiagram1.AxisX.VisualRange.MaxValue = xs[xs.Count - 1];
             this.chartControl1.Update();
         }
 
@@ -87,7 +100,7 @@ namespace EmbryoExpress.UI.Report
             xs = new List<DateTime>();
             ys = new List<int>();
 
-            for (int i=0; i<instrumentsList.Count; i++)
+            for (int i=instrumentsList.Count - 1; i>=0; i--)
             {
                 xs.Add(instrumentsList[i].DateTime);
                 if (this.cmbIncubatorItem.SelectedIndex == 0)

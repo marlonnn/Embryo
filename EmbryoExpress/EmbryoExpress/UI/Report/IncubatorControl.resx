@@ -262,7 +262,7 @@
     <value>17, 17</value>
   </metadata>
   <data name="lblSelectIncubatorItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
+    <value>132, 22</value>
   </data>
   <data name="lblSelectIncubatorItem.Text" xml:space="preserve">
     <value>Select Incubator Item</value>
@@ -280,7 +280,7 @@
     <value>23, 22</value>
   </data>
   <data name="btnSaveImage.Text" xml:space="preserve">
-    <value>toolStripButton1</value>
+    <value>Save to image</value>
   </data>
   <data name="btnExportCSV.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -289,7 +289,7 @@
     <value>23, 22</value>
   </data>
   <data name="btnExportCSV.Text" xml:space="preserve">
-    <value>toolStripButton2</value>
+    <value>Export to CSV</value>
   </data>
   <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>

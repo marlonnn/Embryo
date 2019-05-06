@@ -300,6 +300,12 @@
     <EmbeddedResource Include="UI\ReportForm.resx">
       <DependentUpon>ReportForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\ReportForm.zh-CN.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\IncubatorControl.zh-CN.resx">
+      <DependentUpon>IncubatorControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\StatisticalItemsControl.resx">
       <DependentUpon>StatisticalItemsControl.cs</DependentUpon>
     </EmbeddedResource>
