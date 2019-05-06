@@ -330,6 +330,9 @@
     <EmbeddedResource Include="UI\Report\IncubatorControl.resx">
       <DependentUpon>IncubatorControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\TemperLoweringControl.zh-CN.resx">
+      <DependentUpon>TemperLoweringControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\SplashScreenForm.resx">
       <DependentUpon>SplashScreenForm.cs</DependentUpon>
     </EmbeddedResource>

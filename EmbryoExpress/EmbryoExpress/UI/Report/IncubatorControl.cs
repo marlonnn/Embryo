@@ -70,7 +70,7 @@ namespace EmbryoExpress.UI.Report
 
         private void FillChartControl()
         {
-            this.chartControl1.Titles[0].Text = this.cmbIncubatorItem.SelectedItem.ToString();
+            this.chartControl1.Titles[0].Text = "Incubator";
             XYDiagram xyDiagram1 = (XYDiagram)chartControl1.Diagram;
 
             xyDiagram1.AxisX.Title.Text = "DateTime";

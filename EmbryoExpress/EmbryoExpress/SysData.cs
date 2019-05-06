@@ -46,7 +46,8 @@ namespace EmbryoExpress
                 cylinder.UsageRecord = "气瓶正常使用中";
 
                 HotStage hs = new HotStage();
-                hs.Temperature = i + 10;
+                Random r = new Random(i);
+                hs.Temperature = r.Next(25, 30);
                 hs.UsageRecord = "热台正常使用中";
 
                 TemperLowering theperLowering = new TemperLowering();

@@ -64,7 +64,7 @@ namespace EmbryoExpress.UI.Report
 
         private void FillChartControl()
         {
-            this.chartControl1.Titles[0].Text = this.cmbHotStageItem.SelectedItem.ToString();
+            this.chartControl1.Titles[0].Text = "Hot Stage";
             XYDiagram xyDiagram1 = (XYDiagram)chartControl1.Diagram;
 
             xyDiagram1.AxisX.Title.Text = "DateTime";
