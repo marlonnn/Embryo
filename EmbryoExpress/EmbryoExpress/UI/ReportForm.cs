@@ -24,6 +24,8 @@ namespace EmbryoExpress.UI
         private EnvironmentControl environmentControl;
         private StatisticalItemsControl statisticalItemsControl;
 
+        private ReportControl reportControl;
+
         private Control[] _btnControls;
 
         public ReportForm()
@@ -66,6 +68,9 @@ namespace EmbryoExpress.UI
             statisticalItemsControl = new StatisticalItemsControl();
             statisticalItemsControl.Dock = DockStyle.Fill;
 
+            reportControl = new ReportControl();
+            reportControl.Dock = DockStyle.Fill;
+
             panelIncubator.Controls.Add(incubatorControl);
             panelHotStage.Controls.Add(hotStageControl);
             panelTemperatureLowering.Controls.Add(temperLoweringControl);
@@ -73,6 +78,7 @@ namespace EmbryoExpress.UI
             panelAirConditioner.Controls.Add(airConditionerControl);
             panelEnvironment.Controls.Add(environmentControl);
             panelStatisticalItems.Controls.Add(statisticalItemsControl);
+            panelReport.Controls.Add(reportControl);
 
             ShowControl(btnIncubator, panelIncubator);
         }

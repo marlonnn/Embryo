@@ -165,6 +165,12 @@
     <Compile Include="UI\ReportForm.Designer.cs">
       <DependentUpon>ReportForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Report\ReportControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Report\ReportControl.Designer.cs">
+      <DependentUpon>ReportControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Report\StatisticalItemsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -317,6 +323,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\IncubatorControl.zh-CN.resx">
       <DependentUpon>IncubatorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\ReportControl.resx">
+      <DependentUpon>ReportControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\StatisticalItemsControl.resx">
       <DependentUpon>StatisticalItemsControl.cs</DependentUpon>
