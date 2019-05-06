@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AirConditionerControl));
+            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.lblSelectIncubatorItem = new System.Windows.Forms.ToolStripLabel();
             this.cmbAirConditionerItem = new System.Windows.Forms.ToolStripComboBox();
@@ -39,6 +43,10 @@
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
+            this.dateTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.temperature = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.humidity = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.usageRecord = new DevExpress.XtraGrid.Columns.GridColumn();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
@@ -46,6 +54,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -56,105 +66,123 @@
             this.toolStripSeparator1,
             this.btnSaveImage,
             this.btnExportCSV});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.toolStrip1, "toolStrip1");
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(811, 25);
-            this.toolStrip1.TabIndex = 0;
-            this.toolStrip1.Text = "toolStrip1";
             // 
             // lblSelectIncubatorItem
             // 
             this.lblSelectIncubatorItem.Name = "lblSelectIncubatorItem";
-            this.lblSelectIncubatorItem.Size = new System.Drawing.Size(149, 22);
-            this.lblSelectIncubatorItem.Text = "Select Air Conditioner Item";
+            resources.ApplyResources(this.lblSelectIncubatorItem, "lblSelectIncubatorItem");
             // 
             // cmbAirConditionerItem
             // 
             this.cmbAirConditionerItem.Name = "cmbAirConditionerItem";
-            this.cmbAirConditionerItem.Size = new System.Drawing.Size(121, 25);
+            resources.ApplyResources(this.cmbAirConditionerItem, "cmbAirConditionerItem");
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // btnSaveImage
             // 
             this.btnSaveImage.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.btnSaveImage.Image = global::EmbryoExpress.Properties.Resources.Save_as_Picture;
-            this.btnSaveImage.ImageTransparentColor = System.Drawing.Color.Magenta;
+            resources.ApplyResources(this.btnSaveImage, "btnSaveImage");
             this.btnSaveImage.Name = "btnSaveImage";
-            this.btnSaveImage.Size = new System.Drawing.Size(23, 22);
-            this.btnSaveImage.Text = "toolStripButton1";
             // 
             // btnExportCSV
             // 
             this.btnExportCSV.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.btnExportCSV.Image = global::EmbryoExpress.Properties.Resources.Export_Table;
-            this.btnExportCSV.ImageTransparentColor = System.Drawing.Color.Magenta;
+            resources.ApplyResources(this.btnExportCSV, "btnExportCSV");
             this.btnExportCSV.Name = "btnExportCSV";
-            this.btnExportCSV.Size = new System.Drawing.Size(23, 22);
-            this.btnExportCSV.Text = "toolStripButton2";
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.splitContainerControl1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 25);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(811, 634);
-            this.panel1.TabIndex = 1;
             // 
             // splitContainerControl1
             // 
-            this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            resources.ApplyResources(this.splitContainerControl1, "splitContainerControl1");
             this.splitContainerControl1.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 0);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.gridControl1);
-            this.splitContainerControl1.Panel1.Text = "Panel1";
+            resources.ApplyResources(this.splitContainerControl1.Panel1, "splitContainerControl1.Panel1");
             this.splitContainerControl1.Panel2.Controls.Add(this.chartControl1);
-            this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(811, 634);
+            resources.ApplyResources(this.splitContainerControl1.Panel2, "splitContainerControl1.Panel2");
             this.splitContainerControl1.SplitterPosition = 317;
-            this.splitContainerControl1.TabIndex = 0;
-            this.splitContainerControl1.Text = "splitContainerControl1";
             // 
             // gridControl1
             // 
-            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.gridControl1, "gridControl1");
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(811, 317);
-            this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
             // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.dateTime,
+            this.temperature,
+            this.humidity,
+            this.usageRecord});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.Never;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // chartControl1
             // 
-            this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            xyDiagram1.AxisX.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisY.Title.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = xyDiagram1;
+            resources.ApplyResources(this.chartControl1, "chartControl1");
             this.chartControl1.Legend.Name = "Default Legend";
-            this.chartControl1.Location = new System.Drawing.Point(0, 0);
             this.chartControl1.Name = "chartControl1";
-            this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[0];
-            this.chartControl1.Size = new System.Drawing.Size(811, 312);
-            this.chartControl1.TabIndex = 0;
+            resources.ApplyResources(series1, "series1");
+            this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
+        series1};
+            this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
+            chartTitle1});
+            // 
+            // dateTime
+            // 
+            resources.ApplyResources(this.dateTime, "dateTime");
+            this.dateTime.FieldName = "DateTime";
+            this.dateTime.Name = "dateTime";
+            // 
+            // temperature
+            // 
+            resources.ApplyResources(this.temperature, "temperature");
+            this.temperature.FieldName = "AirConditioner.Temperature";
+            this.temperature.Name = "temperature";
+            // 
+            // humidity
+            // 
+            resources.ApplyResources(this.humidity, "humidity");
+            this.humidity.FieldName = "AirConditioner.Humidity";
+            this.humidity.Name = "humidity";
+            // 
+            // usageRecord
+            // 
+            resources.ApplyResources(this.usageRecord, "usageRecord");
+            this.usageRecord.FieldName = "AirConditioner.UsageRecord";
+            this.usageRecord.Name = "usageRecord";
             // 
             // AirConditionerControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip1);
             this.Name = "AirConditionerControl";
-            this.Size = new System.Drawing.Size(811, 659);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -162,6 +190,8 @@
             this.splitContainerControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -181,5 +211,9 @@
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraCharts.ChartControl chartControl1;
+        private DevExpress.XtraGrid.Columns.GridColumn dateTime;
+        private DevExpress.XtraGrid.Columns.GridColumn temperature;
+        private DevExpress.XtraGrid.Columns.GridColumn humidity;
+        private DevExpress.XtraGrid.Columns.GridColumn usageRecord;
     }
 }

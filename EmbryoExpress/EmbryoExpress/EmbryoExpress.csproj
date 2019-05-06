@@ -303,6 +303,15 @@
     <EmbeddedResource Include="UI\ReportForm.zh-CN.resx">
       <DependentUpon>ReportForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\AirConditionerControl.zh-CN.resx">
+      <DependentUpon>AirConditionerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\EnvironmentControl.zh-CN.resx">
+      <DependentUpon>EnvironmentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\FridgeControl.zh-CN.resx">
+      <DependentUpon>FridgeControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\HotStageControl.zh-CN.resx">
       <DependentUpon>HotStageControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -323,6 +332,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\FridgeControl.resx">
       <DependentUpon>FridgeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\StatisticalItemsControl.zh-CN.resx">
+      <DependentUpon>StatisticalItemsControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\TemperLoweringControl.resx">
       <DependentUpon>TemperLoweringControl.cs</DependentUpon>

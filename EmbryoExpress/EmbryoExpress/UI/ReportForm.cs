@@ -70,6 +70,7 @@ namespace EmbryoExpress.UI
             panelHotStage.Controls.Add(hotStageControl);
             panelTemperatureLowering.Controls.Add(temperLoweringControl);
             panelFridge.Controls.Add(fridgeControl);
+            panelAirConditioner.Controls.Add(airConditionerControl);
             panelEnvironment.Controls.Add(environmentControl);
             panelStatisticalItems.Controls.Add(statisticalItemsControl);
 
@@ -114,7 +115,7 @@ namespace EmbryoExpress.UI
 
         private void btnAirConditioner_Click(object sender, EventArgs e)
         {
-            ShowControl(btnAirConditioner, panelHotStage);
+            ShowControl(btnAirConditioner, panelAirConditioner);
         }
 
         private void btnEnvironment_Click(object sender, EventArgs e)
