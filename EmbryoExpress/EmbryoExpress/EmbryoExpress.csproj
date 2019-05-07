@@ -145,6 +145,12 @@
     <Compile Include="UI\ChildForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UI\DailyManagerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\DailyManagerControl.Designer.cs">
+      <DependentUpon>DailyManagerControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\EditTaskForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +168,12 @@
     </Compile>
     <Compile Include="UI\ModifyUserForm.Designer.cs">
       <DependentUpon>ModifyUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MonitorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\MonitorControl.Designer.cs">
+      <DependentUpon>MonitorControl.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\ProblemReportForm.cs">
       <SubType>Form</SubType>
@@ -302,6 +314,9 @@
     <EmbeddedResource Include="UI\AddUserForm.zh-CN.resx">
       <DependentUpon>AddUserForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\DailyManagerControl.resx">
+      <DependentUpon>DailyManagerControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\EditTaskForm.resx">
       <DependentUpon>EditTaskForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -319,6 +334,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\ModifyUserForm.zh-CN.resx">
       <DependentUpon>ModifyUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MonitorControl.resx">
+      <DependentUpon>MonitorControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\ProblemReportForm.resx">
       <DependentUpon>ProblemReportForm.cs</DependentUpon>
@@ -423,6 +441,7 @@
     <Content Include="Reources\Central Monitor.png" />
     <None Include="Reources\Export Table.png" />
     <None Include="Reources\Save as Picture.png" />
+    <Content Include="Reources\Daily.png" />
     <Content Include="Reources\SplashScreen2.png" />
     <None Include="Reources\User Management.png" />
     <None Include="Reources\Report Managerment.png" />

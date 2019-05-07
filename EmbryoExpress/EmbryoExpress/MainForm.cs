@@ -22,13 +22,18 @@ namespace EmbryoExpress
 
         private InformationControl informationControl;
         private TasksControl tasksControl;
+        private MonitorControl monitorControl;
+        private DailyManagerControl dailyManagerControl;
+
         public MainForm()
         {
             ToRestart = false;
             InitializeComponent();
             informationControl = new InformationControl();
             tasksControl = new TasksControl();
-
+            monitorControl = new MonitorControl();
+            dailyManagerControl = new DailyManagerControl();
+            dailyManagerControl.Dock = DockStyle.Fill;
             informationControl.Dock = DockStyle.Fill;
             this.panelEx1.Controls.Add(informationControl);
 
@@ -66,12 +71,16 @@ namespace EmbryoExpress
 
         private void buttonItemDailyManagerment_Click(object sender, EventArgs e)
         {
-
+            this.panelEx1.Controls.Clear();
+            dailyManagerControl.Dock = DockStyle.Fill;
+            this.panelEx1.Controls.Add(dailyManagerControl);
         }
 
         private void buttonItemCentralMonitor_Click(object sender, EventArgs e)
         {
-
+            this.panelEx1.Controls.Clear();
+            monitorControl.Dock = DockStyle.Fill;
+            this.panelEx1.Controls.Add(monitorControl);
         }
 
         private void buttonItemReportManagerment_Click(object sender, EventArgs e)
