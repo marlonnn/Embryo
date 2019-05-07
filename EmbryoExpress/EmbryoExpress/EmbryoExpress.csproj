@@ -38,16 +38,26 @@
     <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.DevAV.v18.1.Data, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v18.1.Export, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.1.UI, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraCharts.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraCharts.v18.1.UI, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraCharts.v18.1.Wizard, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v18.1.Extensions, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>.\Ionic.Zip.dll</HintPath>
@@ -171,6 +181,7 @@
     <Compile Include="UI\Report\ReportControl.Designer.cs">
       <DependentUpon>ReportControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Report\ReportManager.cs" />
     <Compile Include="UI\Report\StatisticalItemsControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -201,6 +212,12 @@
     <Compile Include="UI\Report\FridgeControl.Designer.cs">
       <DependentUpon>FridgeControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Report\SubIncubatorReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Report\SubIncubatorReport.Designer.cs">
+      <DependentUpon>SubIncubatorReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Report\TemperLoweringControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -212,6 +229,12 @@
     </Compile>
     <Compile Include="UI\Report\IncubatorControl.Designer.cs">
       <DependentUpon>IncubatorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\XtraReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Report\XtraReport.Designer.cs">
+      <DependentUpon>XtraReport.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\SplashScreenForm.cs">
       <SubType>Form</SubType>
@@ -345,6 +368,9 @@
     <EmbeddedResource Include="UI\Report\StatisticalItemsControl.zh-CN.resx">
       <DependentUpon>StatisticalItemsControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\SubIncubatorReport.resx">
+      <DependentUpon>SubIncubatorReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\TemperLoweringControl.resx">
       <DependentUpon>TemperLoweringControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -353,6 +379,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Report\TemperLoweringControl.zh-CN.resx">
       <DependentUpon>TemperLoweringControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\XtraReport.resx">
+      <DependentUpon>XtraReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\SplashScreenForm.resx">
       <DependentUpon>SplashScreenForm.cs</DependentUpon>
