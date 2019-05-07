@@ -123,6 +123,7 @@ namespace EmbryoExpress
             // show splash screen once started
             SplashScreenForm.ShowSplash();
 
+            Thread.Sleep(2000);
             Initialize();
 
             bool login = Program.SysConfig.AutoLogin && Program.SysConfig.LoginUser != null;    // check if auto login
